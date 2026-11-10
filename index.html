@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Where Romans wrote | 200,000 Latin inscriptions mapped</title>
+<meta name="description" content="Every Latin inscription in LIRE (203,466) mapped by findspot and through time: where the Romans wrote, when they stopped, how they rounded ages, and how far soldiers travelled.">
+<meta property="og:title" content="Where Romans wrote">
+<meta property="og:description" content="203,466 Latin inscriptions mapped through time. The habit fell by more than half after the Severans; ages on tombstones are rounded to fives.">
+<meta property="og:image" content="https://maps.tristanhotham.com/roman-inscriptions/header.png">
+<meta property="og:url" content="https://maps.tristanhotham.com/roman-inscriptions/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800;9..144,900&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=MedievalSharp&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<style>
+/* House palette: paper, ink, vermilion and sea blue. */
+:root{
+  --bg:#F6EED8; --panel:#EFE3C4; --fg:#2B2119; --muted:#6E604E; --rule:#E2D3AE; --card:#FBF5E4; --border:#D3C29A;
+  --hot:#A3261B; --cool:#3D6E9E; --gold:#B8862B;
+  --display:"Fraunces",Georgia,"Times New Roman",serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --hand:"MedievalSharp","Fraunces",Georgia,serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#1A1612; --panel:#241E18; --fg:#EFE6D4; --muted:#ADA08B; --rule:#3A3128; --card:#211B15; --border:#4D4234;
+  --hot:#E07A6C; --cool:#8FB4DA; --gold:#E2B860; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#1A1612; --panel:#241E18; --fg:#EFE6D4; --muted:#ADA08B; --rule:#3A3128; --card:#211B15; --border:#4D4234;
+  --hot:#E07A6C; --cool:#8FB4DA; --gold:#E2B860; color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 18px/1.62 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));overflow-x:hidden}
+.wrap{max-width:720px;margin:0 auto;padding-block:28px 64px}
+a{color:inherit;text-decoration-color:var(--hot);text-underline-offset:3px}
+.kicker{font:500 12px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.kicker b{background:var(--hot);color:#fff;padding:5px 8px;font-weight:500}
+h2{font:800 34px/1.04 var(--display);letter-spacing:-.01em;margin:54px 0 10px;text-wrap:balance}
+h2 .n{font:500 13px/1 var(--mono);color:var(--hot);display:block;letter-spacing:.1em;margin-bottom:10px}
+p{margin:0 0 16px}
+.lede::first-letter{font:400 76px/.8 var(--hand);float:left;margin:6px 10px 0 0;color:var(--hot)}
+.byline{font:400 13px/1.4 var(--mono);color:var(--muted);margin-top:14px}
+.src{font:400 12px/1.45 var(--mono);color:var(--muted);margin-top:10px}
+ul.plain{padding-left:20px} ul.plain li{margin:4px 0}
+details{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:10px 0;margin:18px 0;font-size:16px}
+summary{font:500 13px/1.4 var(--mono);letter-spacing:.06em;text-transform:uppercase;cursor:pointer;color:var(--muted)}
+.cta{display:flex;flex-wrap:wrap;gap:10px;margin:30px 0 0}
+.cta a{font:500 13px/1 var(--mono);text-decoration:none;border:1px solid var(--fg);padding:11px 14px;border-radius:3px}
+.cta a.p{background:var(--hot);border-color:var(--hot);color:#fff}
+footer{border-top:6px double var(--fg);margin-top:56px;padding-top:16px;font:400 13px/1.55 var(--mono);color:var(--muted)}
+footer p{margin:0 0 10px}
+.theme{font:500 12px/1 var(--mono);background:var(--card);color:var(--fg);border:1px solid var(--border);border-radius:3px;padding:4px 8px;cursor:pointer;min-height:28px}
+.figure{margin:22px 0}
+.figure img{width:100%;display:block;border:1px solid var(--border);background:#F3E5BF}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin:22px 0}
+.stat b{display:block;font:900 40px/1 var(--display);color:var(--hot)}
+.stat span{font:400 13px/1.35 var(--mono);color:var(--muted)}
+table.t{width:100%;border-collapse:collapse;font:400 13.5px/1.4 var(--mono);margin:12px 0 4px}
+table.t th{text-align:left;font-weight:500;border-bottom:2px solid var(--fg);padding:5px 6px 5px 0}
+table.t td{border-bottom:1px solid var(--rule);padding:5px 6px 5px 0;vertical-align:top}
+table.t td.r,table.t th.r{text-align:right}
+.tscroll{overflow-x:auto}
+
+/* ---- the map ---- */
+.topbar{height:40px;display:flex;align-items:center;gap:14px;margin:0 calc(-1 * max(16px,env(safe-area-inset-left,0px)));padding:0 max(14px,env(safe-area-inset-left,0px));border-bottom:3px double var(--fg);background:var(--bg);overflow:hidden;white-space:nowrap}
+.tb-name{font:400 19px/1 var(--hand);color:var(--hot);text-decoration:none;letter-spacing:.03em}
+.tb-k{font:500 11px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.tb-links{margin-left:auto;display:flex;gap:16px;align-items:center;font:500 12px/1 var(--mono)}
+.tb-links a{text-decoration:none}.tb-links a:hover{text-decoration:underline}
+.mapband{width:100vw;margin-left:calc(50% - 50vw)}
+.pane{position:relative;height:calc(100vh - 43px);height:calc(100svh - 43px);min-height:460px;border-bottom:1px solid #BCA676;background:#F3E5BF;overflow:hidden;flex:1 1 50%;min-width:0}
+.pane::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:2;box-shadow:inset 0 0 90px rgba(120,84,30,.22), inset 0 0 18px rgba(120,84,30,.18)}
+.cartouche{position:absolute;left:14px;top:14px;z-index:5;max-width:min(330px,calc(100% - 28px));background:rgba(251,243,220,.95);color:#2B2119;border:2px solid #2B2119;outline:1px solid #2B2119;outline-offset:-6px;padding:10px 14px 10px;box-shadow:0 3px 14px rgba(60,40,10,.22)}
+.cartouche::before,.cartouche::after{content:"";position:absolute;width:9px;height:9px;background:#A3261B;border:1px solid #2B2119;border-radius:50%}
+.cartouche::before{left:-6px;top:-6px}.cartouche::after{right:-6px;bottom:-6px}
+.cartouche h1{font:900 clamp(22px,2.3vw,30px)/1 var(--display);letter-spacing:-.015em;margin:6px 0 0;color:#2B2119}
+.cartouche h1 .a{color:#A3261B;font-family:var(--hand);font-weight:400;letter-spacing:.03em}
+.cartouche .dek{font-size:13.5px;line-height:1.36;margin:6px 0 0}
+.cartouche .byline{font-size:11px;color:#6E604E;margin-top:6px}
+.cartouche .kicker{color:#6E604E}
+.ct-fold{position:absolute;right:6px;top:5px;width:26px;height:26px;border:0;background:none;color:#A3261B;font:400 18px/1 var(--hand);cursor:pointer;padding:0}
+.ct-toggle{display:none;font:400 17px/1 var(--hand);color:#A3261B;background:none;border:0;padding:2px 0;cursor:pointer;letter-spacing:.03em;min-height:30px}
+.cartouche.folded .ct-body,.cartouche.folded .ct-fold{display:none}.cartouche.folded .ct-toggle{display:block}.cartouche.folded{padding:4px 11px}
+.ov{position:absolute;z-index:5;font:400 13px/1.3 var(--mono);color:#2B2119}
+.ov-top{right:54px;top:10px;max-width:calc(100% - 480px);display:flex;flex-direction:column;gap:6px;align-items:flex-end;pointer-events:none}
+.ov-top>*{pointer-events:auto}
+.srch{position:relative;width:min(340px,100%)}
+.srch input{width:100%;font:400 15px/1 var(--mono);background:rgba(251,245,228,.96);color:#2B2119;border:1px solid #9C8656;border-radius:3px;padding:9px 10px;min-height:40px;box-shadow:0 1px 4px rgba(60,40,10,.18)}
+.srch input:focus-visible,.chip:focus-visible,.lp label:focus-within,.tl button:focus-visible{outline:2px solid #A3261B;outline-offset:2px}
+.sug{position:absolute;left:0;right:0;top:100%;margin:2px 0 0;padding:0;list-style:none;background:#FBF5E4;border:1px solid #9C8656;max-height:300px;overflow:auto;display:none;box-shadow:0 3px 10px rgba(60,40,10,.2);z-index:12}
+.sug li{padding:8px 10px;cursor:pointer;border-bottom:1px solid #E7D9B6}
+.sug li span{color:#7A6A52;font-size:12px}
+.sug li[aria-selected="true"],.sug li:hover{background:#EFE1BC}
+.chips{display:flex;gap:6px;overflow-x:auto;max-width:100%;scrollbar-width:none;padding-bottom:2px}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;font:500 12px/1 var(--mono);background:rgba(251,245,228,.94);color:#2B2119;border:1px solid #9C8656;border-radius:999px;padding:8px 11px;cursor:pointer;min-height:34px;white-space:nowrap;box-shadow:0 1px 3px rgba(60,40,10,.14)}
+.chip:hover{background:#EFE1BC}
+.chip.lyr{background:#2B2119;color:#F6EED8;border-color:#2B2119}
+.lp{position:absolute;right:54px;top:104px;z-index:9;background:rgba(251,245,228,.98);border:1px solid #9C8656;border-radius:4px;padding:10px 12px 8px;font:400 13px/1.3 var(--mono);color:#2B2119;box-shadow:0 3px 12px rgba(60,40,10,.25);display:none;min-width:240px;max-height:calc(100% - 200px);overflow:auto}
+.lp.open{display:block}
+#mapWrap .maplibregl-ctrl-top-right{top:46px}
+.lp .lp-x{position:absolute;top:4px;right:6px;border:0;background:none;font:400 20px/1 var(--mono);color:#7A6A52;cursor:pointer;padding:2px 6px}
+.lp .lp-x:hover,.lp .lp-x:focus-visible{color:#A3261B}
+.lp h4{margin:0 0 6px;font:500 11px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:#7A6A52}
+.lp h5{margin:9px 0 1px;padding-top:7px;border-top:1px solid #E2D3AE;font:600 10.5px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:#A3261B}
+.lp h4+h5{border-top:0;padding-top:0;margin-top:4px}
+.lp label{display:flex;gap:8px;align-items:center;padding:5px 0;cursor:pointer;min-height:30px}
+.lp input{accent-color:#A3261B;width:16px;height:16px;flex:none}
+.lp canvas{width:22px;height:22px;flex:none}
+.ov-bl{position:absolute;left:12px;bottom:12px;z-index:4;display:flex;align-items:flex-end;gap:6px;pointer-events:none}
+.rose svg{display:block}
+.maplibregl-popup-content{background:#FBF5E4;color:#2B2119;font:400 13px/1.45 var(--mono);border:1px solid #9C8656;border-radius:4px;padding:10px 12px;box-shadow:0 3px 12px rgba(60,40,10,.25);max-width:310px;max-height:60vh;overflow:auto}
+.maplibregl-popup-content b.t{display:block;font:400 20px/1.15 var(--hand);color:#A3261B;margin-bottom:3px;letter-spacing:.02em;padding-right:14px}
+.maplibregl-popup-content table{border-collapse:collapse;margin:5px 0}
+.maplibregl-popup-content td{padding:1px 8px 1px 0;vertical-align:top}
+.maplibregl-popup-content td:first-child{color:#7A6A52}
+.maplibregl-popup-content .nt{color:#7A6A52;font-size:11.5px;margin:5px 0 0}
+.maplibregl-popup-content .lk{margin-top:6px;padding-top:6px;border-top:1px dashed #C9B583;display:flex;flex-wrap:wrap;gap:4px 12px}
+.maplibregl-popup-content a{color:#A3261B}
+.maplibregl-popup-tip{border-top-color:#9C8656!important;border-bottom-color:#9C8656!important}
+.maplibregl-ctrl-attrib{font:400 11px/1.3 var(--mono)!important;background:rgba(251,245,228,.85)!important}
+.maplibregl-ctrl-group{background:#FBF5E4!important;border:1px solid #9C8656}
+.maplibregl-popup{z-index:7}
+.nojs{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font:400 14px var(--mono);color:#6E604E;padding:20px;text-align:center}
+.keyrow{display:flex;flex-wrap:wrap;gap:6px 18px;font:400 13px/1.3 var(--mono);color:var(--muted);margin:12px 0}
+.keyrow span{display:flex;align-items:center;gap:6px}.keyrow canvas{width:24px;height:24px}
+@media (max-width:1000px){
+  .ov-top{left:10px;right:54px;max-width:none;align-items:flex-start}
+  .lp{left:10px;right:auto}
+  .cartouche{top:104px}
+}
+@media (max-width:600px){
+  
+  .tb-k,.tb-links a.x{display:none}
+  .topbar{gap:10px}.tb-name{font-size:16px}.tb-links{gap:10px}
+  .lp{top:100px;left:8px;right:8px;min-width:0;max-height:calc(100% - 230px)}
+  .ov-top{left:8px;top:8px}
+  .cartouche{left:8px;top:100px;max-width:calc(100% - 16px);padding:10px 12px}
+  .cartouche h1{font-size:24px}
+  .ct-toggle{display:block}.ct-fold{display:none}
+  .ov-bl{display:none}
+  .maplibregl-ctrl-bottom-right{bottom:84px}
+}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+#map{position:absolute;inset:0}
+.chip[aria-pressed="true"]{background:#A3261B;color:#fff;border-color:#2B2119}
+.lp{top:60px}
+.keys{position:absolute;left:12px;bottom:12px;z-index:4;background:rgba(251,243,220,.95);border:1px solid #9C8656;border-radius:3px;padding:8px 10px;font:400 11.5px/1.25 var(--mono);color:#2B2119;max-width:250px;box-shadow:0 2px 8px rgba(60,40,10,.18)}
+.key b{display:block;font:400 15px/1.1 var(--hand);color:#A3261B;margin-bottom:5px;font-weight:400}
+.key .row{display:flex;align-items:center;gap:6px;margin:2px 0}
+.key i{display:inline-block;width:18px;height:11px;border:1px solid rgba(43,33,25,.5);flex:none}
+.key .dot{width:11px;height:11px;border-radius:50%;background:#1F1838;border:1.5px solid #2B2119}
+.hz{position:absolute;right:54px;bottom:34px;z-index:8;width:min(600px,calc(100% - 340px));background:rgba(251,245,228,.98);border:2px solid #2B2119;outline:1px solid #2B2119;outline-offset:-6px;padding:10px 14px 8px;color:#2B2119;box-shadow:0 3px 14px rgba(60,40,10,.25);font:400 13px/1.4 var(--mono)}
+.hz[hidden]{display:none}
+.hz h3{margin:0 26px 2px 0;font:400 22px/1.1 var(--hand);color:#A3261B}
+.hz .x{position:absolute;right:8px;top:6px;border:0;background:none;font:400 20px/1 var(--mono);color:#6E604E;cursor:pointer;min-width:30px;min-height:30px}
+.hz p{margin:0 0 4px}
+.hz svg{width:100%;height:auto;display:block}
+.hz svg .ax{font:400 10px var(--mono);fill:#6E604E}
+.hz svg .lg{font:400 10px var(--mono)}
+.hz .nt{color:#6E604E;font-size:11.5px}
+.hz a{color:#A3261B}
+@media (max-width:800px){
+  .pane{height:78svh;min-height:520px}
+  .hz{left:6px;right:6px;bottom:6px;width:auto;padding:8px 10px 6px;max-height:58%;overflow:auto}
+  .hz h3{font-size:19px}
+  .keys{left:8px;right:62px;max-width:none;padding:5px 7px;font-size:10.5px}
+  .keys .row{display:inline-block;margin:0 8px 1px 0}
+  .keys b{display:block;font-size:10.5px}
+  .chip .lg{display:none}
+  .chip{padding:8px 8px;font-size:11.5px}
+  .chips{gap:4px}
+  .ov-top{left:8px;right:54px;max-width:none;align-items:flex-start}
+  .lp{top:100px;left:8px;right:8px;min-width:0;max-height:calc(100% - 140px)}
+  .cartouche{top:100px}
+}
+.places{columns:2 260px;column-gap:28px;font:400 14px/1.45 var(--mono);padding-left:18px;margin:10px 0 18px}
+.places li{break-inside:avoid;margin:0 0 6px}
+.places a{cursor:pointer}
+
+.tl{position:absolute;left:50%;transform:translateX(-50%);bottom:14px;z-index:6;width:min(620px,calc(100% - 130px));background:rgba(251,245,228,.96);border:1px solid #9C8656;border-radius:4px;padding:7px 12px 6px;font:400 12.5px/1.3 var(--mono);color:#2B2119;box-shadow:0 2px 10px rgba(60,40,10,.2);display:flex;align-items:center;gap:10px}
+.tl input[type=range]{flex:1;accent-color:#A3261B;min-width:0;height:28px}
+.tl button{font:500 12px/1 var(--mono);background:#2B2119;color:#F6EED8;border:0;border-radius:3px;padding:7px 9px;cursor:pointer;min-height:30px;min-width:34px}
+.tl .yr{font:400 21px/1 var(--hand);color:#A3261B;min-width:118px;text-align:center}
+.tl .sm{font-size:11px;color:#6E604E;white-space:nowrap}
+.key .ends{display:flex;justify-content:space-between;font-size:10.5px;color:#6E604E}
+.key .sw{display:inline-block;width:14px;height:11px;border:1px solid rgba(43,33,25,.5);vertical-align:-1px;margin-right:5px}
+.keys{bottom:84px}
+@media (max-width:800px){.tl{width:calc(100% - 16px);bottom:8px;padding:6px 8px;gap:6px}.tl .yr{font-size:17px;min-width:86px}.tl .sm{display:none}.maplibregl-ctrl-bottom-right{bottom:70px}.keys{bottom:64px}}
+.wheel{position:absolute;left:12px;bottom:84px;z-index:4;background:rgba(251,243,220,.95);border:1px solid #9C8656;border-radius:3px;padding:6px 8px 4px;width:214px;color:#2B2119;box-shadow:0 2px 8px rgba(60,40,10,.18);font:400 11px/1.3 var(--mono)}
+.wheel b{display:block;font:400 15px/1.1 var(--hand);color:#A3261B;font-weight:400}
+.wheel svg{display:block;width:196px;height:196px}
+.wheel svg .ax{font:400 9.5px var(--mono);fill:#6E604E}.wheel svg .lg{font:500 12px var(--mono);fill:#2B2119}
+.wheel .nt{color:#6E604E;font-size:10.5px}
+.wheel[hidden]{display:none}
+.mp{display:flex;gap:10px;align-items:center;margin-bottom:4px}.mp svg{flex:none}
+.mi svg{display:inline-block;vertical-align:-4px;margin-right:4px}
+#phases label{min-height:26px;padding:3px 0}
+.maplibregl-popup-content .sw{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:-1px;border:1px solid #2B2119}
+.tl .yr{min-width:150px}
+.tl .rng{flex:1;display:flex;flex-direction:column;gap:0;min-width:0}
+.tl .rng input{width:100%;height:20px}
+@media (max-width:800px){.wheel{display:none}.tl .yr{min-width:104px;font-size:15px}}
+.ptable td.r{text-align:right}
+.hzg{display:grid;grid-template-columns:240px 1fr;gap:12px;align-items:start}
+.hzg svg{width:240px;height:240px}
+.hz{max-height:calc(100% - 190px);overflow:auto;bottom:84px}
+.keys .sq{display:inline-block;width:11px;height:11px;border-radius:50%;border:1px solid #2B2119;vertical-align:-1px;margin-right:5px}
+.tl .ch{display:flex;gap:4px}
+.tl .ch button{background:#EFE3C4;color:#2B2119;border:1px solid #9C8656;font-size:11px;padding:6px 7px}
+@media (max-width:800px){.hzg{grid-template-columns:1fr}.hzg svg{width:200px;height:200px;margin:0 auto}.tl .ch{display:none}.hz{bottom:64px;max-height:52%}}
+.key .ends{display:flex;justify-content:space-between}
+.tl .eyel{font:400 19px/1 var(--hand);color:#A3261B;min-width:190px;text-align:center}
+.tl{width:min(820px,calc(100% - 130px))}
+.tl input[type=range]{min-width:140px}
+.lp{max-width:340px}
+@media (max-width:800px){.lp{max-width:none}.tl{width:calc(100% - 16px)}.tl input[type=range]{min-width:80px}}
+.tl .pcs{font-size:11.5px;color:#6E604E;white-space:nowrap}
+#opa{width:100%;accent-color:#A3261B}
+@media (max-width:800px){.tl .eyel{min-width:120px;font-size:15px}.tl .pcs{display:none}}
+
+.tl .yr{min-width:170px}
+.chips .chip[data-t]{padding:7px 10px}
+.key .hx{display:inline-block;width:16px;height:12px;clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%);vertical-align:-1px;margin-right:6px}
+.key .ln{display:inline-block;width:20px;height:3px;vertical-align:3px;margin-right:6px;border-radius:2px}
+.cov{font-size:12px;color:#6E604E;margin:4px 0 0}
+</style></head>
+<body>
+<div class="topbar">
+  <a class="tb-name" href="#mapWrap">Where Romans wrote</a>
+  <span class="tb-k">Data study · 2026</span>
+  <nav class="tb-links"><a href="#essay">About</a><button class="theme" id="theme" aria-label="Toggle dark mode">◐</button><a href="https://doi.org/10.5281/zenodo.24114976">Paper</a><a class="x" href="https://github.com/Tristan-Hotham/roman-inscriptions">Data and code</a></nav>
+</div>
+<div class="mapband">
+  <div class="pane" id="mapWrap" data-fullscreen-map role="application" aria-label="Map of Latin inscriptions across the Roman Empire, in hexagons, with a time slider">
+    <div id="map"></div>
+    <div class="nojs" id="nojs">Loading the map. It needs JavaScript and WebGL.</div>
+    <div class="cartouche" id="cartouche">
+      <button class="ct-toggle" id="ctToggle" aria-expanded="true" title="Show the title">Where Romans wrote <span aria-hidden="true">▾</span></button>
+      <button class="ct-fold" id="ctFold" title="Fold the title" aria-label="Fold the title">▴</button>
+      <div class="ct-body">
+        <div class="kicker"><b>Data study</b><span>2026</span></div>
+        <h1>Where <span class="a">Romans wrote</span></h1>
+        <p class="dek">203,466 Latin inscriptions (LIRE) in hexagons about 35 km across, coloured by how many were found there. Slide through time, pick a kind of inscription, switch on the soldiers' journeys, or tap a hexagon.</p>
+        <div class="byline">Dr Tristan Hotham · Independent researcher · 2026</div>
+      </div>
+    </div>
+    <div class="ov ov-top">
+      <div class="srch"><input type="search" id="q" placeholder="Find a findspot (modern or Latin name)" aria-label="Find a findspot" autocomplete="off"><ul class="sug" id="sug" role="listbox"></ul></div>
+      <div class="chips"><button class="chip" data-t="all" aria-pressed="true">All</button><button class="chip" data-t="0" aria-pressed="false">Epitaphs</button><button class="chip" data-t="1" aria-pressed="false">Votive</button><button class="chip" data-t="2" aria-pressed="false">Honorific</button><button class="chip" data-t="3" aria-pressed="false">Building</button><button class="chip" data-t="4" aria-pressed="false">Milestones</button><button class="chip lyr" id="lyrBtn" aria-expanded="false" aria-controls="lp">Layers</button></div>
+    </div>
+    <div class="lp" id="lp" role="dialog" aria-label="Map layers">
+      <button class="lp-x" id="lpClose" aria-label="Close the layers panel" title="Close">×</button>
+      <h4>Layers</h4>
+      <label><input type="checkbox" id="lyH" checked> Inscriptions (hexagons)</label>
+      <label style="display:block;padding-left:24px">Opacity<input type="range" id="opa" min="0.2" max="1" step="0.05" value="0.85" aria-label="Opacity of the hexagons"></label>
+      <label><input type="checkbox" id="lyF"> Soldiers' journeys: stated origin to the stone</label>
+      <label><input type="checkbox" id="lyP" checked> Provinces of about AD 117 (DARE)</label>
+      <label><input type="checkbox" id="lyL" checked> Base map place names</label>
+      <h5>Coverage</h5>
+      <p class="cov">Latin inscriptions with a findspot and a date overlapping 50 BC to AD 350, from EDCS and EDH as merged in LIRE v2.1. Greek inscriptions are not included, so the eastern provinces look emptier than they were. Findspots record where stones were found and published, not only where they were made.</p>
+    </div>
+    <div class="keys" id="keys"><div class="key">
+      <div id="keyH"><b id="keyTitle">Inscriptions per hexagon</b><div id="keyRows"></div></div>
+      <div id="keyF" hidden style="margin-top:6px"><b>Soldiers' journeys</b>
+        <div class="row"><span class="ln" style="background:#2F7FB8"></span>stone dated before AD 101</div>
+        <div class="row"><span class="ln" style="background:#B3202A"></span>AD 101 or later</div>
+        <div class="row"><span class="ln" style="background:#8C8C8C"></span>date range spans AD 100</div>
+        <div class="row"><span class="sq" style="background:#fff"></span>stated origin</div></div>
+    </div></div>
+    <div class="tl" id="tl" role="group" aria-label="Time">
+      <button id="play" aria-label="Play through time">▶</button>
+      <span class="yr" id="yrTxt">All years</span>
+      <input type="range" id="yr" min="0" max="18" step="1" value="18" aria-label="Period: 25-year steps, or all years at the right end">
+      <span class="pcs" id="yrN"></span>
+    </div>
+  </div>
+</div>
+<div class="wrap" id="essay">
+<p class="lede" style="margin-top:6px">Romans wrote on stone everywhere: on tombs, altars, statue bases, milestones and the walls of public buildings. The LIRE dataset gathers 203,466 Latin inscriptions from the two great online corpora, each with a findspot and a date range. Put them on one map and through one clock and three old questions come back into focus: when did the Romans write most, how old were the dead, and how far did soldiers travel?</p>
+<div class="byline">Dr Tristan Hotham · Independent researcher · 2026 · Data: LIRE v2.1 (Kaše, Heřmánková and Sobotková; from EDCS and EDH), CC BY 4.0 · Provinces: Digital Atlas of the Roman Empire · Base map: OpenFreeMap Positron</div>
+<div class="stats">
+<div class="stat"><b>2.2×</b><span>as many inscriptions a year under the Severans (193 to 235) as in 250 to 300</span></div>
+<div class="stat"><b>61%</b><span>of the inscriptions in LIRE come from Rome and Italy</span></div>
+<div class="stat"><b>303</b><span>Whipple index of ages on tombstones (100 = no rounding, 500 = every age a multiple of 5)</span></div>
+<div class="stat"><b>674 km</b><span>median distance from a soldier's stated home to his stone</span></div>
+</div>
+<p class="note" style="font-size:14px"><b>What the map shows:</b> where inscriptions were found, recorded and entered in the databases, not a census of what was carved. Greek inscriptions are not included, so the East looks emptier than it was. Every date is a range set by editors, and a count for a period shares each inscription evenly across its range.</p>
+
+<h2><span class="n">01 · The map</span>Italy, the frontiers and the cities</h2>
+<p>Rome alone has 75,301 inscriptions, 37% of the whole corpus, and with the rest of Italy it holds 61%. Outside Italy the writing follows the army and the cities: the Rhine and Danube frontiers, the coast of Dalmatia around <a href="#" data-go="16.48,43.54,8">Salona</a>, the towns of Africa around <a href="#" data-go="10.32,36.85,7">Carthage</a> and the legionary fortress of <a href="#" data-go="6.26,35.49,8">Lambaesis</a>, and southern Spain. Across the provinces of about AD 117 there are about 26 inscriptions per 1,000 km², excluding the city of Rome; Britain has 28, the Italian region around Rome and Naples 1,379.</p>
+<div class="figure"><img src="img/map.jpg" alt="Map of the Roman Empire with hexagons shaded from pale to dark orange by the number of Latin inscriptions found; darkest in central Italy, along the Rhine and in Dalmatia and Tunisia" loading="lazy"><p class="src">Latin inscriptions by findspot, in hexagons about 30 km across; grey lines: provinces of about AD 117 (DARE).</p></div>
+
+<h2><span class="n">02 · When</span>The habit, and its end</h2>
+<p>In 1982 Ramsay MacMullen noticed that Latin inscriptions rise through the first and second centuries, peak under the Severan emperors and then fall sharply. With 147,438 inscriptions whose date range is 100 years or less, the fall is plain: the empire produced 2.2 times as many inscriptions a year in 193 to 235 as in 250 to 300 (Monte Carlo interval 2.16 to 2.24). But the empire-wide peak is not Severan. It falls in AD 68 (95% interval AD 13 to 71), because Rome and Italy, which dominate the corpus, wrote most in the first century. Region by region the picture splits: 10 of the 27 provinces with at least 1,000 dated inscriptions peak between AD 175 and 250, among them Africa, Numidia, Dacia, both Pannonias and Lower Germany, while the Italian regions peak between the late first century BC and the later first century AD. Votive inscriptions peak in AD 209, honorific ones in 205, milestones in 247. Press play on the map to watch the writing move from Italy to the frontiers.</p>
+<div class="figure"><img src="img/time.jpg" alt="Line chart of inscriptions per year from 50 BC to AD 400, rising to a plateau in the first and second centuries and falling after about AD 230, with spikes in AD 79 and AD 123" loading="lazy"><p class="src">Dated inscriptions per year, empire-wide. Two spikes are artefacts of exact dates: Vesuvius in AD 79 and 1,304 items dated to AD 123, mostly stamped bricks and objects in Rome.</p></div>
+<div class="figure"><img src="img/groups.jpg" alt="Eight small area charts of inscriptions per year by region; Rome and Italy peak early, Africa and the Danube provinces peak around AD 200" loading="lazy"><p class="src">Each region's own curve. The late rise in Rome is Christian epitaphs from the catacombs.</p></div>
+<div class="figure"><img src="img/peaks.jpg" alt="Dot plot of the peak year of inscriptions in 27 provinces, from the late first century BC in Etruria to the early third century AD in the Danube provinces, and AD 388 in Rome" loading="lazy"><p class="src">Peak year by province, with Monte Carlo intervals.</p></div>
+
+<h2><span class="n">03 · Ages</span>The dead were rounded to fives</h2>
+<p>Many epitaphs give the age of the dead: <i>vixit annis XXX</i>, "lived 30 years". I read 29,598 ages from 27,387 epitaphs. Thirty, forty and fifty are far too common: among ages from 23 to 62, 5,020 end in 0 and 3,474 in 5, against about 1,404 expected for each digit without rounding. The Whipple index is 303 (95% CI 298 to 307). Rounding is lightest in Rome (248) and heaviest in the Danube and Balkan provinces (372); it is heavier in the countryside (362) than in large cities (251), and it grows with age.</p>
+<p>Richard Duncan-Jones read age rounding as a sign of how far people knew their exact age, and expected it to be heaviest in Africa. Africa's raw index is indeed higher than Rome's (323 against 248), but once the setting, the age and Christian epitaphs are taken into account the difference is not significant (odds ratio 1.22, 95% CI 0.88 to 1.68). The countryside effect holds in the main model (odds ratio 1.50, 1.09 to 2.07) but not in every check.</p>
+<div class="figure"><img src="img/ages.jpg" alt="Bar chart of stated ages at death from 0 to 100 with tall red bars at every multiple of 5, and a bar chart of last digits with 0 and 5 far above the others" loading="lazy"><p class="src">Stated ages at death on epitaphs; red: multiples of 5.</p></div>
+<div class="figure"><img src="img/whipple.jpg" alt="Horizontal bar charts of the Whipple index by region and by setting, lowest in Rome and large cities and highest in the Danube provinces and the countryside" loading="lazy"><p class="src">Whipple index (ages 23 to 62) with 95% intervals.</p></div>
+<p>Can tombstones tell us how long Romans lived? No, as Keith Hopkins argued in 1966. The mean age on the stones is 23 in Rome and 48 in Africa, a gap no real difference in mortality could make; only 7% of African ages are under 10, against 28% in Rome, when in any pre-modern population a large share of deaths were of young children; and 154 ages on African stones are 100 or more. The stones record who was commemorated, and how, not who died.</p>
+<div class="figure"><img src="img/hopkins.jpg" alt="Two bar charts by region: mean stated age at death, from 23 in Rome to 48 in Africa, and the share of ages under 10, highest in Rome" loading="lazy"><p class="src">Why tombstones are not life tables.</p></div>
+
+<h2><span class="n">04 · Soldiers</span>A long way from home</h2>
+<p>Soldiers' tombstones often say where the man came from: <i>domo Verona</i>, a voting tribe and a town (<i>Pollia Mutina</i>), or a people (<i>natione Bessus</i>, a Thracian). Of 19,484 military inscriptions, 865 (4.4%) state an origin I could place on the map. The median journey is 674 km, and 68% are more than 500 km: the fleet at Misenum and the guard in Rome drew men from Egypt, Thrace, Syria and Pannonia. Switch on "Soldiers' journeys" in the layers.</p>
+<p>J. C. Mann and Giovanni Forni showed that recruitment became more local over time. These stones do not show it: those dated after AD 100 have a longer median journey (750 km) than earlier ones (545 km), and among origins given as towns there is no change at all (ratio 1.03, 95% CI 0.81 to 1.65). The likely reason is selection: a man who served near home had little reason to carve his origin, so the stones that state one are a sample of the far-travelled.</p>
+<div class="figure"><img src="img/soldiers.jpg" alt="Map of curved lines from soldiers' stated origins to their tombstones, many converging on Rome and the Bay of Naples from Egypt, Syria, Thrace and Pannonia, and on the Rhine from northern Italy" loading="lazy"><p class="src">Military stones that state an origin; blue: dated before AD 101, red: AD 101 or later.</p></div>
+
+<h2><span class="n">05 · How I did this</span>Counting with uncertain dates</h2>
+<p><b>Data.</b> LIRE v2.1 merges the Epigraphik-Datenbank Clauss/Slaby and the Epigraphic Database Heidelberg and keeps Latin inscriptions with a findspot and a date range overlapping 50 BC to AD 350. Its types (epitaph, votive, honorific...) come from the EDH where it exists and otherwise from the LIRE authors' machine-learning classifier. <b>Time.</b> Each inscription's weight of one is spread evenly over the years of its date range (aoristic analysis); a Monte Carlo version draws one year per inscription, 1,000 times, for intervals. <b>Ages.</b> An age is "annis" or "annorum" followed by an intact Roman numeral, after "vixit" or in the form "annorum N", on epitaphs only, never years of service or marriage; 199 of 200 checked by hand were right. <b>Soldiers.</b> Origins read from "domo", "natione", "civis" or a voting tribe followed by a town, matched to the Digital Atlas of the Roman Empire; every origin used twice or more was checked by eye. The analysis plan, with the tests and what would count against each idea, was pre-specified in a written plan before any result was computed.</p>
+<div class="figure"><img src="img/robust.jpg" alt="Two forest plots: odds ratios for age rounding in Africa and the countryside across checks, and the ratio of later to earlier soldiers' journey lengths across checks" loading="lazy"><p class="src">Checks: the age-rounding contrasts and the soldiers' distances under the planned alternatives.</p></div>
+<p><b>What this cannot say.</b> The inscriptions are the ones that survived, were found and were published, so Rome, Italy and well-excavated provinces are over-represented. Dates are editors' ranges, some conventional, and Christian epitaphs are dated late because they are Christian. Ages are what commemorators wrote. Soldiers' origins come from the minority of stones that name one.</p>
+<details><summary>Sources and licences</summary>
+<ul class="plain">
+<li>Inscriptions: LIRE v2.1, Latin Inscriptions of the Roman Empire, V. Kaše, P. Heřmánková and A. Sobotková (SDAM, Aarhus University), Zenodo <a href="https://doi.org/10.5281/zenodo.7577788">10.5281/zenodo.7577788</a>, CC BY 4.0; built from EDCS (M. Clauss et al.) and EDH (G. Alföldy and C. Witschel, eds).</li>
+<li>Provinces and ancient places: Digital Atlas of the Roman Empire, Johan Åhlfeldt, Lund University (CC BY 4.0), via the klokantech/roman-empire repository.</li>
+<li>Base map: OpenFreeMap Positron (OpenStreetMap, ODbL). MapLibre GL JS 4.7.1 (BSD 3-Clause). Static maps: Natural Earth.</li>
+<li>Further reading: R. MacMullen, "The epigraphic habit in the Roman Empire", American Journal of Philology (1982); E. A. Meyer, Journal of Roman Studies (1990); R. P. Duncan-Jones, "Age-rounding, illiteracy and social differentiation in the Roman Empire", Chiron (1977); K. Hopkins, Population Studies (1966); J. C. Mann, Legionary Recruitment and Veteran Settlement during the Principate (1983).</li>
+</ul></details>
+<div class="cta"><a class="p" href="https://doi.org/10.5281/zenodo.24114976">Read the paper</a><a href="https://github.com/Tristan-Hotham/roman-inscriptions">Data and code</a><a href="https://blog.tristanhotham.com/2026/10/31/roman-inscriptions/">Blog post</a></div>
+
+<footer>
+<p>Dr Tristan Hotham, Independent researcher. ORCID <a href="https://orcid.org/0000-0003-4931-9349">0000-0003-4931-9349</a>.</p>
+<p>Cite as: Hotham, T. (2026) Where Romans wrote: the epigraphic habit, age rounding and soldiers' origins in 200,000 Latin inscriptions. Zenodo. <a href="https://doi.org/10.5281/zenodo.24114976">10.5281/zenodo.24114976</a></p>
+<p>Code: <a href="https://github.com/Tristan-Hotham/roman-inscriptions">github.com/Tristan-Hotham/roman-inscriptions</a> (MIT). Text, figures and derived data CC BY 4.0; inscription data from LIRE v2.1 (CC BY 4.0); province outlines from DARE (CC BY 4.0).</p>
+<p>I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.</p>
+</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="js/page.js?v=2026a"></script>
+<!-- map-fullscreen v1 -->
+<style id="mfs-style">
+.mfs-btn{position:absolute;top:10px;right:10px;z-index:1001;width:34px;height:34px;border:2px solid rgba(0,0,0,.25);border-radius:4px;background:#fff;color:#222;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;box-shadow:0 1px 4px rgba(0,0,0,.2)}
+.mfs-btn:hover{background:#f2f2f2}
+.mfs-btn svg{width:18px;height:18px}
+.mfs-host.mfs-btn-left .mfs-btn{right:auto;left:54px}
+.mfs-fake{position:fixed!important;inset:0!important;width:100vw!important;height:100vh!important;height:100dvh!important;max-width:none!important;max-height:none!important;margin:0!important;z-index:100000!important;border-radius:0!important}
+html.mfs-lock,html.mfs-lock body{overflow:hidden!important}
+:fullscreen.mfs-host{width:100vw!important;height:100vh!important;max-width:none!important;max-height:none!important;margin:0!important;border-radius:0!important}
+</style>
+<script id="mfs-script">
+(function(){
+  var ICON_OPEN='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>';
+  var ICON_CLOSE='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5"/></svg>';
+  function poke(){setTimeout(function(){window.dispatchEvent(new Event('resize'));},60);setTimeout(function(){window.dispatchEvent(new Event('resize'));},400);}
+  function realFS(){return document.fullscreenElement||document.webkitFullscreenElement;}
+  function add(el){
+    if(el.__mfs)return; el.__mfs=1;
+    var cs=getComputedStyle(el); if(cs.position==='static')el.style.position='relative';
+    el.classList.add('mfs-host');
+    // avoid clashing with a top-right Leaflet control (e.g. "Map layers")
+    var tr=el.querySelector('.leaflet-top.leaflet-right');
+    if(tr&&tr.children.length){ el.classList.add('mfs-btn-left'); }
+    var b=document.createElement('button'); b.type='button'; b.className='mfs-btn';
+    b.title='Full screen map'; b.setAttribute('aria-label','Full screen map'); b.innerHTML=ICON_OPEN;
+    ['click','dblclick','mousedown','touchstart','wheel'].forEach(function(t){b.addEventListener(t,function(e){e.stopPropagation();},{passive:t!=='click'});});
+    function setIcon(on){b.innerHTML=on?ICON_CLOSE:ICON_OPEN;b.title=on?'Exit full screen':'Full screen map';b.setAttribute('aria-label',b.title);}
+    function exitFake(){el.classList.remove('mfs-fake');document.documentElement.classList.remove('mfs-lock');setIcon(false);poke();}
+    b.addEventListener('click',function(e){
+      e.preventDefault();
+      if(el.classList.contains('mfs-fake')){exitFake();return;}
+      if(realFS()){(document.exitFullscreen||document.webkitExitFullscreen).call(document);return;}
+      var req=el.requestFullscreen||el.webkitRequestFullscreen;
+      if(req){ try{ var p=req.call(el); if(p&&p.catch)p.catch(function(){el.classList.add('mfs-fake');document.documentElement.classList.add('mfs-lock');setIcon(true);poke();}); }catch(err){el.classList.add('mfs-fake');document.documentElement.classList.add('mfs-lock');setIcon(true);poke();} }
+      else { el.classList.add('mfs-fake');document.documentElement.classList.add('mfs-lock');setIcon(true);poke(); }
+    });
+    document.addEventListener('keydown',function(e){if(e.key==='Escape'&&el.classList.contains('mfs-fake'))exitFake();});
+    ['fullscreenchange','webkitfullscreenchange'].forEach(function(t){document.addEventListener(t,function(){setIcon(realFS()===el);poke();});});
+    el.appendChild(b);
+  }
+  function scan(){
+    var els=document.querySelectorAll('[data-fullscreen-map], .leaflet-container, .maplibregl-map, .mapboxgl-map');
+    els.forEach(function(el){
+      if(el.closest('.mfs-host')&&!el.classList.contains('mfs-host'))return;
+      var r=el.getBoundingClientRect(); if(r.width<200||r.height<150)return;
+      add(el);
+    });
+  }
+  function start(){scan(); var n=0; var t=setInterval(function(){scan(); if(++n>20)clearInterval(t);},500);}
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start); else start();
+})();
+</script>
+<!-- /map-fullscreen -->
+
+<script src="https://maps.tristanhotham.com/assets/site-nav.js" defer></script>
+</body>
+</html>

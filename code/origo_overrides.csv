@@ -1,0 +1,55 @@
+token,action,kind,target,note
+Bononia,map,place,1449,"Bologna: soldiers with the tribe Lemonia, Bologna's tribe; Bononia on the Danube (Vidin) and Gesoriacum are rarer as origins"
+Mediolano,map,place,1445,"Milan (DARE spells Mediolanium); tribe Oufentina"
+Mediolani,map,place,1445,Milan
+Aquileia,map,place,1468,Aquileia
+Roma,map,place,1438,Rome
+Romae,reject,,,"Romae in these texts is the dative/genitive of the goddess Roma (flamen Romae), not an origin"
+Mantua,map,place,1447,Mantova
+Hasta,map,place,5770,"Asti, tribe Pollia"
+Pollentia,map,place,17174,"Pollenzo, tribe Pollia"
+Lugduni,map,place,105,Lyon
+Fano,map,place,10565,Fanum Fortunae
+Benevento,map,place,1482,Beneventum
+Philippopoli,map,place,21408,"Philippopolis in Thrace (the text adds ex provincia Thracia)"
+Ancyra,map,place,21220,Ancyra in Galatia
+Calagurri,map,place,16818,Calagurris
+Altino,map,place,17839,Altinum
+Thracia,map,province,Thracia,"domo Thracia: the province, not a village of that name"
+Heraclea,reject,,,ambiguous: several Heracleas
+Augusta,reject,,,"ambiguous: Augusta Firma, Augusta Treverorum and many more; the second word is often lost"
+Luco,reject,,,ambiguous Lucus
+Alba,reject,,,ambiguous Alba
+Foro,reject,,,ambiguous Forum
+Aquis,reject,,,ambiguous Aquae
+Regio,reject,,,ambiguous Regium
+Norba,reject,,,ambiguous Norba
+Nicopoli,reject,,,ambiguous Nicopolis
+Nuceria,reject,,,ambiguous Nuceria
+Nertobriga,reject,,,ambiguous Nertobriga
+Neapoli,reject,,,ambiguous Neapolis
+Antiochia,reject,,,ambiguous Antioch
+Niger,reject,,,cognomen
+Caius,reject,,,praenomen
+Caio,reject,,,praenomen
+Luci,reject,,,praenomen
+Marci,reject,,,praenomen
+Magnus,reject,,,cognomen
+Magno,reject,,,cognomen
+Magni,reject,,,cognomen
+Marciano,reject,,,cognomen
+Quintiano,reject,,,cognomen
+Iulio,reject,,,nomen
+Aurelio,reject,,,nomen
+Paterno,reject,,,cognomen
+Silo,reject,,,cognomen
+Super,reject,,,cognomen
+Karo,reject,,,cognomen
+Statio,reject,,,cognomen
+Tiro,reject,,,cognomen
+Gallica,reject,,,"legion name (VIII Gallica), not an origin"
+Olympus,reject,,,cognomen
+Pontiae,reject,,,personal name
+Constantia,reject,,,"epithet of Nuceria Constantia; ambiguous"
+Stobera,reject,,,"the DARE place of this name is in the far east; the soldier's Stuberra (Macedonia) is not in DARE"
+Cinna,reject,,,cognomen

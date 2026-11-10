@@ -1,0 +1,879 @@
+lire_id,how,token,origin,o_lon,o_lat,precision,match,lon,lat,province,group,place,not_before,not_after,diploma,dist_km
+445511,natione,Ponticus,Pontus,32.32264908129804,41.02492406613152,region,natio table,23.72798,37.98415,Achaia,Danube and Balkans,Athens / Athinai / Athenae,151.0,200.0,False,810.7
+445531,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,23.7166,37.9832,Achaia,Danube and Balkans,Athens / Athinai / Athenae,126.0,170.0,False,476.6
+445539,tribe,Luceria,Luceria,15.335065,41.508065,place,DARE 16564,23.72798,37.98415,Achaia,Danube and Balkans,Athens / Athinai / Athenae,-70.0,-30.0,False,817.0
+446584,tribe,Lepci,Lepcis Magna,14.290556,32.639167,place,DARE 21127,29.865,31.1847,Aegyptus,East,Al Iskandariyah / Alexandria,65.0,65.0,False,1477.6
+446594,natione,Dacus,Dacia,23.85055989643945,45.82351771704003,region,natio table,33.3976,25.9037,Aegyptus,East,Al-Muwayh / El-Muwayh / El-Mueh / El-Moueh / Krokodilo,98.0,117.0,False,2372.0
+446700,natione,Hispano,Hispania,-3.0588515800533287,41.0237574025183,region,natio table,11.41081,44.88618,Aemilia / Regio VIII,Italy,Bondeno / Ferrara,71.0,150.0,False,1251.3
+446727,natione,Aegyptius,Egypt (Memphis),31.254278,29.849667,region,natio table,12.2365,44.3787,Aemilia / Regio VIII,Italy,Classe / Classis,151.0,200.0,False,2324.3
+446732,natione,Alexandrinus,Alexandria,29.904133,31.195371,region,natio table,12.2365,44.3787,Aemilia / Regio VIII,Italy,Classe / Classis,71.0,150.0,False,2126.6
+446734,tribe,Faventia,Faventia,11.88446,44.28585,place,DARE 10559,12.4862,41.8917,Aemilia / Regio VIII,Italy,Faenza / Faventia,1.0,100.0,False,270.7
+446811,tribe,Bononia,Bononia,11.3418224,44.4946274,place,override DARE 1449,16.4743,43.5384,Aemilia / Regio VIII,Italy,Ravenna,42.0,100.0,False,423.9
+446812,natione,Syrus,Syria,36.995647566197476,35.2936657843166,region,natio table,14.4685,48.2216,Aemilia / Regio VIII,Italy,Ravenna,1.0,150.0,False,2342.6
+448269,tribe,Philippis,Philippi,24.28409,41.01316,place,DARE 21892,10.3248,36.8457,Africa proconsularis,Africa,Carthago,83.0,130.0,False,1291.5
+448816,tribe,Albio,Albium Intimilium,7.625233,43.789243,place,DARE 8039,10.5507,36.5105,Africa proconsularis,Africa,"El Maden, Hr. / El Mden / Mden / Elmden / Vina",175.0,176.0,False,846.5
+449147,tribe,Allifis,Allifae,14.330632,41.328602,place,DARE 16765,8.4441,35.5663,Africa proconsularis,Africa,Haydrah / Haidra / Hidra / Ammaedara,1.0,50.0,False,820.1
+450817,tribe,Avarici,Avaricum,2.399168,47.08221,place,DARE 119,8.1208,35.4071,Africa proconsularis,Africa,Tebessa / Theveste,75.0,100.0,False,1382.6
+450962,tribe,Augustoduno,Augustodunum,4.299041,46.945032,place,DARE 117,8.1208,35.4071,Africa proconsularis,Africa,Tebessa / Theveste,1.0,100.0,False,1321.8
+450963,tribe,Autrico,Autricum,1.487848,48.447852,place,DARE 138,8.1208,35.4071,Africa proconsularis,Africa,Tebessa / Theveste,1.0,100.0,False,1548.9
+452188,tribe,Fundis,Fundi,13.427922,41.357429,place,DARE 16713,7.1712,45.8692,Alpes Poeninae,Gaul and Germany,Bourg-Saint-Pierre / Sankt Petersburg / Summus Poeninus,71.0,130.0,False,710.5
+452735,tribe,Roma,Roma,12.4843457,41.89262,place,override DARE 1438,16.1513,41.2965,Apulia et Calabria / Regio II,Italy,Canosa di Puglia / Canusium,190.0,210.0,False,312.0
+452766,tribe,Benevento,Beneventum,14.77433,41.13155,place,override DARE 1482,14.7792,41.1325,Apulia et Calabria / Regio II,Italy,Dentecane / Venticane,101.0,200.0,False,0.4
+457254,civis,Surus,Syria,36.995647566197476,35.2936657843166,region,natio table,18.1946,47.7332,Barbaricum,Other,Zeliezovce,171.0,250.0,False,2078.9
+457478,civis,Sequanus,Sequani (Besancon),6.03039,47.23369,region,natio table,3.8777,51.6156,Belgica,Gaul and Germany,Colijnsplaat / Ganventa,151.0,250.0,False,511.5
+459707,natione,Belga,Gallia Belgica,4.2563555333318845,49.3413754198628,region,natio table,-2.3585,51.3822,Britannia,Britain,Bath / Aquae Sulis,71.0,100.0,False,521.0
+459710,civis,Hispanus,Hispania,-3.0588515800533287,41.0237574025183,region,natio table,-2.3585,51.3822,Britannia,Britain,Bath / Aquae Sulis,51.0,100.0,False,1153.1
+460026,domo,Parma,Parma,10.327967,44.801507,place,DARE 1448,-2.0105,54.5167,Britannia,Britain,Bowes / Lavatrae,171.0,230.0,False,1394.4
+460238,tribe,Lugduni,Lugdunum,4.819827,45.759683,place,override DARE 105,-2.9568,51.6074,Britannia,Britain,Caerleon / Isca,101.0,300.0,False,864.3
+460380,domo,Ravenna,Ravenna,12.19702,44.41536,place,DARE 1452,-2.4836,55.48076,Britannia,Britain,Cappuck,201.0,230.0,False,1611.1
+460675,natione,Mattiacus,Mattiaci (Wiesbaden),8.238789,50.084337,region,natio table,-3.9382,55.9824,Britannia,Britain,Castlecary,131.0,200.0,False,1043.0
+460815,domo,Samosata,Samosata,38.530357,37.525756,place,DARE 21238,-2.8952,53.1855,Britannia,Britain,Chester / Deva,193.0,217.0,False,3606.8
+460859,natione,Syrus,Syria,36.995647566197476,35.2936657843166,region,natio table,-2.8952,53.1855,Britannia,Britain,Chester / Deva,201.0,300.0,False,3679.5
+460862,tribe,Lugduni,Lugdunum,4.819827,45.759683,place,override DARE 105,-2.8952,53.1855,Britannia,Britain,Chester / Deva,83.0,300.0,False,995.0
+461081,domo,Brixia,Brixia,10.2229,45.5398,place,DARE 1463,-2.3641,54.9907,Britannia,Britain,Chesterholm / Vindolanda,213.0,235.0,False,1375.9
+461098,civis,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,-2.3641,54.9907,Britannia,Britain,Chesterholm / Vindolanda,101.0,300.0,False,1659.0
+461316,civis,Rauricus,Raurici (Augst),7.722311,47.533226,region,natio table,-1.963,51.7134,Britannia,Britain,Cirencester / Corinium,43.0,75.0,False,837.3
+461317,civis,Frisiavus,Frisiavones (Lower Germany),5.498884217981185,51.01273962450301,region,natio table,-1.963,51.7134,Britannia,Britain,Cirencester / Corinium,43.0,75.0,False,523.7
+461441,tribe,Saena,Saena,11.328969,43.317826,place,DARE 12826,-2.0295,54.9786,Britannia,Britain,Corbridge / Coria / Corstopitum,71.0,300.0,False,1614.4
+462070,civis,Trever,Treveri (Trier),6.64376,49.756227,region,natio table,-2.8026,54.05,Britannia,Britain,Lancaster / Galacum / Caluvio,71.0,100.0,False,803.9
+462490,domo,Nemauso,Nemausus,4.36041,43.83837,place,DARE 171,-3.495,54.7206,Britannia,Britain,Maryport / Alauna,122.0,130.0,False,1335.6
+462492,domo,Sicca,Sicca Veneria,8.714315,36.18228,place,DARE 21634,-3.495,54.7206,Britannia,Britain,Maryport / Alauna,122.0,200.0,False,2263.2
+462838,tribe,Mursa,Mursa,18.6758848,45.5600028,place,DARE 10770,-3.1313,54.7937,Britannia,Britain,Old Carlisle / Maglona,191.0,191.0,False,1849.5
+462868,domo,Nicomedia,Nicomedia,29.923486,40.76445,place,DARE 21204,-2.7886,54.7399,Britannia,Britain,Old Penrith / Voreda,201.0,300.0,False,2858.1
+463657,tribe,Vicetia,Vicetia,11.5403,45.5459,place,DARE 1461,-2.6446,52.6746,Britannia,Britain,Wroxeter / Viroconium,51.0,66.0,False,1297.8
+463658,tribe,Pollentia,Pollentia,7.89529,44.68318,place,override DARE 17174,-2.6446,52.6746,Britannia,Britain,Wroxeter / Viroconium,51.0,66.0,False,1175.9
+464088,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,35.32583,36.99362,Cilicia,East,Adana,197.0,218.0,False,1841.4
+464106,natione,Germanus,Germany,5.498884217981185,51.01273962450301,region,natio table,27.1744,38.8203,Cilicia,East,Ayas / Elaussa-Sebaste / Aegae,101.0,200.0,False,2165.6
+464425,tribe,Aquileia,Aquileia,13.370946,45.769631,place,override DARE 1468,23.5643,46.0444,Dacia,Danube and Balkans,Alba Iulia / Apulum,153.0,156.0,False,788.7
+464651,tribe,Falerione,Falerio,13.49792,43.10022,place,DARE 22290,23.5643,46.0444,Dacia,Danube and Balkans,Alba Iulia / Apulum,183.0,185.0,False,861.2
+465042,domo,Viruno,Virunum,14.366975,46.697885,place,DARE 10710,23.5643,46.0444,Dacia,Danube and Balkans,Alba Iulia / Apulum,117.0,200.0,False,709.0
+465081,domo,Claudi,Claudi,6.904966,35.463468,place,DARE 32490,23.5643,46.0444,Dacia,Danube and Balkans,Alba Iulia / Apulum,151.0,200.0,False,1824.7
+465540,domo,Roma,Roma,12.4843457,41.89262,place,override DARE 1438,23.58974,46.76947,Dacia,Danube and Balkans,Cluj-Napoca / Klausenburg / Napoca,107.0,200.0,False,1035.0
+465939,domo,Roma,Roma,12.4843457,41.89262,place,override DARE 1438,25.10886,46.43005,Dacia,Danube and Balkans,Inlaceni,101.0,250.0,False,1124.6
+465953,domo,Roma,Roma,12.4843457,41.89262,place,override DARE 1438,25.10886,46.43005,Dacia,Danube and Balkans,Inlaceni,151.0,250.0,False,1124.6
+466699,tribe,Benevento,Beneventum,14.77433,41.13155,place,override DARE 1482,22.7876,45.5179,Dacia,Danube and Balkans,Sarmizegetusa / Sarmizegethusa / Burgort / Varhely,107.0,200.0,False,810.5
+468000,tribe,Sinope,Sinope,35.14885,42.0206,place,DARE 21208,17.5271,43.1818,Dalmatia,Danube and Balkans,Bigeste,1.0,100.0,False,1445.4
+468218,tribe,Brixia,Brixia,10.2229,45.5398,place,DARE 1463,15.9936,44.0317,Dalmatia,Danube and Balkans,Burnum,1.0,42.0,False,485.2
+468407,tribe,Brixiae,Brixia,10.2229,45.5398,place,DARE 1463,16.6547,43.7423,Dalmatia,Danube and Balkans,Citluk / Aequum,42.0,100.0,False,546.5
+468563,tribe,Verona,Verona,10.997007,45.447243,place,DARE 1439,15.6844,44.0103,Dalmatia,Danube and Balkans,Dobropoljci,31.0,100.0,False,403.2
+468747,tribe,Benevento,Beneventum,14.77433,41.13155,place,override DARE 1482,16.689,43.6139,Dalmatia,Danube and Balkans,Gardun / Tilurium,245.0,245.0,False,317.7
+468750,tribe,Laranda,Laranda,33.215275,37.18347,place,DARE 21520,16.689,43.6139,Dalmatia,Danube and Balkans,Gardun / Tilurium,9.0,56.0,False,1567.6
+468752,tribe,Eporedia,Eporedia,7.87527,45.4681,place,DARE 1446,16.689,43.6139,Dalmatia,Danube and Balkans,Gardun / Tilurium,9.0,69.0,False,727.9
+468758,tribe,Philippis,Philippi,24.28409,41.01316,place,DARE 21892,16.689,43.6139,Dalmatia,Danube and Balkans,Gardun / Tilurium,9.0,56.0,False,687.9
+468789,domo,Viruno,Virunum,14.366975,46.697885,place,DARE 10710,16.689,43.6139,Dalmatia,Danube and Balkans,Gardun / Tilurium,51.0,100.0,False,388.2
+468790,tribe,Verona,Verona,10.997007,45.447243,place,DARE 1439,16.689,43.6139,Dalmatia,Danube and Balkans,Gardun / Tilurium,42.0,100.0,False,495.0
+468797,domo,Benevento,Beneventum,14.77433,41.13155,place,override DARE 1482,16.689,43.6139,Dalmatia,Danube and Balkans,Gardun / Tilurium,9.0,42.0,False,317.7
+468935,domo,Celeiae,Celeia,15.2602936,46.231018,place,DARE 10718,16.5206,43.6922,Dalmatia,Danube and Balkans,Gornji Muc / Andetrium,131.0,170.0,False,299.2
+468937,domo,Cemeneli,Cemenelum,7.276296,43.718954,place,DARE 183,16.5206,43.6922,Dalmatia,Danube and Balkans,Gornji Muc / Andetrium,71.0,130.0,False,742.7
+469051,natione,Pannonia,Pannonia,16.859063686612558,46.257601431825606,region,natio table,17.5271,43.1818,Dalmatia,Danube and Balkans,Hardomilje / Bigeste,201.0,250.0,False,346.1
+469063,tribe,Iconio,Iconium,32.492331,37.872202,place,DARE 21444,17.5271,43.1818,Dalmatia,Danube and Balkans,Hardomilje / Bigeste,21.0,30.0,False,1393.2
+469139,domo,Verona,Verona,10.997007,45.447243,place,DARE 1439,15.9936,44.0317,Dalmatia,Danube and Balkans,Ivosevci / Burnum,42.0,100.0,False,424.8
+469140,tribe,Ateste,Ateste,11.656616,45.227738,place,DARE 17828,15.9936,44.0317,Dalmatia,Danube and Balkans,Ivosevci / Burnum,9.0,42.0,False,368.0
+469178,tribe,Como,Comum,9.0855,45.812,place,DARE 2718,15.9936,44.0317,Dalmatia,Danube and Balkans,Ivosevci / Burnum,42.0,69.0,False,578.6
+469189,tribe,Como,Comum,9.0855,45.812,place,DARE 2718,15.9936,44.0317,Dalmatia,Danube and Balkans,Ivosevci / Burnum,42.0,69.0,False,578.6
+469194,tribe,Brixia,Brixia,10.2229,45.5398,place,DARE 1463,15.9936,44.0317,Dalmatia,Danube and Balkans,Ivosevci / Burnum,1.0,71.0,False,485.2
+469209,tribe,Florentia,Florentia,11.2569,43.7687,place,DARE 1453,15.9936,44.0317,Dalmatia,Danube and Balkans,Ivosevci / Burnum,9.0,69.0,False,380.6
+469210,tribe,Pollentia,Pollentia,7.89529,44.68318,place,override DARE 17174,15.9936,44.0317,Dalmatia,Danube and Balkans,Ivosevci / Burnum,42.0,69.0,False,647.6
+469214,tribe,Bononia,Bononia,11.3418224,44.4946274,place,override DARE 1449,15.9936,44.0317,Dalmatia,Danube and Balkans,Ivosevci / Burnum,1.0,100.0,False,373.9
+469293,tribe,Ansio,Ansium,15.665495,44.179011,place,DARE 13873,15.666,44.179,Dalmatia,Danube and Balkans,Karin Gornji / Corinium,71.0,150.0,False,0.0
+469365,domo,Roma,Roma,12.4843457,41.89262,place,override DARE 1438,16.4743,43.5384,Dalmatia,Danube and Balkans,Klis / Clissa,1.0,30.0,False,373.8
+469437,domo,Brixello,Brixellum,10.51587,44.90086,place,DARE 10725,15.9936,44.0317,Dalmatia,Danube and Balkans,Knin / Burnum,9.0,69.0,False,445.2
+469728,tribe,Verona,Verona,10.997007,45.447243,place,DARE 1439,17.5271,43.1818,Dalmatia,Danube and Balkans,Ljubuski / Mlade / Bigeste,14.0,37.0,False,577.2
+469834,tribe,Arretio,Arretium,11.88344,43.46707,place,DARE 5064,16.04543,43.95595,Dalmatia,Danube and Balkans,Mratovo / Burnum,9.0,69.0,False,338.9
+470701,tribe,Laranda,Laranda,33.215275,37.18347,place,DARE 21520,15.9208,43.8227,Dalmatia,Danube and Balkans,Skradin / Scardona,9.0,42.0,False,1633.6
+470945,tribe,Pisauri,Pisaurum,12.91459,43.91099,place,DARE 10564,16.4743,43.5384,Dalmatia,Danube and Balkans,Solin / Salona,42.0,130.0,False,289.0
+470948,tribe,Pelagonia,Pelagonia,21.610691,41.313278,place,DARE 31697,16.4743,43.5384,Dalmatia,Danube and Balkans,Solin / Salona,1.0,100.0,False,488.7
+470962,tribe,Philippis,Philippi,24.28409,41.01316,place,DARE 21892,16.4743,43.5384,Dalmatia,Danube and Balkans,Solin / Salona,9.0,70.0,False,700.9
+470971,domo,Verona,Verona,10.997007,45.447243,place,DARE 1439,16.4743,43.5384,Dalmatia,Danube and Balkans,Solin / Salona,42.0,100.0,False,483.4
+470972,domo,Verona,Verona,10.997007,45.447243,place,DARE 1439,16.4743,43.5384,Dalmatia,Danube and Balkans,Solin / Salona,42.0,100.0,False,483.4
+470979,tribe,Sebaste,Sebaste,29.65809,38.49517,place,DARE 21429,16.4743,43.5384,Dalmatia,Danube and Balkans,Solin / Salona,9.0,100.0,False,1238.2
+470997,domo,Iguvio,Iguvium,12.57344,43.35546,place,DARE 16807,16.4743,43.5384,Dalmatia,Danube and Balkans,Solin / Salona,101.0,300.0,False,315.5
+471005,tribe,Firmo,Firmum Picenum,13.71682,43.1611,place,DARE 15297,16.4743,43.5384,Dalmatia,Danube and Balkans,Solin / Salona,1.0,150.0,False,226.9
+471688,domo,Florentia,Florentia,11.2569,43.7687,place,DARE 1453,16.4743,43.5384,Dalmatia,Danube and Balkans,Solin / Salona,1.0,41.0,False,420.5
+471695,natione,Norico,Noricum,13.985070695778745,47.35144794545573,region,natio table,16.4743,43.5384,Dalmatia,Danube and Balkans,Solin / Salona,201.0,300.0,False,466.3
+471723,domo,Arretio,Arretium,11.88344,43.46707,place,DARE 5064,16.4743,43.5384,Dalmatia,Danube and Balkans,Solin / Salona,42.0,100.0,False,370.3
+471724,domo,Ateste,Ateste,11.656616,45.227738,place,DARE 17828,16.4743,43.5384,Dalmatia,Danube and Balkans,Solin / Salona,1.0,100.0,False,426.4
+472942,domo,Suessa,Suessa Aurunca,13.930692,41.234601,place,DARE 16715,16.4743,43.5384,Dalmatia,Danube and Balkans,Solin / Salona,1.0,100.0,False,330.5
+474607,tribe,Altino,Altinum,12.3994439,45.5462452,place,override DARE 17839,16.1994,44.0408,Dalmatia,Danube and Balkans,Tepljuh / Promona,71.0,130.0,False,343.4
+474671,tribe,Ninica,Ninica,33.44156,36.65168,place,DARE 21405,16.689,43.6139,Dalmatia,Danube and Balkans,Trilj / Tilurium,1.0,41.0,False,1616.7
+474678,tribe,Ancyra,Ancyra,32.858128,39.944387,place,override DARE 21220,16.689,43.6139,Dalmatia,Danube and Balkans,Trilj / Tilurium,1.0,42.0,False,1398.8
+474686,tribe,Arretio,Arretium,11.88344,43.46707,place,DARE 5064,16.524,43.5594,Dalmatia,Danube and Balkans,Trogir / Tragurium,101.0,150.0,False,374.3
+474844,domo,Florentia,Florentia,11.2569,43.7687,place,DARE 1453,17.625,43.0801,Dalmatia,Danube and Balkans,Vid / Narona,42.0,200.0,False,519.8
+475080,tribe,Laranda,Laranda,33.215275,37.18347,place,DARE 21520,16.689,43.6139,Dalmatia,Danube and Balkans,Vojnic Sinjski / Tilurium,1.0,41.0,False,1567.6
+475190,tribe,Luca,Luca,10.50602,43.840677,place,DARE 1519,15.4483,43.9393,Dalmatia,Danube and Balkans,Zadar / Iader,1.0,50.0,False,396.1
+475192,domo,Ticino,Ticinum,9.1566,45.1859,place,DARE 1437,15.4483,43.9393,Dalmatia,Danube and Balkans,Zadar / Iader,1.0,100.0,False,517.2
+475421,tribe,Firmo,Firmum Picenum,13.71682,43.1611,place,DARE 15297,11.8797,43.4609,Etruria / Regio VII,Italy,Arezzo / Arretium / Adretium,70.0,79.0,False,152.3
+476310,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,32.8543,39.9199,Galatia,East,Ankara / Ancyra,195.0,195.0,False,1473.9
+476313,natione,Norico,Noricum,13.985070695778745,47.35144794545573,region,natio table,32.8543,39.9199,Galatia,East,Ankara / Ancyra,151.0,250.0,False,1722.4
+477938,tribe,Verona,Verona,10.997007,45.447243,place,DARE 1439,5.4863,48.3849,Germania inferior,Gaul and Germany,Aachen / Aquae Granni,101.0,200.0,False,530.7
+478019,tribe,Verona,Verona,10.997007,45.447243,place,DARE 1439,6.6578,51.4406,Germania inferior,Gaul and Germany,Asberg / Moers-Asberg / Asciburgium,70.0,89.0,False,739.0
+478022,domo,Turo,Turum,17.019414,40.917445,place,DARE 30419,6.6578,51.4406,Germania inferior,Gaul and Germany,Asberg / Moers-Asberg / Asciburgium,14.0,37.0,False,1413.2
+478153,tribe,Hasta,Hasta,8.2068,44.9009,place,override DARE 5770,7.0887,50.7568,Germania inferior,Gaul and Germany,Bonn / Bonna,31.0,70.0,False,656.5
+478154,tribe,Ticino,Ticinum,9.1566,45.1859,place,DARE 1437,7.0887,50.7568,Germania inferior,Gaul and Germany,Bonn / Bonna,31.0,70.0,False,638.2
+478164,natione,Thrax,Thrace,25.55067590636753,42.03336915237253,region,natio table,7.0887,50.7568,Germania inferior,Gaul and Germany,Bonn / Bonna,222.0,235.0,False,1708.7
+478176,tribe,Mediolano,Mediolanium,9.1881,45.4637,place,override DARE 1445,7.0887,50.7568,Germania inferior,Gaul and Germany,Bonn / Bonna,39.0,70.0,False,608.8
+478617,tribe,Genua,Genua,8.93151,44.40766,place,DARE 10569,6.10079,51.88452,Germania inferior,Gaul and Germany,Herwen / Carvium,1.0,50.0,False,857.3
+478777,tribe,Arretio,Arretium,11.88344,43.46707,place,DARE 5064,6.868,51.0651,Germania inferior,Gaul and Germany,Koln / Colonia Claudia Ara Agrippinensium,89.0,122.0,False,925.2
+478877,tribe,Bononia,Bononia,11.3418224,44.4946274,place,override DARE 1449,6.868,51.0651,Germania inferior,Gaul and Germany,Koln / Colonia Claudia Ara Agrippinensium,1.0,50.0,False,803.1
+478888,tribe,Ticini,Ticinum,9.1566,45.1859,place,DARE 1437,6.868,51.0651,Germania inferior,Gaul and Germany,Koln / Colonia Claudia Ara Agrippinensium,10.0,30.0,False,675.4
+479101,tribe,Pisauro,Pisaurum,12.91459,43.91099,place,DARE 10564,6.868,51.0651,Germania inferior,Gaul and Germany,Koln / Colonia Claudia Ara Agrippinensium,101.0,200.0,False,915.4
+479629,civis,Afer,Africa (Carthage),10.323056,36.853056,region,natio table,6.868,51.0651,Germania inferior,Gaul and Germany,Koln / Colonia Claudia Ara Agrippinensium,351.0,400.0,False,1603.9
+479685,tribe,Corduba,Corduba,-4.7791517,37.8847267,place,DARE 12782,6.868,51.0651,Germania inferior,Gaul and Germany,Koln / Colonia Claudia Ara Agrippinensium,1.0,100.0,False,1728.0
+480158,tribe,Patavio,Patavium,11.8766,45.4096,place,DARE 10647,6.6916,51.1982,Germania inferior,Gaul and Germany,Neuss / Novaesium,31.0,50.0,False,748.8
+480249,tribe,Calagurri,Calagurris Nasica Iulia,-1.961128,42.301498,place,override DARE 16818,5.9042,51.835,Germania inferior,Gaul and Germany,Nijmegen / Noviomagus Batavorum,69.0,96.0,False,1214.4
+480250,domo,Brixia,Brixia,10.2229,45.5398,place,DARE 1463,5.9042,51.835,Germania inferior,Gaul and Germany,Nijmegen / Noviomagus Batavorum,71.0,130.0,False,768.1
+480253,tribe,Tolosa,Tolosa,1.443,43.6044,place,DARE 153,5.9042,51.835,Germania inferior,Gaul and Germany,Nijmegen / Noviomagus Batavorum,71.0,130.0,False,973.7
+480254,tribe,Mutina,Mutina,10.9252,44.6471,place,DARE 2720,5.9042,51.835,Germania inferior,Gaul and Germany,Nijmegen / Noviomagus Batavorum,1.0,50.0,False,881.0
+481057,tribe,Bononia,Bononia,11.3418224,44.4946274,place,override DARE 1449,6.4533,51.6623,Germania inferior,Gaul and Germany,Xanten / Colonia Ulpia Traiana,9.0,14.0,False,875.4
+481058,tribe,Nemauso,Nemausus,4.36041,43.83837,place,DARE 171,6.4533,51.6623,Germania inferior,Gaul and Germany,Xanten / Colonia Ulpia Traiana,9.0,30.0,False,883.8
+481396,domo,Savaria,Savaria,16.61674,47.23191,place,DARE 5560,7.0484,46.8876,Germania superior,Gaul and Germany,Avenches / Aventicum,70.0,73.0,False,725.4
+481615,tribe,Vienna,Vienna,4.873247,45.524204,place,DARE 106,8.3017,47.5846,Germania superior,Gaul and Germany,Bad Zurzach / Zurzach / Tenedo,16.0,45.0,False,348.1
+481617,tribe,Brixia,Brixia,10.2229,45.5398,place,DARE 1463,8.3017,47.5846,Germania superior,Gaul and Germany,Bad Zurzach / Zurzach / Tenedo,70.0,101.0,False,270.7
+481698,tribe,Sicca,Sicca Veneria,8.714315,36.18228,place,DARE 21634,9.2443,48.9444,Germania superior,Gaul and Germany,Benningen am Neckar,101.0,150.0,False,1419.7
+482817,civis,Dalmata,Dalmatia,18.005702968934713,43.737165067127705,region,natio table,9.5566,49.081,Germania superior,Gaul and Germany,Mainhardt,151.0,250.0,False,878.1
+482940,domo,Arelate,Arelate,4.62266,43.67586,place,DARE 173,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,31.0,70.0,False,755.1
+482941,tribe,Dertona,Dertona,8.8655,44.8972,place,DARE 1520,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,1.0,50.0,False,568.6
+482989,tribe,Lindo,Lindum,-0.540503,53.233212,place,DARE 20691,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,101.0,200.0,False,706.0
+483020,domo,Emonae,Emona,14.501095,46.047361,place,DARE 10717,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,222.0,235.0,False,638.1
+483120,tribe,Iader,Iader,15.224531,44.115541,place,DARE 13857,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,70.0,86.0,False,839.0
+483140,tribe,Parra,Parra,9.888075,45.872404,place,DARE 17999,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,39.0,70.0,False,474.0
+483141,tribe,Ausone,Auso,2.25478,41.9279,place,DARE 11053,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,39.0,70.0,False,1009.5
+483142,tribe,Ticini,Ticinum,9.1566,45.1859,place,DARE 1437,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,39.0,70.0,False,538.9
+483145,tribe,Narbone,Narbo Martius,3.003611,43.184722,place,DARE 156,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,39.0,70.0,False,857.0
+483147,tribe,Tolosa,Tolosa,1.443,43.6044,place,DARE 153,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,39.0,70.0,False,879.4
+483152,tribe,Narbo,Narbo Martius,3.003611,43.184722,place,DARE 156,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,31.0,70.0,False,857.0
+483153,tribe,Hasta,Hasta,8.2068,44.9009,place,override DARE 5770,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,39.0,70.0,False,566.5
+483165,tribe,Firmo,Firmum Picenum,13.71682,43.1611,place,DARE 15297,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,70.0,92.0,False,866.0
+483167,tribe,Pollentia,Pollentia,7.89529,44.68318,place,override DARE 17174,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,71.0,100.0,False,591.3
+483173,tribe,Tolosa,Tolosa,1.443,43.6044,place,DARE 153,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,1.0,43.0,False,879.4
+483174,tribe,Verona,Verona,10.997007,45.447243,place,DARE 1439,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,70.0,92.0,False,545.3
+483175,tribe,Vardagate,Vardagate,8.45047,45.13684,place,DARE 17132,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,-13.0,43.0,False,540.4
+483176,tribe,Brixia,Brixia,10.2229,45.5398,place,DARE 1463,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,-13.0,43.0,False,516.5
+483177,tribe,Pollentia,Pollentia,7.89529,44.68318,place,override DARE 17174,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,-13.0,43.0,False,591.3
+483179,tribe,Verona,Verona,10.997007,45.447243,place,DARE 1439,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,1.0,43.0,False,545.3
+483181,tribe,Eporedia,Eporedia,7.87527,45.4681,place,DARE 1446,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,-13.0,43.0,False,504.2
+483202,tribe,Pistoriis,Pistoriae,10.917964,43.933383,place,DARE 10596,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,-13.0,43.0,False,703.3
+483203,tribe,Hispello,Hispellum,12.671828,42.990904,place,DARE 16798,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,-13.0,43.0,False,848.3
+483206,tribe,Placentia,Placentia,9.696586,45.052752,place,DARE 1466,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,1.0,43.0,False,559.9
+483209,tribe,Baeterris,Baeterrae,3.2178,43.3416,place,DARE 159,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,31.0,50.0,False,833.7
+483218,tribe,Dertona,Dertona,8.8655,44.8972,place,DARE 1520,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,54.0,68.0,False,568.6
+483219,tribe,Bononia,Bononia,11.3418224,44.4946274,place,override DARE 1449,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,39.0,70.0,False,654.0
+483220,tribe,Mediolani,Mediolanium,9.1881,45.4637,place,override DARE 1445,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,39.0,70.0,False,508.5
+483221,tribe,Vienna,Vienna,4.873247,45.524204,place,DARE 106,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,43.0,70.0,False,558.0
+483226,tribe,Mantua,Mantua,10.797544,45.160846,place,override DARE 1447,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,39.0,70.0,False,570.0
+483227,tribe,Mediolano,Mediolanium,9.1881,45.4637,place,override DARE 1445,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,39.0,70.0,False,508.5
+483231,tribe,Eporedia,Eporedia,7.87527,45.4681,place,DARE 1446,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,39.0,70.0,False,504.2
+483232,tribe,Mediolano,Mediolanium,9.1881,45.4637,place,override DARE 1445,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,43.0,70.0,False,508.5
+483268,civis,Raetinio,Raetinium,15.92372,44.78595,place,DARE 13872,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,69.0,75.0,False,816.3
+483269,civis,Helvetius,Helvetii (Avenches),7.040668,46.880282,region,natio table,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,71.0,100.0,False,358.0
+483271,natione,Helvetius,Helvetii (Avenches),7.040668,46.880282,region,natio table,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,14.0,37.0,False,358.0
+483365,tribe,Mutina,Mutina,10.9252,44.6471,place,DARE 2720,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,-13.0,43.0,False,627.4
+483409,tribe,Venafro,Venafrum,14.0461111,41.4845555,place,DARE 16767,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,-13.0,43.0,False,1046.4
+483411,tribe,Baeterris,Baeterrae,3.2178,43.3416,place,DARE 159,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,39.0,70.0,False,833.7
+483414,tribe,Mediolano,Mediolanium,9.1881,45.4637,place,override DARE 1445,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,40.0,41.0,False,508.5
+483415,tribe,Eporedia,Eporedia,7.87527,45.4681,place,DARE 1446,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,40.0,41.0,False,504.2
+483416,tribe,Mediolano,Mediolanium,9.1881,45.4637,place,override DARE 1445,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,40.0,41.0,False,508.5
+483418,tribe,Mediolano,Mediolanium,9.1881,45.4637,place,override DARE 1445,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,-13.0,43.0,False,508.5
+483420,tribe,Apta,Apta Iulia,5.39717,43.87614,place,DARE 174,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,39.0,70.0,False,714.3
+483447,tribe,Mediolano,Mediolanium,9.1881,45.4637,place,override DARE 1445,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,1.0,43.0,False,508.5
+483449,tribe,Patavio,Patavium,11.8766,45.4096,place,DARE 10647,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,-13.0,43.0,False,576.8
+483510,tribe,Florentia,Florentia,11.2569,43.7687,place,DARE 1453,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,1.0,50.0,False,728.5
+483529,tribe,Verona,Verona,10.997007,45.447243,place,DARE 1439,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,70.0,92.0,False,545.3
+483530,tribe,Pelagonia,Pelagonia,21.610691,41.313278,place,DARE 31697,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,70.0,92.0,False,1413.0
+483531,tribe,Luna,Luna,10.016856,44.064253,place,DARE 5854,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,-13.0,43.0,False,672.6
+483535,tribe,Mediolani,Mediolanium,9.1881,45.4637,place,override DARE 1445,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,39.0,70.0,False,508.5
+483536,tribe,Tolosa,Tolosa,1.443,43.6044,place,DARE 153,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,39.0,70.0,False,879.4
+483539,tribe,Placentia,Placentia,9.696586,45.052752,place,DARE 1466,8.2674,49.9951,Germania superior,Gaul and Germany,Mainz / Mogontiacum,70.0,92.0,False,559.9
+483719,tribe,Sinope,Sinope,35.14885,42.0206,place,DARE 21208,9.1496,49.5413,Germania superior,Gaul and Germany,Mudau,101.0,200.0,False,2168.9
+483842,civis,Sequanus,Sequani (Besancon),6.03039,47.23369,region,natio table,9.1423,49.9161,Germania superior,Gaul and Germany,Niedernberg,101.0,130.0,False,375.9
+484115,domo,Roma,Roma,12.4843457,41.89262,place,override DARE 1438,9.4245,49.4267,Germania superior,Gaul and Germany,Osterburken,151.0,230.0,False,870.7
+484611,domo,Thaenis,Thaenae,10.68578,34.65026,place,DARE 21865,9.0674,49.9774,Germania superior,Gaul and Germany,Stockstadt am Main,71.0,150.0,False,1709.4
+484649,tribe,Vienna,Vienna,4.873247,45.524204,place,DARE 106,7.7286,48.5801,Germania superior,Gaul and Germany,Strasbourg / Strassburg / Argentorate,17.0,43.0,False,402.7
+484665,tribe,Mediolani,Mediolanium,9.1881,45.4637,place,override DARE 1445,7.7286,48.5801,Germania superior,Gaul and Germany,Strasbourg / Strassburg / Argentorate,71.0,100.0,False,363.7
+484822,natione,Ubius,Ubii (Cologne),6.958162,50.941335,region,natio table,8.2674,49.9951,Germania superior,Gaul and Germany,Weisenau / Mogontiacum,1.0,70.0,False,140.2
+484858,natione,Batavus,Batavians (Nijmegen),5.8698,51.84812,region,natio table,8.2384,50.0834,Germania superior,Gaul and Germany,Wiesbaden / Aquae Mattiacorum,71.0,150.0,False,256.9
+484859,tribe,Brixia,Brixia,10.2229,45.5398,place,DARE 1463,8.2384,50.0834,Germania superior,Gaul and Germany,Wiesbaden / Aquae Mattiacorum,51.0,150.0,False,526.5
+484860,civis,Sequanus,Sequani (Besancon),6.03039,47.23369,region,natio table,8.2384,50.0834,Germania superior,Gaul and Germany,Wiesbaden / Aquae Mattiacorum,71.0,100.0,False,355.9
+484967,tribe,Dertona,Dertona,8.8655,44.8972,place,DARE 1520,8.2185,47.4799,Germania superior,Gaul and Germany,Windisch / Vindonissa,14.0,50.0,False,291.5
+484974,tribe,Bononia,Bononia,11.3418224,44.4946274,place,override DARE 1449,8.2185,47.4799,Germania superior,Gaul and Germany,Windisch / Vindonissa,70.0,101.0,False,410.3
+484975,tribe,Vienna,Vienna,4.873247,45.524204,place,DARE 106,8.2185,47.4799,Germania superior,Gaul and Germany,Windisch / Vindonissa,70.0,101.0,False,335.9
+485036,tribe,Ateste,Ateste,11.656616,45.227738,place,DARE 17828,8.2185,47.4799,Germania superior,Gaul and Germany,Windisch / Vindonissa,71.0,100.0,False,363.7
+485165,natione,Trever,Treveri (Trier),6.64376,49.756227,region,natio table,8.3569,49.6308,Germania superior,Gaul and Germany,Worms / Borbetomagus,20.0,41.0,False,124.0
+485500,tribe,Hasta,Hasta,8.2068,44.9009,place,override DARE 5770,-6.056,42.4588,Hispania citerior,Hispania,Astorga / Asturica Augusta,1.0,63.0,False,1177.0
+487877,tribe,Tarracone,Tarraco,1.25702,41.11767,place,DARE 6535,2.4445,41.5421,Hispania citerior,Hispania,Mataro / Iluro,1.0,100.0,False,109.8
+490045,natione,Alexandrinus,Alexandria,29.904133,31.195371,region,natio table,14.0849,40.7863,Latium et Campania / Regio I,Italy,Campi Flegrei / Campi Phlegraei,101.0,250.0,False,1773.8
+490454,natione,Corsus,Corsica (Aleria),9.509064,42.10268,region,natio table,8.7,48.8833,Latium et Campania / Regio I,Italy,Fiumicino / Portus,117.0,161.0,False,756.6
+490829,natione,Corsus,Corsica (Aleria),9.509064,42.10268,region,natio table,14.0849,40.7863,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,408.5
+490830,natione,Aegyptius,Egypt (Memphis),31.254278,29.849667,region,natio table,14.0849,40.7863,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,230.0,False,1970.0
+490834,natione,Besso,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,14.0849,40.7863,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,171.0,230.0,False,965.4
+490843,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,14.0833,40.8,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,171.0,230.0,False,965.3
+490845,natione,Cilix,Cilicia,34.12222940393019,36.87969187915871,region,natio table,14.0849,40.7863,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,1784.8
+490846,natione,Dalmata,Dalmatia,18.005702968934713,43.737165067127705,region,natio table,14.0849,40.7863,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,150.0,False,460.1
+490853,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,14.0849,40.7863,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,200.0,False,965.4
+490854,natione,Aegyptus,Egypt (Memphis),31.254278,29.849667,region,natio table,14.0849,40.7863,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,1970.0
+490855,natione,Raetus,Raetia,10.935485583770856,48.16799813760815,region,natio table,14.0849,40.7863,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,857.8
+490856,natione,Syrus,Syria,36.995647566197476,35.2936657843166,region,natio table,14.0849,40.7863,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,171.0,230.0,False,2090.3
+491283,tribe,Capua,Capua,14.250057,41.085943,place,DARE 21762,12.2909,41.7557,Latium et Campania / Regio I,Italy,Ostia Antica,168.0,168.0,False,179.5
+491966,natione,Raetus,Raetia,10.935485583770856,48.16799813760815,region,natio table,14.0849,40.7863,Latium et Campania / Regio I,Italy,Pozzuoli / Puteoli,101.0,200.0,False,857.8
+491967,natione,Syrus,Syria,36.995647566197476,35.2936657843166,region,natio table,14.1212,40.8239,Latium et Campania / Regio I,Italy,Pozzuoli / Puteoli,151.0,200.0,False,2088.0
+492005,domo,Girba,Girba,10.859558,33.874783,place,DARE 21863,12.5,41.6667,Latium et Campania / Regio I,Italy,Pratica di Mare / Laurentum / Lavinium,227.0,228.0,False,878.3
+492863,tribe,Lugduni,Lugdunum,4.819827,45.759683,place,override DARE 105,4.8245,45.7574,Lugudunensis,Gaul and Germany,Lyon / Lugudunum,193.0,193.0,True,0.4
+493933,tribe,Vienna,Vienna,4.873247,45.524204,place,DARE 106,-6.3456,38.9159,Lusitania,Hispania,Merida / Emerita,51.0,100.0,False,1178.5
+494649,domo,Pisis,Pisae,10.400106,43.719417,place,DARE 10595,24.2692,41.06102,Macedonia,Danube and Balkans,Ano Kefalari / Bounar-Baschi / Philippi,-42.0,-31.0,False,1175.2
+494661,natione,Noricus,Noricum,13.985070695778745,47.35144794545573,region,natio table,21.5218,41.0396,Macedonia,Danube and Balkans,Bitola / Lygkesti / Herakleia Lynkestis,151.0,200.0,False,923.0
+494736,tribe,Verona,Verona,10.997007,45.447243,place,DARE 1439,22.4861,40.1727,Macedonia,Danube and Balkans,Dion / Dium,-30.0,-1.0,False,1104.0
+495064,tribe,Stobis,Stobi,21.974974,41.552591,place,DARE 21411,21.9777,41.5314,Macedonia,Danube and Balkans,Kavadarci / Kavadartsi / Stobi,101.0,150.0,False,2.4
+495094,tribe,Curibus,Cures,12.680562,42.18449,place,DARE 16784,24.20226,40.88675,Macedonia,Danube and Balkans,Kipia / Philippi,141.0,159.0,False,969.0
+495184,tribe,Firmo,Firmum Picenum,13.71682,43.1611,place,DARE 15297,24.2853,41.011,Macedonia,Danube and Balkans,Philippoi / Krinides / Philippi,1.0,100.0,False,903.6
+495457,tribe,Eporedia,Eporedia,7.87527,45.4681,place,DARE 1446,24.28397,41.01328,Macedonia,Danube and Balkans,Philippoi / Krinides / Philippi,-30.0,14.0,False,1415.3
+495512,tribe,Verona,Verona,10.997007,45.447243,place,DARE 1439,20.64671,38.25111,Macedonia,Danube and Balkans,Sami,1.0,50.0,False,1129.4
+495579,tribe,Pelagonia,Pelagonia,21.610691,41.313278,place,DARE 31697,21.89019,41.5066,Macedonia,Danube and Balkans,Sirkovo / Stobi,1.0,100.0,False,31.7
+496117,domo,Roma,Roma,12.4843457,41.89262,place,override DARE 1438,2.1908,36.605,Mauretania Caesariensis,Africa,Cherchell / Cherchel / Scherschel / Caesarea,201.0,204.0,False,1062.5
+496748,domo,Roma,Roma,12.4843457,41.89262,place,override DARE 1438,-4.6779,34.4175,Mauretania Tingitana,Africa,Chellah / Sala,144.0,144.0,False,1710.9
+496791,tribe,Roma,Roma,12.4843457,41.89262,place,override DARE 1438,-6.4902,34.3351,Mauretania Tingitana,Africa,Sidi Ali Ben Ahmed / Thamusida,135.0,135.0,True,1854.9
+496799,tribe,Roma,Roma,12.4843457,41.89262,place,override DARE 1438,-6.1153,34.602,Mauretania Tingitana,Africa,Sidi Ali bou Jenoun / Sidi Ali bou Djenoun / Banasa,122.0,122.0,True,1810.0
+497043,tribe,Luca,Luca,10.50602,43.840677,place,DARE 1519,27.9423,44.0928,Moesia inferior,Danube and Balkans,Adamclisi / Adamklissi / Adam-Klissi / Tropaeum Traiani,139.0,160.0,False,1393.1
+497093,tribe,Fundis,Fundi,13.427922,41.357429,place,DARE 16713,28.1919,45.1448,Moesia inferior,Danube and Balkans,Balta Iglita / Troesmis,107.0,167.0,False,1265.5
+497117,domo,Oesci,Oescus,24.465476,43.710514,place,DARE 21378,28.1919,45.1448,Moesia inferior,Danube and Balkans,Balta Iglita / Troesmis,131.0,200.0,False,336.1
+497147,tribe,Hemesa,Hemesa,36.714401,34.723414,place,DARE 21719,28.1919,45.1448,Moesia inferior,Danube and Balkans,Balta Iglita / Troesmis,101.0,130.0,False,1366.0
+497148,tribe,Amastri,Amastris,32.385648,41.746969,place,DARE 21253,28.1919,45.1448,Moesia inferior,Danube and Balkans,Balta Iglita / Troesmis,151.0,200.0,False,507.2
+497163,domo,Ancyra,Ancyra,32.858128,39.944387,place,override DARE 21220,28.1919,45.1448,Moesia inferior,Danube and Balkans,Balta Iglita / Troesmis,163.0,163.0,False,692.9
+497166,domo,Ancyra,Ancyra,32.858128,39.944387,place,override DARE 21220,28.1919,45.1448,Moesia inferior,Danube and Balkans,Balta Iglita / Troesmis,138.0,161.0,False,692.9
+497279,natione,Ubius,Ubii (Cologne),6.958162,50.941335,region,natio table,24.7847,43.6974,Moesia inferior,Danube and Balkans,Cherkovitsa / Cercovika / Cercovica / Securisca,51.0,100.0,False,1560.7
+497340,tribe,Roma,Roma,12.4843457,41.89262,place,override DARE 1438,28.6553,44.177,Moesia inferior,Danube and Balkans,Constanta / Tomi,101.0,200.0,False,1336.3
+497613,tribe,Brixia,Brixia,10.2229,45.5398,place,DARE 1463,24.4633,43.7106,Moesia inferior,Danube and Balkans,Gigen / Oescus,31.0,70.0,False,1143.6
+497638,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,24.4633,43.7106,Moesia inferior,Danube and Balkans,Gigen / Oescus,98.0,117.0,False,206.5
+498191,tribe,Stobis,Stobi,21.974974,41.552591,place,DARE 21411,24.8947,43.7009,Moesia inferior,Danube and Balkans,Nedan,101.0,130.0,False,337.8
+498336,tribe,Nicomedia,Nicomedia,29.923486,40.76445,place,DARE 21204,27.12483,43.36206,Moesia inferior,Danube and Balkans,Pliska,101.0,250.0,False,369.8
+498613,tribe,Fano,Fanum Fortunae,13.0180936,43.8443206,place,override DARE 10565,25.3944,43.6125,Moesia inferior,Danube and Balkans,Swischtow / Svishtov / Svistov / Staklen / Novae,45.0,69.0,False,993.9
+498614,tribe,Clunia,Clunia Sulpicia,-3.370951,41.780615,place,DARE 22471,25.3944,43.6125,Moesia inferior,Danube and Balkans,Swischtow / Svishtov / Svistov / Staklen / Novae,71.0,100.0,False,2347.8
+498635,tribe,Oesci,Oescus,24.465476,43.710514,place,DARE 21378,25.3944,43.6125,Moesia inferior,Danube and Balkans,Swischtow / Svishtov / Svistov / Staklen / Novae,151.0,200.0,False,75.5
+498700,tribe,Cirta,Cirta,6.612555,36.368187,place,DARE 21642,25.3944,43.6125,Moesia inferior,Danube and Balkans,Swischtow / Svishtov / Svistov / Staklen / Novae,218.0,222.0,False,1785.8
+498708,tribe,Viennae,Vienna,4.873247,45.524204,place,DARE 106,25.3944,43.6125,Moesia inferior,Danube and Balkans,Swischtow / Svishtov / Svistov / Staklen / Novae,184.0,184.0,False,1634.9
+498904,tribe,Firmo,Firmum Picenum,13.71682,43.1611,place,DARE 15297,22.9184,43.8097,Moesia superior,Danube and Balkans,Archar / Arcar / Ratiaria,101.0,150.0,False,745.5
+499019,tribe,Stobis,Stobi,21.974974,41.552591,place,DARE 21411,21.3818,42.0051,Moesia superior,Danube and Balkans,Bardovtsi / Bardovci / Scupi,101.0,200.0,False,70.4
+499208,tribe,Pelagonia,Pelagonia,21.610691,41.313278,place,DARE 31697,21.3818,42.0051,Moesia superior,Danube and Balkans,Dobri Dol / Scupi,1.0,100.0,False,79.2
+499517,tribe,Bracara,Bracara Augusta,-8.427013,41.55001,place,DARE 13695,21.1751,44.722,Moesia superior,Danube and Balkans,Kostolac / Kostolatz / Viminacium,71.0,150.0,False,2414.1
+500049,tribe,Roma,Roma,12.4843457,41.89262,place,override DARE 1438,22.7308,44.5637,Moesia superior,Danube and Balkans,Rtkovo / Pontes,71.0,130.0,False,881.0
+500071,tribe,Aquileia,Aquileia,13.370946,45.769631,place,override DARE 1468,21.3818,42.0051,Moesia superior,Danube and Balkans,Skopje / Scupi,71.0,130.0,False,765.8
+500102,tribe,Aquileia,Aquileia,13.370946,45.769631,place,override DARE 1468,21.3818,42.0051,Moesia superior,Danube and Balkans,Skopje / Scupi,71.0,150.0,False,765.8
+500300,tribe,Flanona,Flanona,14.172682,45.138214,place,DARE 13921,21.3818,42.0051,Moesia superior,Danube and Balkans,Zlokukani / Scupi,101.0,150.0,False,676.9
+500303,tribe,Beryto,Berytus,35.501176,33.897902,place,DARE 21113,21.3818,42.0051,Moesia superior,Danube and Balkans,Zlokukani / Scupi,101.0,150.0,False,1528.1
+500568,tribe,Verona,Verona,10.997007,45.447243,place,DARE 1439,15.265,46.1997,Noricum,Danube and Balkans,Celje / Celeia,1.0,100.0,False,341.1
+500676,civis,Syrus,Syria,36.995647566197476,35.2936657843166,region,natio table,15.265,46.1997,Noricum,Danube and Balkans,Celje / Celeia,201.0,300.0,False,2184.5
+501068,domo,Roma,Roma,12.4843457,41.89262,place,override DARE 1438,14.4143,47.0223,Noricum,Danube and Balkans,Hohenstein / Virunum,101.0,200.0,False,590.6
+501993,tribe,Saena,Saena,11.328969,43.317826,place,DARE 12826,12.6555,48.2305,Noricum,Danube and Balkans,Salzburg / Iuvavum,101.0,130.0,False,555.8
+504922,tribe,Tyanae,Tyana,34.568378,37.817319,place,DARE 21243,6.2607,35.4817,Numidia,Africa,Lambaesis,191.0,191.0,False,2529.0
+505029,tribe,Salona,Salona,16.48365,43.53814,place,DARE 10939,6.2607,35.4817,Numidia,Africa,Lambaesis,147.0,147.0,False,1251.8
+505117,tribe,Cirta,Cirta,6.612555,36.368187,place,DARE 21642,6.2607,35.4817,Numidia,Africa,Lambaesis,147.0,149.0,False,103.5
+505737,natione,Macedo,Macedonia,21.772535911491048,40.98923239107256,region,natio table,35.4973,32.49675,Palaestina,East,Beit She'an / Bet Sche'an / Beisan / Baithsan / Scythopolis,132.0,135.0,False,1541.9
+506098,tribe,Roma,Roma,12.4843457,41.89262,place,override DARE 1438,18.9609,46.7426,Pannonia inferior,Danube and Balkans,Bolcske,198.0,209.0,False,745.4
+506100,domo,Sufibus,Sufes,9.074415,35.542707,place,DARE 22168,18.9609,46.7426,Pannonia inferior,Danube and Balkans,Bolcske,197.0,199.0,False,1492.8
+506312,tribe,Pelagonia,Pelagonia,21.610691,41.313278,place,DARE 31697,18.6618,46.7228,Pannonia inferior,Danube and Balkans,Budapest / Aquincum,131.0,170.0,False,646.0
+506321,domo,Aquinco,Aquincum,19.049483,47.564142,place,DARE 10898,18.6618,46.7228,Pannonia inferior,Danube and Balkans,Budapest / Aquincum,201.0,250.0,False,98.0
+506325,domo,Luceria,Luceria,15.335065,41.508065,place,DARE 16564,18.6618,46.7228,Pannonia inferior,Danube and Balkans,Budapest / Aquincum,201.0,230.0,False,637.6
+506557,tribe,Theveste,Theveste,8.10014,35.38254,place,DARE 21643,18.6618,46.7228,Pannonia inferior,Danube and Balkans,Budapest / Aquincum,201.0,250.0,False,1537.9
+506608,tribe,Ammaedara,Ammaedara,8.455266,35.565382,place,DARE 21647,18.6618,46.7228,Pannonia inferior,Danube and Balkans,Budapest / Aquincum,101.0,150.0,False,1503.7
+506610,domo,Mursa,Mursa,18.6758848,45.5600028,place,DARE 10770,18.6618,46.7228,Pannonia inferior,Danube and Balkans,Budapest / Aquincum,193.0,200.0,False,129.3
+506701,domo,Capua,Capua,14.250057,41.085943,place,DARE 21762,18.6618,46.7228,Pannonia inferior,Danube and Balkans,Budapest / Aquincum,171.0,230.0,False,719.3
+506724,tribe,Praeneste,Praeneste,12.89207,41.839064,place,DARE 16776,18.6618,46.7228,Pannonia inferior,Danube and Balkans,Budapest / Aquincum,151.0,200.0,False,710.8
+506869,domo,Mursa,Mursa,18.6758848,45.5600028,place,DARE 10770,18.6618,46.7228,Pannonia inferior,Danube and Balkans,Budapest / Aquincum,220.0,220.0,False,129.3
+506956,domo,Viminacio,Viminacium,21.216122,44.736776,place,DARE 10877,18.6618,46.7228,Pannonia inferior,Danube and Balkans,Budapest / Aquincum,131.0,200.0,False,296.7
+506967,domo,Thracia,Thracia,25.55067590636753,42.03336915237253,region,override,18.6618,46.7228,Pannonia inferior,Danube and Balkans,Budapest / Aquincum,201.0,250.0,False,755.5
+507001,domo,Mursa,Mursa,18.6758848,45.5600028,place,DARE 10770,18.6618,46.7228,Pannonia inferior,Danube and Balkans,Budapest / Aquincum,201.0,250.0,False,129.3
+507029,natione,Noricus,Noricum,13.985070695778745,47.35144794545573,region,natio table,18.6618,46.7228,Pannonia inferior,Danube and Balkans,Budapest / Aquincum,101.0,150.0,False,361.2
+507047,domo,Aquinco,Aquincum,19.049483,47.564142,place,DARE 10898,18.6618,46.7228,Pannonia inferior,Danube and Balkans,Budapest / Aquincum,201.0,250.0,False,98.0
+507052,tribe,Verona,Verona,10.997007,45.447243,place,DARE 1439,18.6618,46.7228,Pannonia inferior,Danube and Balkans,Budapest / Aquincum,101.0,150.0,False,607.6
+507058,domo,Parma,Parma,10.327967,44.801507,place,DARE 1448,18.6618,46.7228,Pannonia inferior,Danube and Balkans,Budapest / Aquincum,101.0,150.0,False,680.5
+507623,natione,Syrus,Syria,36.995647566197476,35.2936657843166,region,natio table,18.6902,46.2268,Pannonia inferior,Danube and Balkans,Dunaszekcso / Lugio,151.0,300.0,False,1955.2
+507662,domo,Hemesa,Hemesa,36.714401,34.723414,place,DARE 21719,18.9368,46.9755,Pannonia inferior,Danube and Balkans,Dunaujvaros / Dunapentele / Intercisa,201.0,230.0,False,2014.1
+507673,domo,Carrhis,Carrhae,39.03155,36.86626,place,DARE 21826,18.9368,46.9755,Pannonia inferior,Danube and Balkans,Dunaujvaros / Dunapentele / Intercisa,231.0,250.0,False,1997.6
+507787,domo,Samosata,Samosata,38.530357,37.525756,place,DARE 21238,18.9368,46.9755,Pannonia inferior,Danube and Balkans,Dunaujvaros / Dunapentele / Intercisa,231.0,270.0,False,1916.5
+507821,domo,Hemesa,Hemesa,36.714401,34.723414,place,DARE 21719,18.9368,46.9755,Pannonia inferior,Danube and Balkans,Dunaujvaros / Dunapentele / Intercisa,201.0,250.0,False,2014.1
+507822,domo,Hemesa,Hemesa,36.714401,34.723414,place,DARE 21719,18.9368,46.9755,Pannonia inferior,Danube and Balkans,Dunaujvaros / Dunapentele / Intercisa,231.0,250.0,False,2014.1
+507828,domo,Hemesa,Hemesa,36.714401,34.723414,place,DARE 21719,18.9368,46.9755,Pannonia inferior,Danube and Balkans,Dunaujvaros / Dunapentele / Intercisa,201.0,250.0,False,2014.1
+508422,tribe,Vienna,Vienna,4.873247,45.524204,place,DARE 106,19.6122,44.9764,Pannonia inferior,Danube and Balkans,Sremska Mitrovica / Mitrovicz / Sirmium,107.0,117.0,False,1153.8
+508744,domo,Ancyra,Ancyra,32.858128,39.944387,place,override DARE 21220,19.0669,47.6795,Pannonia inferior,Danube and Balkans,Szentendre / Ulcisia,201.0,250.0,False,1398.0
+508947,tribe,Poetovione,Poetovio,15.8699813,46.4199885,place,DARE 10719,18.01561,47.71042,Pannonia superior,Danube and Balkans,Acs / Acs-Vaspuszta / Ad Statuas / Brigetio,206.0,206.0,True,216.8
+509070,natione,Hispanus,Hispania,-3.0588515800533287,41.0237574025183,region,natio table,16.8913,48.1236,Pannonia superior,Danube and Balkans,Bad Deutsch-Altenburg / Carnuntum,171.0,200.0,False,1759.4
+509071,domo,Canatha,Canatha,36.618509,32.754199,place,DARE 21513,16.8913,48.1236,Pannonia superior,Danube and Balkans,Bad Deutsch-Altenburg / Carnuntum,209.0,211.0,False,2375.5
+509180,natione,Cilix,Cilicia,34.12222940393019,36.87969187915871,region,natio table,16.8913,48.1236,Pannonia superior,Danube and Balkans,Bad Deutsch-Altenburg / Carnuntum,118.0,200.0,False,1878.6
+509198,tribe,Calagurri,Calagurris Nasica Iulia,-1.961128,42.301498,place,override DARE 16818,16.8913,48.1236,Pannonia superior,Danube and Balkans,Bad Deutsch-Altenburg / Carnuntum,101.0,114.0,False,1607.0
+509353,tribe,Philippis,Philippi,24.28409,41.01316,place,DARE 21892,16.8913,48.1236,Pannonia superior,Danube and Balkans,Bad Deutsch-Altenburg / Carnuntum,40.0,57.0,False,982.9
+509633,domo,Ticino,Ticinum,9.1566,45.1859,place,DARE 1437,16.8913,48.1236,Pannonia superior,Danube and Balkans,Ebersdorf,131.0,170.0,False,674.2
+509677,domo,Roma,Roma,12.4843457,41.89262,place,override DARE 1438,18.7367,47.7986,Pannonia superior,Danube and Balkans,Esztergom / Gran / Solva mansio,211.0,217.0,False,820.5
+510028,domo,Salaria,Salaria,-3.32495,37.92546,place,DARE 25140,18.1946,47.7332,Pannonia superior,Danube and Balkans,Komarom / Komorn / Brigetio,151.0,200.0,False,2055.5
+510099,domo,Karnunto,Carnuntum,16.86168,48.1132,place,DARE 10720,18.1946,47.7332,Pannonia superior,Danube and Balkans,Komarom / Komorn / Brigetio,201.0,300.0,False,107.9
+510352,domo,Hemesa,Hemesa,36.714401,34.723414,place,DARE 21719,18.9368,46.9755,Pannonia superior,Danube and Balkans,Kornye / Brigetio,231.0,270.0,False,2014.1
+510639,tribe,Verona,Verona,10.997007,45.447243,place,DARE 1439,16.8913,48.1236,Pannonia superior,Danube and Balkans,Petronell-Carnuntum / Carnuntum,1.0,300.0,False,538.3
+510716,domo,Germania,Germania,23.2686255,42.2899734,place,DARE 22369,16.8913,48.1236,Pannonia superior,Danube and Balkans,Petronell-Carnuntum / Carnuntum,201.0,300.0,False,818.2
+510721,tribe,Florentia,Florentia,11.2569,43.7687,place,DARE 1453,16.8913,48.1236,Pannonia superior,Danube and Balkans,Petronell-Carnuntum / Carnuntum,51.0,100.0,False,651.0
+510722,tribe,Arelate,Arelate,4.62266,43.67586,place,DARE 173,16.8913,48.1236,Pannonia superior,Danube and Balkans,Petronell-Carnuntum / Carnuntum,40.0,63.0,False,1068.8
+510724,domo,Durocortoro,Durocortorum,4.033901,49.253801,place,DARE 52,16.8913,48.1236,Pannonia superior,Danube and Balkans,Petronell-Carnuntum / Carnuntum,89.0,101.0,False,950.9
+510792,tribe,Philippis,Philippi,24.28409,41.01316,place,DARE 21892,16.8913,48.1236,Pannonia superior,Danube and Balkans,Petronell-Carnuntum / Carnuntum,39.0,63.0,False,982.9
+510900,tribe,Bononia,Bononia,11.3418224,44.4946274,place,override DARE 1449,16.8913,48.1236,Pannonia superior,Danube and Balkans,Petronell-Carnuntum / Carnuntum,63.0,69.0,False,586.7
+510969,tribe,Opitergio,Opitergium,12.49337,45.78241,place,DARE 10644,16.8913,48.1236,Pannonia superior,Danube and Balkans,Petronell-Carnuntum / Carnuntum,81.0,96.0,False,423.2
+510972,tribe,Bononia,Bononia,11.3418224,44.4946274,place,override DARE 1449,16.8913,48.1236,Pannonia superior,Danube and Balkans,Petronell-Carnuntum / Carnuntum,94.0,150.0,False,586.7
+510988,tribe,Philippis,Philippi,24.28409,41.01316,place,DARE 21892,16.8913,48.1236,Pannonia superior,Danube and Balkans,Petronell-Carnuntum / Carnuntum,39.0,51.0,False,982.9
+510989,tribe,Firmo,Firmum Picenum,13.71682,43.1611,place,DARE 15297,16.8913,48.1236,Pannonia superior,Danube and Balkans,Petronell-Carnuntum / Carnuntum,97.0,101.0,False,604.3
+511015,tribe,Iader,Iader,15.224531,44.115541,place,DARE 13857,16.8913,48.1236,Pannonia superior,Danube and Balkans,Petronell-Carnuntum / Carnuntum,71.0,100.0,False,463.8
+511018,tribe,Cyrro,Cyrrus,36.956398,36.744679,place,DARE 21509,16.8913,48.1236,Pannonia superior,Danube and Balkans,Petronell-Carnuntum / Carnuntum,74.0,79.0,False,2066.0
+511022,tribe,Verona,Verona,10.997007,45.447243,place,DARE 1439,16.8913,48.1236,Pannonia superior,Danube and Balkans,Petronell-Carnuntum / Carnuntum,39.0,63.0,False,538.3
+511023,tribe,Tolosa,Tolosa,1.443,43.6044,place,DARE 153,16.8913,48.1236,Pannonia superior,Danube and Balkans,Petronell-Carnuntum / Carnuntum,71.0,100.0,False,1294.5
+511026,domo,Faventia,Faventia,11.88446,44.28585,place,DARE 10559,16.8913,48.1236,Pannonia superior,Danube and Balkans,Petronell-Carnuntum / Carnuntum,41.0,71.0,False,574.7
+511027,domo,Verona,Verona,10.997007,45.447243,place,DARE 1439,16.8913,48.1236,Pannonia superior,Danube and Balkans,Petronell-Carnuntum / Carnuntum,41.0,69.0,False,538.3
+511028,tribe,Opitergio,Opitergium,12.49337,45.78241,place,DARE 10644,16.8913,48.1236,Pannonia superior,Danube and Balkans,Petronell-Carnuntum / Carnuntum,39.0,63.0,False,423.2
+511029,domo,Savaria,Savaria,16.61674,47.23191,place,DARE 5560,16.8913,48.1236,Pannonia superior,Danube and Balkans,Petronell-Carnuntum / Carnuntum,151.0,300.0,False,101.3
+511042,tribe,Tergeste,Tergeste,13.772521,45.647165,place,DARE 10735,16.8913,48.1236,Pannonia superior,Danube and Balkans,Petronell-Carnuntum / Carnuntum,39.0,46.0,False,363.3
+511047,tribe,Ulia,Ulia Fidentia,-4.698889,37.648657,place,DARE 25215,16.8913,48.1236,Pannonia superior,Danube and Balkans,Petronell-Carnuntum / Carnuntum,63.0,68.0,False,2098.3
+511240,tribe,Vicetia,Vicetia,11.5403,45.5459,place,DARE 1461,16.8913,48.1236,Pannonia superior,Danube and Balkans,Petronell-Carnuntum / Carnuntum,39.0,52.0,False,497.6
+511244,domo,Viruno,Virunum,14.366975,46.697885,place,DARE 10710,16.8913,48.1236,Pannonia superior,Danube and Balkans,Petronell-Carnuntum / Carnuntum,96.0,130.0,False,247.4
+511254,tribe,Verona,Verona,10.997007,45.447243,place,DARE 1439,16.8913,48.1236,Pannonia superior,Danube and Balkans,Petronell-Carnuntum / Carnuntum,97.0,101.0,False,538.3
+511334,tribe,Placentia,Placentia,9.696586,45.052752,place,DARE 1466,16.8913,48.1236,Pannonia superior,Danube and Balkans,Petronell-Carnuntum / Carnuntum,41.0,54.0,False,646.8
+511335,tribe,Faesulis,Faesulae,11.292487,43.807212,place,DARE 10609,16.8913,48.1236,Pannonia superior,Danube and Balkans,Petronell-Carnuntum / Carnuntum,40.0,63.0,False,645.9
+511343,domo,Brixia,Brixia,10.2229,45.5398,place,DARE 1463,16.8913,48.1236,Pannonia superior,Danube and Balkans,Petronell-Carnuntum / Carnuntum,71.0,100.0,False,582.7
+511785,domo,Parma,Parma,10.327967,44.801507,place,DARE 1448,15.8704,46.4265,Pannonia superior,Danube and Balkans,Ptuj / Poetovio,1.0,42.0,False,467.3
+511869,domo,Celeia,Celeia,15.2602936,46.231018,place,DARE 10718,15.8704,46.4265,Pannonia superior,Danube and Balkans,Ptuj / Poetovio,131.0,200.0,False,51.6
+511871,tribe,Dertona,Dertona,8.8655,44.8972,place,DARE 1520,15.8704,46.4265,Pannonia superior,Danube and Balkans,Ptuj / Poetovio,101.0,130.0,False,570.1
+511874,tribe,Mediolano,Mediolanium,9.1881,45.4637,place,override DARE 1445,15.8704,46.4265,Pannonia superior,Danube and Balkans,Ptuj / Poetovio,31.0,70.0,False,527.5
+512081,civis,Trever,Treveri (Trier),6.64376,49.756227,region,natio table,17.1003,48.1424,Pannonia superior,Danube and Balkans,Rusovce / Gerulata,71.0,100.0,False,783.7
+512153,tribe,Mediolano,Mediolanium,9.1881,45.4637,place,override DARE 1445,15.979,45.8146,Pannonia superior,Danube and Balkans,Scitarjevo / Andautonia,151.0,200.0,False,529.2
+512345,tribe,Vienna,Vienna,4.873247,45.524204,place,DARE 106,16.5914,47.6859,Pannonia superior,Danube and Balkans,Sopron / Odenburg / Scarbantia,70.0,130.0,False,925.9
+512892,tribe,Oesci,Oescus,24.465476,43.710514,place,DARE 21378,16.4192,46.2087,Pannonia superior,Danube and Balkans,Varazdinske Toplice / Aquae Iasae,231.0,231.0,False,690.9
+513034,civis,Sequanus,Sequani (Besancon),6.03039,47.23369,region,natio table,16.3396,48.2154,Pannonia superior,Danube and Balkans,Wien / Vindobona,71.0,100.0,False,778.2
+514553,tribe,Como,Comum,9.0855,45.812,place,DARE 2718,12.0991,49.0112,Raetia,Danube and Balkans,Regensburg / Castra Regina,171.0,230.0,False,421.8
+514920,natione,Batavus,Batavians (Nijmegen),5.8698,51.84812,region,natio table,12.4862,41.8917,Roma,Rome,Roma,171.0,300.0,False,1214.8
+514927,tribe,Mantua,Mantua,10.797544,45.160846,place,override DARE 1447,12.4862,41.8917,Roma,Rome,Roma,31.0,100.0,False,388.1
+514948,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,12.4862,41.8917,Roma,Rome,Roma,71.0,130.0,False,1079.3
+514949,tribe,Antio,Antium,12.628595,41.455191,place,DARE 16711,12.4862,41.8917,Roma,Rome,Roma,1.0,200.0,False,50.0
+514959,tribe,Firmo,Firmum Picenum,13.71682,43.1611,place,DARE 15297,12.4862,41.8917,Roma,Rome,Roma,1.0,70.0,False,173.5
+515078,tribe,Fano,Fanum Fortunae,13.0180936,43.8443206,place,override DARE 10565,12.4862,41.8917,Roma,Rome,Roma,131.0,170.0,False,221.4
+515089,tribe,Ravenna,Ravenna,12.19702,44.41536,place,DARE 1452,12.4862,41.8917,Roma,Rome,Roma,1.0,200.0,False,281.6
+515105,tribe,Luca,Luca,10.50602,43.840677,place,DARE 1519,12.4862,41.8917,Roma,Rome,Roma,51.0,100.0,False,270.2
+515558,tribe,Florentia,Florentia,11.2569,43.7687,place,DARE 1453,12.4862,41.8917,Roma,Rome,Roma,1.0,200.0,False,231.5
+515824,domo,Beryto,Berytus,35.501176,33.897902,place,DARE 21113,12.4862,41.8917,Roma,Rome,Roma,105.0,200.0,False,2197.5
+515901,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,10.9889,45.44,Roma,Rome,Roma,231.0,270.0,False,1227.7
+516247,tribe,Verona,Verona,10.997007,45.447243,place,DARE 1439,12.4862,41.8917,Roma,Rome,Roma,51.0,100.0,False,413.1
+516261,natione,Syrus,Syria,36.995647566197476,35.2936657843166,region,natio table,12.4862,41.8917,Roma,Rome,Roma,201.0,300.0,False,2243.6
+516410,tribe,Verona,Verona,10.997007,45.447243,place,DARE 1439,12.4862,41.8917,Roma,Rome,Roma,180.0,180.0,False,413.1
+516418,natione,Raetus,Raetia,10.935485583770856,48.16799813760815,region,natio table,12.4862,41.8917,Roma,Rome,Roma,201.0,230.0,False,708.4
+516543,tribe,Ancyra,Ancyra,32.858128,39.944387,place,override DARE 21220,12.4862,41.8917,Roma,Rome,Roma,204.0,204.0,False,1721.2
+516545,natione,Noricus,Noricum,13.985070695778745,47.35144794545573,region,natio table,12.4862,41.8917,Roma,Rome,Roma,138.0,200.0,False,618.5
+516705,tribe,Volaterris,Volaterrae,10.859019,43.401777,place,DARE 5544,12.4862,41.8917,Roma,Rome,Roma,1.0,130.0,False,214.2
+516714,domo,Verona,Verona,10.997007,45.447243,place,DARE 1439,12.48293,41.89332,Roma,Rome,Roma,151.0,190.0,False,412.8
+516850,tribe,Verona,Verona,10.997007,45.447243,place,DARE 1439,12.4862,41.8917,Roma,Rome,Roma,167.0,167.0,False,413.1
+516857,tribe,Bononia,Bononia,11.3418224,44.4946274,place,override DARE 1449,12.4862,41.8917,Roma,Rome,Roma,101.0,200.0,False,303.9
+516858,tribe,Faventia,Faventia,11.88446,44.28585,place,DARE 10559,12.4862,41.8917,Roma,Rome,Roma,171.0,200.0,False,270.7
+516860,tribe,Ateste,Ateste,11.656616,45.227738,place,DARE 17828,12.4862,41.8917,Roma,Rome,Roma,71.0,200.0,False,376.9
+516863,natione,Sardus,Sardinia,9.037586855195457,40.0837418398213,region,natio table,12.4862,41.8917,Roma,Rome,Roma,151.0,250.0,False,352.4
+518211,natione,Syrus,Syria,36.995647566197476,35.2936657843166,region,natio table,12.4862,41.8917,Roma,Rome,Roma,193.0,211.0,False,2243.6
+518217,natione,Thrax,Thrace,25.55067590636753,42.03336915237253,region,natio table,12.4862,41.8917,Roma,Rome,Roma,201.0,300.0,False,1079.3
+518218,natione,Pannonia,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.4862,41.8917,Roma,Rome,Roma,201.0,300.0,False,597.9
+518226,natione,Aegyptus,Egypt (Memphis),31.254278,29.849667,region,natio table,12.4862,41.8917,Roma,Rome,Roma,1.0,300.0,False,2148.7
+518290,natione,Syrus,Syria,36.995647566197476,35.2936657843166,region,natio table,12.4862,41.8917,Roma,Rome,Roma,140.0,200.0,False,2243.6
+518322,natione,Batavus,Batavians (Nijmegen),5.8698,51.84812,region,natio table,12.4862,41.8917,Roma,Rome,Roma,54.0,68.0,False,1214.8
+518565,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.4862,41.8917,Roma,Rome,Roma,201.0,300.0,False,597.9
+518823,natione,Ubius,Ubii (Cologne),6.958162,50.941335,region,natio table,12.4862,41.8917,Roma,Rome,Roma,54.0,68.0,False,1091.1
+518824,natione,Batavus,Batavians (Nijmegen),5.8698,51.84812,region,natio table,12.4862,41.8917,Roma,Rome,Roma,54.0,68.0,False,1214.8
+518825,natione,Batavus,Batavians (Nijmegen),5.8698,51.84812,region,natio table,12.4862,41.8917,Roma,Rome,Roma,54.0,68.0,False,1214.8
+518826,natione,Batavus,Batavians (Nijmegen),5.8698,51.84812,region,natio table,12.4862,41.8917,Roma,Rome,Roma,54.0,68.0,False,1214.8
+518841,tribe,Tergeste,Tergeste,13.772521,45.647165,place,DARE 10735,12.4862,41.8917,Roma,Rome,Roma,71.0,130.0,False,430.2
+518845,tribe,Pollentia,Pollentia,7.89529,44.68318,place,override DARE 17174,12.4862,41.8917,Roma,Rome,Roma,71.0,130.0,False,484.0
+518846,tribe,Bononia,Bononia,11.3418224,44.4946274,place,override DARE 1449,12.4862,41.8917,Roma,Rome,Roma,71.0,130.0,False,303.9
+518847,tribe,Mevaniola,Mevaniola,11.90444,43.98802,place,DARE 22594,12.4862,41.8917,Roma,Rome,Roma,1.0,100.0,False,237.9
+518848,tribe,Tolosa,Tolosa,1.443,43.6044,place,DARE 153,12.4862,41.8917,Roma,Rome,Roma,101.0,130.0,False,920.9
+518849,tribe,Aenona,Aenona,15.185342,44.243719,place,DARE 17965,12.4862,41.8917,Roma,Rome,Roma,71.0,130.0,False,341.2
+518850,tribe,Compluto,Complutum,-3.38761,40.47318,place,DARE 18328,12.4862,41.8917,Roma,Rome,Roma,71.0,130.0,False,1335.8
+518852,tribe,Mantua,Mantua,10.797544,45.160846,place,override DARE 1447,12.4862,41.8917,Roma,Rome,Roma,71.0,130.0,False,388.1
+518853,tribe,Brixia,Brixia,10.2229,45.5398,place,DARE 1463,12.4862,41.8917,Roma,Rome,Roma,71.0,130.0,False,444.5
+518856,tribe,Vasione,Vasio,5.074644,44.238242,place,DARE 168,12.4862,41.8917,Roma,Rome,Roma,71.0,130.0,False,655.9
+518870,tribe,Ticino,Ticinum,9.1566,45.1859,place,DARE 1437,12.4862,41.8917,Roma,Rome,Roma,101.0,200.0,False,454.0
+518918,tribe,Pisis,Pisae,10.400106,43.719417,place,DARE 10595,12.4862,41.8917,Roma,Rome,Roma,-27.0,14.0,False,265.1
+518930,tribe,Faventia,Faventia,11.88446,44.28585,place,DARE 10559,12.4862,41.8917,Roma,Rome,Roma,181.0,181.0,False,270.7
+519589,domo,Philippis,Philippi,24.28409,41.01316,place,DARE 21892,12.8612,42.4031,Samnium / Regio IV,Italy,Rieti / Reate,1.0,100.0,False,960.0
+519883,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,9.1095,39.2149,Sardinia,Islands,Casteddu / Cagliari / Carales,51.0,200.0,False,1420.1
+519890,tribe,Italicae,Italica,-6.04344,37.441411,place,DARE 16834,9.1095,39.2149,Sardinia,Islands,Casteddu / Cagliari / Carales,97.0,138.0,False,1334.8
+519892,domo,Roma,Roma,12.4843457,41.89262,place,override DARE 1438,9.1095,39.2149,Sardinia,Islands,Casteddu / Cagliari / Carales,117.0,175.0,False,412.2
+520466,domo,Epidauro,Epidaurum,18.21727,42.58142,place,DARE 13933,36.95887,36.74494,Syria,East,Nebi Huri / Hagioupolis / Kyrrhos / Cyrrhus,114.0,116.0,False,1725.9
+520468,tribe,Capua,Capua,14.250057,41.085943,place,DARE 21762,35.70152,32.77983,Syria,East,Phik / Apheca,139.0,139.0,True,2110.9
+520503,domo,Thracia,Thracia,25.55067590636753,42.03336915237253,region,override,40.564,35.3794,Syria,East,Qalaat al-Mudiq / Qala'at el-Medik / Qalaat al-Madiq / Qalaat al-Mudik / Qalaat el-Moudiq / Kal'at el-Mudik / Asarne / Afamiyah / Apamea / Apamea ad Orontem / Pella,252.0,252.0,False,1495.0
+520565,natione,Sardus,Sardinia,9.037586855195457,40.0837418398213,region,natio table,35.98023,36.08529,Syria,East,Samandag / Seleucia Pieriae,71.0,150.0,False,2390.0
+520616,domo,Hemesa,Hemesa,36.714401,34.723414,place,DARE 21719,38.11931,36.67458,Syria,East,Tell Ahmar / Bersiba,71.0,130.0,False,251.3
+520643,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,22.91035,42.73977,Thracia,Danube and Balkans,Breznik,70.0,70.0,True,230.6
+520768,domo,Beryto,Berytus,35.501176,33.897902,place,DARE 21113,24.751,42.1468,Thracia,Danube and Balkans,Plowdiw / Plovdiv / Filibe / Philippopolis,1.0,50.0,False,1312.5
+521221,civis,Raetus,Raetia,10.935485583770856,48.16799813760815,region,natio table,12.4654,42.4151,Umbria / Regio VI,Italy,Otricoli / Ocriculum,312.0,312.0,False,650.8
+521765,tribe,Vienna,Vienna,4.873247,45.524204,place,DARE 106,10.1535,48.6795,Venetia et Histria / Regio X,Italy,Aquileia,70.0,80.0,False,531.6
+521767,domo,Mutina,Mutina,10.9252,44.6471,place,DARE 2720,10.1535,48.6795,Venetia et Histria / Regio X,Italy,Aquileia,31.0,70.0,False,452.2
+521769,tribe,Vienna,Vienna,4.873247,45.524204,place,DARE 106,10.1535,48.6795,Venetia et Histria / Regio X,Italy,Aquileia,31.0,70.0,False,531.6
+522400,tribe,Bononia,Bononia,11.3418224,44.4946274,place,override DARE 1449,13.7688,45.6478,Venetia et Histria / Regio X,Italy,Trieste / Tergeste,1.0,25.0,False,229.7
+740,tribe,Ancyra,Ancyra,32.858128,39.944387,place,override DARE 21220,29.89438,31.199,Aegyptus,East,Al Iskandariyah / Alexandria,61.0,70.0,False,1008.5
+807,natione,Afer,Africa (Carthage),10.323056,36.853056,region,natio table,29.89438,31.199,Aegyptus,East,Al Iskandariyah / Alexandria,211.0,222.0,False,1905.8
+1345,tribe,Viennae,Vienna,4.873247,45.524204,place,DARE 106,32.65937,25.71952,Aegyptus,East,Luxor / Al Uqsur / Karnak / Al Karnak / Theben / Thebai / Thebae / Iounou-Shema / Diospolis Magna,80.0,81.0,False,3309.7
+1378,domo,Hemesa,Hemesa,36.714401,34.723414,place,DARE 21719,32.65937,25.71952,Aegyptus,East,Luxor / Al Uqsur / Karnak / Al Karnak / Theben / Thebai / Thebae / Iounou-Shema / Diospolis Magna,168.0,168.0,False,1074.0
+2236,domo,Bononia,Bononia,11.3418224,44.4946274,place,override DARE 1449,11.41081,44.88618,Aemilia / Regio VIII,Italy,Bondeno / Ferrara,71.0,100.0,False,43.9
+2391,natione,Syrus,Syria,36.995647566197476,35.2936657843166,region,natio table,12.24224,44.13635,Aemilia / Regio VIII,Italy,Cesena / Caesena,151.0,200.0,False,2322.4
+2644,tribe,Faventia,Faventia,11.88446,44.28585,place,DARE 10559,11.88321,44.28556,Aemilia / Regio VIII,Italy,Faenza / Faventia,216.0,216.0,True,0.1
+2658,natione,Syro,Syria,36.995647566197476,35.2936657843166,region,natio table,11.61865,44.83727,Aemilia / Regio VIII,Italy,Ferrara,231.0,270.0,False,2392.5
+2661,natione,Pannonio,Pannonia,16.859063686612558,46.257601431825606,region,natio table,11.61865,44.83727,Aemilia / Regio VIII,Italy,Ferrara,101.0,200.0,False,437.5
+3128,tribe,Mutina,Mutina,10.9252,44.6471,place,DARE 2720,10.92557,44.64589,Aemilia / Regio VIII,Italy,Modena / Mutina,1.0,100.0,False,0.1
+4085,natione,Syrus,Syria,36.995647566197476,35.2936657843166,region,natio table,12.20176,44.41614,Aemilia / Regio VIII,Italy,Ravenna,211.0,222.0,False,2334.5
+4088,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.20176,44.41614,Aemilia / Regio VIII,Italy,Ravenna,211.0,222.0,False,417.6
+4116,natione,Dalmata,Dalmatia,18.005702968934713,43.737165067127705,region,natio table,12.20176,44.41614,Aemilia / Regio VIII,Italy,Ravenna,101.0,200.0,False,469.6
+4117,natione,Bithynus,Bithynia,32.32264908129804,41.02492406613152,region,natio table,12.20176,44.41614,Aemilia / Regio VIII,Italy,Ravenna,101.0,200.0,False,1681.8
+4118,natione,Dalmata,Dalmatia,18.005702968934713,43.737165067127705,region,natio table,12.20176,44.41614,Aemilia / Regio VIII,Italy,Ravenna,151.0,200.0,False,469.6
+4119,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.20176,44.41614,Aemilia / Regio VIII,Italy,Ravenna,151.0,250.0,False,417.6
+4142,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.20176,44.41614,Aemilia / Regio VIII,Italy,Ravenna,101.0,250.0,False,417.6
+4158,natione,Sardus,Sardinia,9.037586855195457,40.0837418398213,region,natio table,12.20176,44.41614,Aemilia / Regio VIII,Italy,Ravenna,101.0,200.0,False,547.5
+4159,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.20176,44.41614,Aemilia / Regio VIII,Italy,Ravenna,1.0,100.0,False,417.6
+5518,domo,Ateste,Ateste,11.656616,45.227738,place,DARE 17828,12.56844,44.05939,Aemilia / Regio VIII,Italy,Rimini / Ariminum,249.0,249.0,True,148.6
+10168,tribe,Mediolani,Mediolanium,9.1881,45.4637,place,override DARE 1445,10.32333,36.85278,Africa proconsularis,Africa,Carthago,101.0,300.0,False,962.2
+22620,tribe,Burdigala,Burdigala,-0.57918,44.837789,place,DARE 147,9.88333,33.76667,Africa proconsularis,Africa,"Gourai, Hr.",1.0,100.0,False,1522.3
+32480,tribe,Autrico,Autricum,1.487848,48.447852,place,DARE 138,8.12123,35.4036,Africa proconsularis,Africa,Tebessa / Theveste,1.0,100.0,False,1549.3
+32643,tribe,Augustonemeto,Augustonemetum,3.08577,45.77873,place,DARE 142,8.12123,35.4036,Africa proconsularis,Africa,Tebessa / Theveste,1.0,100.0,False,1228.9
+32688,tribe,Augustoduno,Augustodunum,4.299041,46.945032,place,DARE 117,8.12123,35.4036,Africa proconsularis,Africa,Tebessa / Theveste,1.0,100.0,False,1322.2
+35419,tribe,Helviae,Helvia Ricina,13.424024,43.327936,place,DARE 22588,14.78246,41.12956,Apulia et Calabria / Regio II,Italy,Benevento / Beneventum,-40.0,-21.0,False,268.8
+35420,tribe,Beneventi,Beneventum,14.77433,41.13155,place,DARE 1482,14.78246,41.12956,Apulia et Calabria / Regio II,Italy,Benevento / Beneventum,146.0,146.0,False,0.7
+38022,domo,Baeterris,Baeterrae,3.2178,43.3416,place,DARE 159,15.33765,41.50827,Apulia et Calabria / Regio II,Italy,Lucera / Luceria,1.0,50.0,False,1014.5
+39110,domo,Thraciae,Thrakia Kome,27.927064,40.361304,place,DARE 31444,16.4864,41.11409,Apulia et Calabria / Regio II,Italy,Ruvo di Puglia / Rubi,151.0,193.0,False,966.8
+59131,natione,Batavus,Batavians (Nijmegen),5.8698,51.84812,region,natio table,27.37395,36.68636,Asia,East,Knidos / Cnidus,244.0,244.0,False,2385.6
+100847,tribe,Mutina,Mutina,10.9252,44.6471,place,DARE 2720,16.26551,38.23854,Bruttium et Lucania / Regio III,Italy,Locri / Locri Epizephyrii,-40.0,-21.0,False,839.8
+108883,domo,Cremona,Cremona,10.0261,45.1335,place,DARE 5543,16.29824,43.55552,Dalmatia,Danube and Balkans,Veli Bijac / Bijaci / Bijaca / Siculi,42.0,60.0,False,528.6
+112384,natione,Alexandrinus,Alexandria,29.904133,31.195371,region,natio table,12.29907,41.90269,Etruria / Regio VII,Italy,Castel di Guido / Lorium,101.0,200.0,False,1965.9
+114116,tribe,Eporedia,Eporedia,7.87527,45.4681,place,DARE 1446,12.40917,42.29523,Etruria / Regio VII,Italy,Civita Castellana / Falerii,31.0,68.0,False,506.3
+114304,natione,Dalmata,Dalmatia,18.005702968934713,43.737165067127705,region,natio table,11.79225,42.09375,Etruria / Regio VII,Italy,Civitavecchia / Centumcellae / Blera,101.0,270.0,False,537.8
+114308,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,11.79225,42.09375,Etruria / Regio VII,Italy,Civitavecchia / Centumcellae / Blera,101.0,270.0,False,1134.6
+114309,natione,Aegyptus,Egypt (Memphis),31.254278,29.849667,region,natio table,11.79225,42.09375,Etruria / Regio VII,Italy,Civitavecchia / Centumcellae / Blera,101.0,270.0,False,2209.2
+114310,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,11.79225,42.09375,Etruria / Regio VII,Italy,Civitavecchia / Centumcellae / Blera,101.0,270.0,False,1134.6
+114353,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,11.79225,42.09375,Etruria / Regio VII,Italy,Civitavecchia / Centumcellae / Blera,101.0,270.0,False,1134.6
+116093,natione,Dalmata,Dalmatia,18.005702968934713,43.737165067127705,region,natio table,10.0047,44.05954,Etruria / Regio VII,Italy,Luni Mare / Luna,151.0,230.0,False,641.8
+117953,tribe,Arretio,Arretium,11.88344,43.46707,place,DARE 5064,11.73648,43.21212,Etruria / Regio VII,Italy,Sinalunga,101.0,200.0,False,30.7
+183867,domo,Verona,Verona,10.997007,45.447243,place,DARE 1439,12.65821,41.72885,Latium et Campania / Regio I,Italy,Albano Laziale / Albanum,201.0,250.0,False,434.5
+184364,tribe,Pisis,Pisae,10.400106,43.719417,place,DARE 10595,13.15269,41.74472,Latium et Campania / Regio I,Italy,Anagni / Anagnia,1.0,50.0,False,314.2
+184456,tribe,Verona,Verona,10.997007,45.447243,place,DARE 1439,12.62856,41.4471,Latium et Campania / Regio I,Italy,Anzio / Antium,1.0,50.0,False,463.9
+184496,natione,Syrus,Syria,36.995647566197476,35.2936657843166,region,natio table,12.62856,41.4471,Latium et Campania / Regio I,Italy,Anzio / Antium,1.0,150.0,False,2223.0
+184501,tribe,Iulii,Iulium Carnicum,13.02478,46.46276,place,DARE 10651,12.62856,41.4471,Latium et Campania / Regio I,Italy,Anzio / Antium,61.0,200.0,False,558.6
+185575,natione,Aegyptius,Egypt (Memphis),31.254278,29.849667,region,natio table,14.07778,40.79661,Latium et Campania / Regio I,Italy,Bacoli / Bauli,131.0,250.0,False,1971.1
+186292,tribe,Capua,Capua,14.250057,41.085943,place,DARE 21762,14.20967,41.10802,Latium et Campania / Regio I,Italy,Capua / Casilinum,1.0,50.0,False,4.2
+188551,natione,Thrax,Thrace,25.55067590636753,42.03336915237253,region,natio table,13.3333,41.56772,Latium et Campania / Regio I,Italy,Ceccano / Fabrateria Vetus,221.0,250.0,False,1013.2
+190314,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,12.23395,41.76757,Latium et Campania / Regio I,Italy,Fiumicino / Portus,271.0,330.0,False,1101.4
+190316,natione,Sardus,Sardinia,9.037586855195457,40.0837418398213,region,natio table,12.23395,41.76757,Latium et Campania / Regio I,Italy,Fiumicino / Portus,101.0,200.0,False,327.3
+191271,tribe,Stobis,Stobi,21.974974,41.552591,place,DARE 21411,13.60802,41.25931,Latium et Campania / Regio I,Italy,Formia / Formiae,101.0,200.0,False,698.3
+191272,tribe,Faesulis,Faesulae,11.292487,43.807212,place,DARE 10609,13.60802,41.25931,Latium et Campania / Regio I,Italy,Formia / Formiae,1.0,100.0,False,340.9
+193382,natione,Afer,Africa (Carthage),10.323056,36.853056,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,200.0,False,545.3
+193383,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,201.0,300.0,False,648.1
+193503,natione,Cilix,Cilicia,34.12222940393019,36.87969187915871,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,1784.8
+193505,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,965.5
+193507,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,300.0,False,965.5
+193508,natione,Cilix,Cilicia,34.12222940393019,36.87969187915871,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,200.0,False,1784.8
+193514,natione,Aegyptus,Egypt (Memphis),31.254278,29.849667,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,230.0,False,1970.1
+193519,natione,Graecus,Greece,20.523363372937524,39.737389293973365,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,230.0,False,558.6
+193520,natione,Afer,Africa (Carthage),10.323056,36.853056,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,250.0,False,545.3
+193528,natione,Ponticus,Pontus,32.32264908129804,41.02492406613152,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,1530.2
+193532,natione,Afer,Africa (Carthage),10.323056,36.853056,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,230.0,False,545.3
+193534,natione,Cilix,Cilicia,34.12222940393019,36.87969187915871,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,200.0,False,1784.8
+193535,natione,Aegyptius,Egypt (Memphis),31.254278,29.849667,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,230.0,False,1970.1
+193539,natione,Syrus,Syria,36.995647566197476,35.2936657843166,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,200.0,False,2090.4
+193546,natione,Syri,Syria,36.995647566197476,35.2936657843166,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,230.0,False,2090.4
+193554,natione,Afer,Africa (Carthage),10.323056,36.853056,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,545.3
+193555,natione,Sardo,Sardinia,9.037586855195457,40.0837418398213,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,180.0,250.0,False,434.1
+193556,natione,Cilix,Cilicia,34.12222940393019,36.87969187915871,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,300.0,False,1784.8
+193557,natione,Ponticus,Pontus,32.32264908129804,41.02492406613152,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,250.0,False,1530.2
+193565,natione,Afer,Africa (Carthage),10.323056,36.853056,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,131.0,300.0,False,545.3
+193567,natione,Afer,Africa (Carthage),10.323056,36.853056,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,230.0,False,545.3
+193577,natione,Cilix,Cilicia,34.12222940393019,36.87969187915871,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,180.0,270.0,False,1784.8
+193582,natione,Syro,Syria,36.995647566197476,35.2936657843166,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,181.0,300.0,False,2090.4
+193584,natione,Alexandrinus,Alexandria,29.904133,31.195371,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,1773.8
+193586,natione,Cilix,Cilicia,34.12222940393019,36.87969187915871,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,1784.8
+193593,natione,Ponticus,Pontus,32.32264908129804,41.02492406613152,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,1530.2
+193598,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,131.0,200.0,False,648.1
+193599,natione,Sardus,Sardinia,9.037586855195457,40.0837418398213,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,250.0,False,434.1
+193600,natione,Syra,Syria,36.995647566197476,35.2936657843166,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,201.0,300.0,False,2090.4
+193603,natione,Aegyptius,Egypt (Memphis),31.254278,29.849667,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,131.0,230.0,False,1970.1
+193607,domo,Nola,Nola,14.520526,40.927771,place,DARE 16761,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,131.0,230.0,False,39.9
+193608,natione,Dalmata,Dalmatia,18.005702968934713,43.737165067127705,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,250.0,False,460.1
+193614,natione,Aegyptius,Egypt (Memphis),31.254278,29.849667,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,1970.1
+193615,natione,Aegyptius,Egypt (Memphis),31.254278,29.849667,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,130.0,False,1970.1
+193619,natione,Dalmata,Dalmatia,18.005702968934713,43.737165067127705,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,460.1
+193622,natione,Aegyptius,Egypt (Memphis),31.254278,29.849667,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,200.0,False,1970.1
+193623,natione,Bithynus,Bithynia,32.32264908129804,41.02492406613152,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,250.0,False,1530.2
+193627,natione,Syrus,Syria,36.995647566197476,35.2936657843166,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,250.0,False,2090.4
+193632,natione,Alexandrinus,Alexandria,29.904133,31.195371,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,200.0,False,1773.8
+193633,natione,Sardus,Sardinia,9.037586855195457,40.0837418398213,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,250.0,False,434.1
+193636,natione,Alexandrinus,Alexandria,29.904133,31.195371,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,200.0,False,1773.8
+193645,natione,Aegyptius,Egypt (Memphis),31.254278,29.849667,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,300.0,False,1970.1
+193646,natione,Aegyptio,Egypt (Memphis),31.254278,29.849667,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,1970.1
+193647,natione,Aegyptius,Egypt (Memphis),31.254278,29.849667,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,230.0,False,1970.1
+193651,natione,Aegyptius,Egypt (Memphis),31.254278,29.849667,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,230.0,False,1970.1
+193663,natione,Aegyptius,Egypt (Memphis),31.254278,29.849667,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,200.0,False,1970.1
+193665,natione,Aegyptius,Egypt (Memphis),31.254278,29.849667,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,250.0,False,1970.1
+193666,natione,Alexandrinus,Alexandria,29.904133,31.195371,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,230.0,False,1773.8
+193667,natione,Graecus,Greece,20.523363372937524,39.737389293973365,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,230.0,False,558.6
+193670,natione,Dalmata,Dalmatia,18.005702968934713,43.737165067127705,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,460.1
+193679,natione,Afer,Africa (Carthage),10.323056,36.853056,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,300.0,False,545.3
+193684,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,200.0,False,965.5
+193687,natione,Cilix,Cilicia,34.12222940393019,36.87969187915871,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,230.0,False,1784.8
+193691,natione,Corsus,Corsica (Aleria),9.509064,42.10268,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,200.0,False,408.4
+193693,natione,Alexandrinus,Alexandria,29.904133,31.195371,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,131.0,230.0,False,1773.8
+193694,natione,Phryx,Phrygia (Asia),28.775341635872564,38.857868996785214,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,200.0,False,1271.3
+193695,natione,Aegyptius,Egypt (Memphis),31.254278,29.849667,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,200.0,False,1970.1
+193697,natione,Aegyptus,Egypt (Memphis),31.254278,29.849667,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,230.0,False,1970.1
+193698,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,648.1
+193701,natione,Corsus,Corsica (Aleria),9.509064,42.10268,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,200.0,False,408.4
+193702,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,200.0,False,965.5
+193708,natione,Aegyptus,Egypt (Memphis),31.254278,29.849667,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,200.0,False,1970.1
+193717,natione,Aegyptus,Egypt (Memphis),31.254278,29.849667,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,200.0,False,1970.1
+193718,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,200.0,False,965.5
+193719,natione,Graecus,Greece,20.523363372937524,39.737389293973365,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,201.0,300.0,False,558.6
+193725,natione,Bithynus,Bithynia,32.32264908129804,41.02492406613152,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,200.0,False,1530.2
+193726,natione,Sardus,Sardinia,9.037586855195457,40.0837418398213,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,434.1
+193728,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,965.5
+193729,natione,Sardus,Sardinia,9.037586855195457,40.0837418398213,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,171.0,250.0,False,434.1
+193730,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,250.0,False,965.5
+193731,natione,Graecus,Greece,20.523363372937524,39.737389293973365,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,558.6
+193733,natione,Cilix,Cilicia,34.12222940393019,36.87969187915871,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,1784.8
+193735,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,648.1
+193740,natione,Sardus,Sardinia,9.037586855195457,40.0837418398213,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,434.1
+193741,natione,Aegyptus,Egypt (Memphis),31.254278,29.849667,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,200.0,False,1970.1
+193742,natione,Alexandrinus,Alexandria,29.904133,31.195371,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,131.0,250.0,False,1773.8
+193744,natione,Alexandrinus,Alexandria,29.904133,31.195371,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,230.0,False,1773.8
+193746,natione,Cilix,Cilicia,34.12222940393019,36.87969187915871,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,1784.8
+193748,natione,Sardi,Sardis,28.040278,38.488333,place,DARE 21160,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,230.0,False,1220.7
+193750,natione,Cilix,Cilicia,34.12222940393019,36.87969187915871,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,230.0,False,1784.8
+193752,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,230.0,False,965.5
+193753,natione,Syrus,Syria,36.995647566197476,35.2936657843166,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,280.0,False,2090.4
+193755,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,171.0,300.0,False,648.1
+193757,natione,Afer,Africa (Carthage),10.323056,36.853056,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,171.0,250.0,False,545.3
+193761,natione,Afer,Africa (Carthage),10.323056,36.853056,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,200.0,False,545.3
+193763,natione,Sardus,Sardinia,9.037586855195457,40.0837418398213,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,230.0,False,434.1
+193766,natione,Pannonio,Pannonia,16.859063686612558,46.257601431825606,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,648.1
+193772,natione,Sardus,Sardinia,9.037586855195457,40.0837418398213,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,171.0,250.0,False,434.1
+193775,natione,Sardus,Sardinia,9.037586855195457,40.0837418398213,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,230.0,False,434.1
+193777,natione,Sardus,Sardinia,9.037586855195457,40.0837418398213,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,434.1
+193778,natione,Cilix,Cilicia,34.12222940393019,36.87969187915871,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,1784.8
+193779,natione,Syrus,Syria,36.995647566197476,35.2936657843166,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,2090.4
+193780,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,150.0,False,965.5
+193783,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,200.0,False,965.5
+193784,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,965.5
+193787,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,965.5
+193789,natione,Cilix,Cilicia,34.12222940393019,36.87969187915871,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,201.0,300.0,False,1784.8
+193806,natione,Alexandrinus,Alexandria,29.904133,31.195371,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,151.0,250.0,False,1773.8
+193833,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,14.08409,40.78669,Latium et Campania / Regio I,Italy,Miseno / Misenon / Misenoi / Misenum,101.0,200.0,False,965.5
+195018,domo,Miseno,Misenum,14.084886,40.786274,place,DARE 16720,14.24878,40.83593,Latium et Campania / Regio I,Italy,Napoli / Neapolis,247.0,247.0,True,14.9
+195023,natione,Dalmata,Dalmatia,18.005702968934713,43.737165067127705,region,natio table,14.24878,40.83593,Latium et Campania / Regio I,Italy,Napoli / Neapolis,201.0,300.0,False,446.7
+195668,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,14.64332,40.74721,Latium et Campania / Regio I,Italy,Nocera Inferiore / Nuceria,171.0,230.0,False,920.4
+203750,tribe,Florentia,Florentia,11.2569,43.7687,place,DARE 1453,12.89125,41.83897,Latium et Campania / Regio I,Italy,Palestrina / Praeneste,71.0,130.0,False,252.6
+204893,tribe,Carreo,Carreum Potentia,7.82293,45.01166,place,DARE 16925,14.49056,40.75174,Latium et Campania / Regio I,Italy,Pompei,1.0,79.0,False,720.3
+218380,tribe,Ateste,Ateste,11.656616,45.227738,place,DARE 17828,14.49056,40.75174,Latium et Campania / Regio I,Italy,Pompei,61.0,80.0,False,548.4
+218381,tribe,Aquileia,Aquileia,13.370946,45.769631,place,override DARE 1468,14.49056,40.75174,Latium et Campania / Regio I,Italy,Pompei,61.0,80.0,False,565.3
+218596,natione,Dalmata,Dalmatia,18.005702968934713,43.737165067127705,region,natio table,14.12191,40.82264,Latium et Campania / Regio I,Italy,Pozzuoli / Puteoli,151.0,250.0,False,455.0
+220948,tribe,Luca,Luca,10.50602,43.840677,place,DARE 1519,13.17984,41.47262,Latium et Campania / Regio I,Italy,Priverno / Piperno / Privernum,1.0,100.0,False,342.2
+221013,tribe,Puteolis,Puteoli,14.121869,40.827957,place,DARE 16721,14.14016,40.87719,Latium et Campania / Regio I,Italy,Quarto / Quarto Flegreo / Puteoli,151.0,224.0,True,5.7
+222216,natione,Sardo,Sardinia,9.037586855195457,40.0837418398213,region,natio table,14.37484,40.62491,Latium et Campania / Regio I,Italy,Sorrento / Surrentum,151.0,250.0,False,456.2
+222966,domo,Mantua,Mantua,10.797544,45.160846,place,override DARE 1447,12.79888,41.96092,Latium et Campania / Regio I,Italy,Tivoli / Tibur,171.0,220.0,False,390.6
+222967,natione,Cilix,Cilicia,34.12222940393019,36.87969187915871,region,natio table,12.79888,41.96092,Latium et Campania / Regio I,Italy,Tivoli / Tibur,101.0,200.0,False,1911.0
+225141,tribe,Hasta,Hasta,8.2068,44.9009,place,override DARE 5770,8.20689,44.90054,Liguria / Regio IX,Italy,Asti / Hasta,31.0,70.0,False,0.0
+225710,tribe,Poetovione,Poetovio,15.8699813,46.4199885,place,DARE 10719,8.01685,45.1509,Liguria / Regio IX,Italy,Monteu da Po / Industria,254.0,254.0,True,624.8
+229820,natione,Ubius,Ubii (Cologne),6.958162,50.941335,region,natio table,4.85296,46.7889,Lugudunensis,Gaul and Germany,Chalon-sur-Saone / Cabillonum / Haedui,21.0,21.0,False,486.7
+229821,civis,Treveri,Treveri (Trier),6.64376,49.756227,region,natio table,4.85296,46.7889,Lugudunensis,Gaul and Germany,Chalon-sur-Saone / Cabillonum / Haedui,171.0,230.0,False,355.5
+233958,domo,Philippopoli,Philippopolis,24.749106,42.147439,place,override DARE 21408,4.83201,45.75781,Lugudunensis,Gaul and Germany,Lyon / Lugudunum,231.0,270.0,False,1639.4
+233985,civis,Treveri,Treveri (Trier),6.64376,49.756227,region,natio table,4.83201,45.75781,Lugudunensis,Gaul and Germany,Lyon / Lugudunum,222.0,235.0,False,464.7
+233991,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,4.83201,45.75781,Lugudunensis,Gaul and Germany,Lyon / Lugudunum,222.0,235.0,False,929.6
+233992,domo,Philippopoli,Philippopolis,24.749106,42.147439,place,override DARE 21408,4.83201,45.75781,Lugudunensis,Gaul and Germany,Lyon / Lugudunum,201.0,250.0,False,1639.4
+264543,domo,Clunia,Clunia Sulpicia,-3.370951,41.780615,place,DARE 22471,6.25475,35.48911,Numidia,Africa,Lambaesis,101.0,200.0,False,1088.9
+264615,tribe,Theveste,Theveste,8.10014,35.38254,place,DARE 21643,6.25475,35.48911,Numidia,Africa,Lambaesis,193.0,235.0,False,167.6
+264712,tribe,Ammaedara,Ammaedara,8.455266,35.565382,place,DARE 21647,6.25475,35.48911,Numidia,Africa,Lambaesis,201.0,300.0,False,199.3
+266129,tribe,Theveste,Theveste,8.10014,35.38254,place,DARE 21643,6.25475,35.48911,Numidia,Africa,Lambaesis,101.0,200.0,False,167.6
+273095,tribe,Poetovione,Poetovio,15.8699813,46.4199885,place,DARE 10719,19.04051,47.49842,Pannonia inferior,Danube and Balkans,Budapest / Aquincum,225.0,225.0,True,268.8
+275047,tribe,Narbone,Narbo Martius,3.003611,43.184722,place,DARE 156,14.50686,46.04998,Pannonia superior,Danube and Balkans,Ljubljana / Labacum / Laibach / Emona,1.0,50.0,False,963.6
+275356,tribe,Ticino,Ticinum,9.1566,45.1859,place,DARE 1437,16.86137,48.11345,Pannonia superior,Danube and Balkans,Petronell-Carnuntum / Carnuntum,171.0,171.0,False,671.7
+289117,tribe,Vicetia,Vicetia,11.5403,45.5459,place,DARE 1461,12.48293,41.89332,Roma,Rome,Roma,71.0,150.0,False,413.1
+289264,tribe,Florentia,Florentia,11.2569,43.7687,place,DARE 1453,12.48293,41.89332,Roma,Rome,Roma,131.0,170.0,False,231.3
+289403,tribe,Placentiae,Placentia,9.696586,45.052752,place,DARE 1466,12.48293,41.89332,Roma,Rome,Roma,1.0,70.0,False,417.0
+290314,tribe,Viennae,Vienna,4.873247,45.524204,place,DARE 106,12.48293,41.89332,Roma,Rome,Roma,71.0,130.0,False,732.4
+290316,tribe,Verona,Verona,10.997007,45.447243,place,DARE 1439,12.48293,41.89332,Roma,Rome,Roma,71.0,130.0,False,412.8
+290317,tribe,Mantua,Mantua,10.797544,45.160846,place,override DARE 1447,12.48293,41.89332,Roma,Rome,Roma,71.0,130.0,False,387.9
+290319,tribe,Asturica,Asturica Augusta,-6.0635263,42.4589013,place,DARE 13698,12.48293,41.89332,Roma,Rome,Roma,71.0,130.0,False,1526.6
+290423,natione,Aegyptus,Egypt (Memphis),31.254278,29.849667,region,natio table,12.48293,41.89332,Roma,Rome,Roma,51.0,200.0,False,2149.0
+292015,tribe,Bononia,Bononia,11.3418224,44.4946274,place,override DARE 1449,12.48293,41.89332,Roma,Rome,Roma,71.0,130.0,False,303.7
+294013,tribe,Florentia,Florentia,11.2569,43.7687,place,DARE 1453,12.48293,41.89332,Roma,Rome,Roma,69.0,100.0,False,231.3
+294120,tribe,Mutina,Mutina,10.9252,44.6471,place,DARE 2720,12.48293,41.89332,Roma,Rome,Roma,101.0,150.0,False,331.1
+294125,tribe,Roma,Roma,12.4843457,41.89262,place,override DARE 1438,12.48293,41.89332,Roma,Rome,Roma,171.0,230.0,False,0.1
+294316,tribe,Ravenna,Ravenna,12.19702,44.41536,place,DARE 1452,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,281.4
+294318,tribe,Florentia,Florentia,11.2569,43.7687,place,DARE 1453,12.48293,41.89332,Roma,Rome,Roma,182.0,182.0,False,231.3
+294320,tribe,Tusculo,Tusculum,12.709916,41.798322,place,DARE 21332,12.48293,41.89332,Roma,Rome,Roma,130.0,130.0,False,21.6
+294321,tribe,Roma,Roma,12.4843457,41.89262,place,override DARE 1438,12.48293,41.89332,Roma,Rome,Roma,203.0,203.0,False,0.1
+294322,tribe,Iader,Iader,15.224531,44.115541,place,DARE 13857,12.48293,41.89332,Roma,Rome,Roma,113.0,113.0,False,332.8
+294561,tribe,Caudio,Caudium,14.64167,41.0673,place,DARE 22188,12.48293,41.89332,Roma,Rome,Roma,1.0,200.0,False,201.9
+295079,tribe,Ratiaria,Ratiaria,22.904856,43.817397,place,DARE 10897,12.48293,41.89332,Roma,Rome,Roma,205.0,210.0,False,875.4
+296487,tribe,Aesernia,Aesernia,14.2267,41.58991,place,DARE 1517,12.48293,41.89332,Roma,Rome,Roma,154.0,154.0,False,148.6
+296488,tribe,Asculo,Asculum,13.57495,42.8554,place,DARE 16800,12.48293,41.89332,Roma,Rome,Roma,158.0,158.0,False,139.6
+296489,civis,Parma,Parma,10.327967,44.801507,place,DARE 1448,12.48293,41.89332,Roma,Rome,Roma,159.0,161.0,False,367.3
+296490,tribe,Brixia,Brixia,10.2229,45.5398,place,DARE 1463,12.48293,41.89332,Roma,Rome,Roma,149.0,149.0,False,444.2
+296492,tribe,Mutina,Mutina,10.9252,44.6471,place,DARE 2720,12.48293,41.89332,Roma,Rome,Roma,218.0,218.0,False,331.1
+296498,domo,Mursa,Mursa,18.6758848,45.5600028,place,DARE 10770,12.48293,41.89332,Roma,Rome,Roma,201.0,225.0,False,643.0
+296500,domo,Philippopoli,Philippopolis,24.749106,42.147439,place,override DARE 21408,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,1012.8
+296510,tribe,Aquileia,Aquileia,13.370946,45.769631,place,override DARE 1468,12.48293,41.89332,Roma,Rome,Roma,193.0,230.0,False,436.9
+296513,domo,Benevento,Beneventum,14.77433,41.13155,place,override DARE 1482,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,208.7
+296519,natione,Noricus,Noricum,13.985070695778745,47.35144794545573,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,618.4
+296536,tribe,Aquileia,Aquileia,13.370946,45.769631,place,override DARE 1468,12.48293,41.89332,Roma,Rome,Roma,101.0,150.0,False,436.9
+296537,tribe,Tibur,Tibur,12.7971,41.96566,place,DARE 16777,12.48293,41.89332,Roma,Rome,Roma,51.0,120.0,False,27.2
+296540,tribe,Brixia,Brixia,10.2229,45.5398,place,DARE 1463,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,444.2
+296541,natione,Afer,Africa (Carthage),10.323056,36.853056,region,natio table,12.48293,41.89332,Roma,Rome,Roma,231.0,270.0,False,590.3
+296549,tribe,Pollentia,Pollentia,7.89529,44.68318,place,override DARE 17174,12.48293,41.89332,Roma,Rome,Roma,1.0,70.0,False,483.7
+296551,tribe,Brixia,Brixia,10.2229,45.5398,place,DARE 1463,12.48293,41.89332,Roma,Rome,Roma,101.0,180.0,False,444.2
+296562,tribe,Verona,Verona,10.997007,45.447243,place,DARE 1439,12.48293,41.89332,Roma,Rome,Roma,101.0,180.0,False,412.8
+296570,natione,Thrax,Thrace,25.55067590636753,42.03336915237253,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,250.0,False,1079.5
+296574,tribe,Bononia,Bononia,11.3418224,44.4946274,place,override DARE 1449,12.48293,41.89332,Roma,Rome,Roma,51.0,120.0,False,303.7
+296575,tribe,Dertona,Dertona,8.8655,44.8972,place,DARE 1520,12.48293,41.89332,Roma,Rome,Roma,101.0,150.0,False,443.7
+296580,tribe,Placentia,Placentia,9.696586,45.052752,place,DARE 1466,12.48293,41.89332,Roma,Rome,Roma,1.0,100.0,False,417.0
+296583,tribe,Verona,Verona,10.997007,45.447243,place,DARE 1439,12.48293,41.89332,Roma,Rome,Roma,1.0,100.0,False,412.8
+296584,tribe,Arretio,Arretium,11.88344,43.46707,place,DARE 5064,12.48293,41.89332,Roma,Rome,Roma,51.0,130.0,False,181.7
+296585,domo,Florentia,Florentia,11.2569,43.7687,place,DARE 1453,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,231.3
+296586,tribe,Parentio,Parentium,13.59354,45.22855,place,DARE 13788,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,381.5
+296587,tribe,Arretio,Arretium,11.88344,43.46707,place,DARE 5064,12.48293,41.89332,Roma,Rome,Roma,51.0,120.0,False,181.7
+296595,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,1079.5
+296597,natione,Pannonio,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,250.0,False,597.9
+296604,natione,Dacus,Dacia,23.85055989643945,45.82351771704003,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,1009.5
+296615,tribe,Hasta,Hasta,8.2068,44.9009,place,override DARE 5770,12.48293,41.89332,Roma,Rome,Roma,101.0,180.0,False,480.7
+296628,tribe,Firmo,Firmum Picenum,13.71682,43.1611,place,DARE 15297,12.48293,41.89332,Roma,Rome,Roma,1.0,200.0,False,173.5
+296639,tribe,Pisis,Pisae,10.400106,43.719417,place,DARE 10595,12.48293,41.89332,Roma,Rome,Roma,1.0,70.0,False,264.7
+296640,domo,Florentia,Florentia,11.2569,43.7687,place,DARE 1453,12.48293,41.89332,Roma,Rome,Roma,1.0,100.0,False,231.3
+296643,domo,Celeia,Celeia,15.2602936,46.231018,place,DARE 10718,12.48293,41.89332,Roma,Rome,Roma,101.0,250.0,False,530.8
+296645,tribe,Asturica,Asturica Augusta,-6.0635263,42.4589013,place,DARE 13698,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,1526.6
+296647,tribe,Florentia,Florentia,11.2569,43.7687,place,DARE 1453,12.48293,41.89332,Roma,Rome,Roma,101.0,150.0,False,231.3
+296648,tribe,Ravenna,Ravenna,12.19702,44.41536,place,DARE 1452,12.48293,41.89332,Roma,Rome,Roma,101.0,180.0,False,281.4
+296650,tribe,Tergeste,Tergeste,13.772521,45.647165,place,DARE 10735,12.48293,41.89332,Roma,Rome,Roma,101.0,150.0,False,430.0
+296658,natione,Batavus,Batavians (Nijmegen),5.8698,51.84812,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,1214.5
+296659,tribe,Viennae,Vienna,4.873247,45.524204,place,DARE 106,12.48293,41.89332,Roma,Rome,Roma,51.0,120.0,False,732.4
+296669,tribe,Tuder,Tuder,12.40849,42.78025,place,DARE 16578,12.48293,41.89332,Roma,Rome,Roma,101.0,180.0,False,98.8
+296680,natione,Thrax,Thrace,25.55067590636753,42.03336915237253,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,270.0,False,1079.5
+296687,tribe,Arretio,Arretium,11.88344,43.46707,place,DARE 5064,12.48293,41.89332,Roma,Rome,Roma,1.0,50.0,False,181.7
+296690,tribe,Verona,Verona,10.997007,45.447243,place,DARE 1439,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,412.8
+296694,tribe,Feroniae,Pheronia,9.74731,40.62214,place,DARE 32836,12.48293,41.89332,Roma,Rome,Roma,101.0,180.0,False,268.8
+296695,tribe,Ateste,Ateste,11.656616,45.227738,place,DARE 17828,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,376.7
+296697,tribe,Volaterris,Volaterrae,10.859019,43.401777,place,DARE 5544,12.48293,41.89332,Roma,Rome,Roma,1.0,50.0,False,213.9
+296706,tribe,Perusia,Perusia,12.390594,43.111692,place,DARE 16580,12.48293,41.89332,Roma,Rome,Roma,1.0,70.0,False,135.7
+296711,natione,Thrax,Thrace,25.55067590636753,42.03336915237253,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,250.0,False,1079.5
+296732,tribe,Vasione,Vasio,5.074644,44.238242,place,DARE 168,12.48293,41.89332,Roma,Rome,Roma,101.0,180.0,False,655.6
+296738,tribe,Osca,Osca,-0.40816,42.14045,place,DARE 6537,12.48293,41.89332,Roma,Rome,Roma,101.0,180.0,False,1064.3
+296763,tribe,Venusiae,Venusia,15.827406,40.969056,place,DARE 1525,12.48293,41.89332,Roma,Rome,Roma,101.0,150.0,False,297.1
+296764,tribe,Mantua,Mantua,10.797544,45.160846,place,override DARE 1447,12.48293,41.89332,Roma,Rome,Roma,101.0,180.0,False,387.9
+296769,tribe,Firmo,Firmum Picenum,13.71682,43.1611,place,DARE 15297,12.48293,41.89332,Roma,Rome,Roma,31.0,70.0,False,173.5
+296770,tribe,Arretio,Arretium,11.88344,43.46707,place,DARE 5064,12.48293,41.89332,Roma,Rome,Roma,1.0,100.0,False,181.7
+296782,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,597.9
+296793,tribe,Florentia,Florentia,11.2569,43.7687,place,DARE 1453,12.48293,41.89332,Roma,Rome,Roma,1.0,100.0,False,231.3
+296794,tribe,Salacia,Salacia Imperatoria,-8.51171,38.37273,place,DARE 18348,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,1822.3
+296795,tribe,Parma,Parma,10.327967,44.801507,place,DARE 1448,12.48293,41.89332,Roma,Rome,Roma,101.0,180.0,False,367.3
+296796,tribe,Bononia,Bononia,11.3418224,44.4946274,place,override DARE 1449,12.48293,41.89332,Roma,Rome,Roma,71.0,120.0,False,303.7
+296801,tribe,Bononia,Bononia,11.3418224,44.4946274,place,override DARE 1449,12.48293,41.89332,Roma,Rome,Roma,101.0,180.0,False,303.7
+296804,natione,Dacus,Dacia,23.85055989643945,45.82351771704003,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,1009.5
+296805,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,597.9
+296820,natione,Noricus,Noricum,13.985070695778745,47.35144794545573,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,618.4
+296825,tribe,Como,Comum,9.0855,45.812,place,DARE 2718,12.48293,41.89332,Roma,Rome,Roma,101.0,150.0,False,513.8
+296833,tribe,Antio,Antium,12.628595,41.455191,place,DARE 16711,12.48293,41.89332,Roma,Rome,Roma,96.0,105.0,False,50.2
+296834,tribe,Altino,Altinum,12.3994439,45.5462452,place,override DARE 17839,12.48293,41.89332,Roma,Rome,Roma,101.0,180.0,False,406.2
+296836,tribe,Bilbili,Bilbilis Augusta,-1.603219,41.38201,place,DARE 22230,12.48293,41.89332,Roma,Rome,Roma,71.0,200.0,False,1170.7
+296840,tribe,Altini,Altinum,12.3994439,45.5462452,place,DARE 17839,12.48293,41.89332,Roma,Rome,Roma,1.0,70.0,False,406.2
+296846,tribe,Mutina,Mutina,10.9252,44.6471,place,DARE 2720,12.48293,41.89332,Roma,Rome,Roma,101.0,150.0,False,331.1
+296849,natione,Thrax,Thrace,25.55067590636753,42.03336915237253,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,270.0,False,1079.5
+296853,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,250.0,False,597.9
+296860,tribe,Pedonae,Pedona,7.48964,44.3299,place,DARE 14385,12.48293,41.89332,Roma,Rome,Roma,101.0,180.0,False,487.4
+296862,tribe,Tergeste,Tergeste,13.772521,45.647165,place,DARE 10735,12.48293,41.89332,Roma,Rome,Roma,81.0,100.0,False,430.0
+296865,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,597.9
+296870,tribe,Vienna,Vienna,4.873247,45.524204,place,DARE 106,12.48293,41.89332,Roma,Rome,Roma,51.0,150.0,False,732.4
+296871,tribe,Florentia,Florentia,11.2569,43.7687,place,DARE 1453,12.48293,41.89332,Roma,Rome,Roma,31.0,70.0,False,231.3
+296872,tribe,Verona,Verona,10.997007,45.447243,place,DARE 1439,12.48293,41.89332,Roma,Rome,Roma,31.0,70.0,False,412.8
+296873,tribe,Verona,Verona,10.997007,45.447243,place,DARE 1439,12.48293,41.89332,Roma,Rome,Roma,37.0,70.0,False,412.8
+296887,tribe,Nicomedia,Nicomedia,29.923486,40.76445,place,DARE 21204,12.48293,41.89332,Roma,Rome,Roma,1.0,200.0,False,1459.1
+296888,tribe,Firmo,Firmum Picenum,13.71682,43.1611,place,DARE 15297,12.48293,41.89332,Roma,Rome,Roma,1.0,50.0,False,173.5
+296961,tribe,Genua,Genua,8.93151,44.40766,place,DARE 10569,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,401.4
+296967,domo,Nola,Nola,14.520526,40.927771,place,DARE 16761,12.48293,41.89332,Roma,Rome,Roma,1.0,100.0,False,201.0
+296988,tribe,Roma,Roma,12.4843457,41.89262,place,override DARE 1438,12.48293,41.89332,Roma,Rome,Roma,160.0,160.0,False,0.1
+296993,tribe,Roma,Roma,12.4843457,41.89262,place,override DARE 1438,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,0.1
+296996,tribe,Hasta,Hasta,8.2068,44.9009,place,override DARE 5770,12.48293,41.89332,Roma,Rome,Roma,71.0,100.0,False,480.7
+297001,tribe,Beryto,Berytus,35.501176,33.897902,place,DARE 21113,12.48293,41.89332,Roma,Rome,Roma,51.0,100.0,False,2197.8
+297010,domo,Amiterno,Amiternum,13.30884,42.402,place,DARE 16028,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,88.5
+297012,tribe,Florentia,Florentia,11.2569,43.7687,place,DARE 1453,12.48293,41.89332,Roma,Rome,Roma,1.0,100.0,False,231.3
+297013,tribe,Florentia,Florentia,11.2569,43.7687,place,DARE 1453,12.48293,41.89332,Roma,Rome,Roma,51.0,150.0,False,231.3
+297015,tribe,Ticino,Ticinum,9.1566,45.1859,place,DARE 1437,12.48293,41.89332,Roma,Rome,Roma,51.0,150.0,False,453.7
+297019,tribe,Graviscis,Graviscae,11.710278,42.212778,place,DARE 21336,12.48293,41.89332,Roma,Rome,Roma,1.0,100.0,False,73.0
+297031,tribe,Firmo,Firmum Picenum,13.71682,43.1611,place,DARE 15297,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,173.5
+297061,tribe,Dertona,Dertona,8.8655,44.8972,place,DARE 1520,12.48293,41.89332,Roma,Rome,Roma,51.0,200.0,False,443.7
+297167,natione,Syrus,Syria,36.995647566197476,35.2936657843166,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,230.0,False,2243.9
+297182,natione,Cappadox,Cappadocia,35.2828794078311,39.27359519650656,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,1941.4
+297183,natione,Alexandrinus,Alexandria,29.904133,31.195371,region,natio table,12.48293,41.89332,Roma,Rome,Roma,171.0,230.0,False,1952.4
+297184,natione,Ponticus,Pontus,32.32264908129804,41.02492406613152,region,natio table,12.48293,41.89332,Roma,Rome,Roma,71.0,200.0,False,1652.4
+297186,natione,Alexandrinus,Alexandria,29.904133,31.195371,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,1952.4
+297191,natione,Sardo,Sardinia,9.037586855195457,40.0837418398213,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,352.3
+297192,natione,Graecus,Greece,20.523363372937524,39.737389293973365,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,300.0,False,717.5
+297195,natione,Sardus,Sardinia,9.037586855195457,40.0837418398213,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,250.0,False,352.3
+297197,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,12.48293,41.89332,Roma,Rome,Roma,51.0,200.0,False,1079.5
+297200,natione,Aegyptus,Egypt (Memphis),31.254278,29.849667,region,natio table,12.48293,41.89332,Roma,Rome,Roma,71.0,100.0,False,2149.0
+297203,natione,Cilix,Cilicia,34.12222940393019,36.87969187915871,region,natio table,12.48293,41.89332,Roma,Rome,Roma,71.0,150.0,False,1935.4
+297204,natione,Syrus,Syria,36.995647566197476,35.2936657843166,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,2243.9
+297207,natione,Aegyptus,Egypt (Memphis),31.254278,29.849667,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,2149.0
+297211,natione,Sardus,Sardinia,9.037586855195457,40.0837418398213,region,natio table,12.48293,41.89332,Roma,Rome,Roma,131.0,170.0,False,352.3
+297213,natione,Cilix,Cilicia,34.12222940393019,36.87969187915871,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,1935.4
+297216,natione,Dalmata,Dalmatia,18.005702968934713,43.737165067127705,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,494.8
+297217,natione,Aegyptus,Egypt (Memphis),31.254278,29.849667,region,natio table,12.48293,41.89332,Roma,Rome,Roma,69.0,96.0,False,2149.0
+297218,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,1079.5
+297219,natione,Cilix,Cilicia,34.12222940393019,36.87969187915871,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,1935.4
+297223,natione,Aegyptus,Egypt (Memphis),31.254278,29.849667,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,300.0,False,2149.0
+297226,natione,Graecus,Greece,20.523363372937524,39.737389293973365,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,300.0,False,717.5
+297228,natione,Syro,Syria,36.995647566197476,35.2936657843166,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,250.0,False,2243.9
+297229,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,12.48293,41.89332,Roma,Rome,Roma,171.0,230.0,False,1079.5
+297233,natione,Ponticus,Pontus,32.32264908129804,41.02492406613152,region,natio table,12.48293,41.89332,Roma,Rome,Roma,51.0,150.0,False,1652.4
+297239,natione,Dalmata,Dalmatia,18.005702968934713,43.737165067127705,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,494.8
+297241,natione,Syrus,Syria,36.995647566197476,35.2936657843166,region,natio table,12.48293,41.89332,Roma,Rome,Roma,151.0,250.0,False,2243.9
+297245,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.48293,41.89332,Roma,Rome,Roma,51.0,200.0,False,597.9
+297247,natione,Aegyptus,Egypt (Memphis),31.254278,29.849667,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,2149.0
+297251,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,1079.5
+297256,natione,Graecus,Greece,20.523363372937524,39.737389293973365,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,717.5
+297258,natione,Corsus,Corsica (Aleria),9.509064,42.10268,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,246.8
+297261,natione,Thrax,Thrace,25.55067590636753,42.03336915237253,region,natio table,12.48293,41.89332,Roma,Rome,Roma,117.0,200.0,False,1079.5
+297262,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,1079.5
+297269,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,597.9
+297270,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.48293,41.89332,Roma,Rome,Roma,117.0,200.0,False,597.9
+297272,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.48293,41.89332,Roma,Rome,Roma,193.0,300.0,False,597.9
+297276,natione,Raetus,Raetia,10.935485583770856,48.16799813760815,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,708.2
+297277,natione,Dacus,Dacia,23.85055989643945,45.82351771704003,region,natio table,12.48293,41.89332,Roma,Rome,Roma,193.0,300.0,False,1009.5
+297281,natione,Thrax,Thrace,25.55067590636753,42.03336915237253,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,1079.5
+297282,natione,Thrax,Thrace,25.55067590636753,42.03336915237253,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,1079.5
+297283,natione,Syrus,Syria,36.995647566197476,35.2936657843166,region,natio table,12.48293,41.89332,Roma,Rome,Roma,138.0,200.0,False,2243.9
+297286,natione,Dacus,Dacia,23.85055989643945,45.82351771704003,region,natio table,12.48293,41.89332,Roma,Rome,Roma,138.0,200.0,False,1009.5
+297291,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,1079.5
+297292,natione,Noricus,Noricum,13.985070695778745,47.35144794545573,region,natio table,12.48293,41.89332,Roma,Rome,Roma,180.0,200.0,False,618.4
+297294,natione,Raetus,Raetia,10.935485583770856,48.16799813760815,region,natio table,12.48293,41.89332,Roma,Rome,Roma,138.0,200.0,False,708.2
+297297,natione,Noricus,Noricum,13.985070695778745,47.35144794545573,region,natio table,12.48293,41.89332,Roma,Rome,Roma,138.0,200.0,False,618.4
+297298,natione,Afer,Africa (Carthage),10.323056,36.853056,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,590.3
+297299,natione,Raetus,Raetia,10.935485583770856,48.16799813760815,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,708.2
+297300,natione,Pannonio,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.48293,41.89332,Roma,Rome,Roma,138.0,200.0,False,597.9
+297302,domo,Thracia,Thracia,25.55067590636753,42.03336915237253,region,override,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,1079.5
+297303,natione,Thrax,Thrace,25.55067590636753,42.03336915237253,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,1079.5
+297304,natione,Raetus,Raetia,10.935485583770856,48.16799813760815,region,natio table,12.48293,41.89332,Roma,Rome,Roma,138.0,200.0,False,708.2
+297305,natione,Maurus,Mauretania,2.129999185743486,35.182760883970275,region,natio table,12.48293,41.89332,Roma,Rome,Roma,138.0,200.0,False,1167.9
+297306,natione,Batavus,Batavians (Nijmegen),5.8698,51.84812,region,natio table,12.48293,41.89332,Roma,Rome,Roma,138.0,200.0,False,1214.5
+297307,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.48293,41.89332,Roma,Rome,Roma,131.0,170.0,False,597.9
+297308,natione,Batavus,Batavians (Nijmegen),5.8698,51.84812,region,natio table,12.48293,41.89332,Roma,Rome,Roma,180.0,200.0,False,1214.5
+297309,natione,Raeto,Raetia,10.935485583770856,48.16799813760815,region,natio table,12.48293,41.89332,Roma,Rome,Roma,138.0,200.0,False,708.2
+297310,natione,Noricus,Noricum,13.985070695778745,47.35144794545573,region,natio table,12.48293,41.89332,Roma,Rome,Roma,138.0,200.0,False,618.4
+297312,natione,Dacus,Dacia,23.85055989643945,45.82351771704003,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,1009.5
+297317,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.48293,41.89332,Roma,Rome,Roma,138.0,200.0,False,597.9
+297319,natione,Dacus,Dacia,23.85055989643945,45.82351771704003,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,1009.5
+297322,natione,Dacus,Dacia,23.85055989643945,45.82351771704003,region,natio table,12.48293,41.89332,Roma,Rome,Roma,193.0,300.0,False,1009.5
+297324,natione,Dacus,Dacia,23.85055989643945,45.82351771704003,region,natio table,12.48293,41.89332,Roma,Rome,Roma,271.0,300.0,False,1009.5
+297325,natione,Pannonio,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.48293,41.89332,Roma,Rome,Roma,138.0,200.0,False,597.9
+297327,natione,Batdavus,Batavians (Nijmegen),5.8698,51.84812,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,1214.5
+297328,natione,Pannonio,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.48293,41.89332,Roma,Rome,Roma,231.0,300.0,False,597.9
+297334,natione,Raetus,Raetia,10.935485583770856,48.16799813760815,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,708.2
+297338,natione,Syrus,Syria,36.995647566197476,35.2936657843166,region,natio table,12.48293,41.89332,Roma,Rome,Roma,251.0,300.0,False,2243.9
+297340,natione,Noricus,Noricum,13.985070695778745,47.35144794545573,region,natio table,12.48293,41.89332,Roma,Rome,Roma,138.0,200.0,False,618.4
+297342,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.48293,41.89332,Roma,Rome,Roma,198.0,230.0,False,597.9
+297350,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,597.9
+297353,natione,Pannonio,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,597.9
+297354,natione,Dacus,Dacia,23.85055989643945,45.82351771704003,region,natio table,12.48293,41.89332,Roma,Rome,Roma,198.0,300.0,False,1009.5
+297356,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,597.9
+297358,natione,Pannonio,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,597.9
+297361,natione,Dacus,Dacia,23.85055989643945,45.82351771704003,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,1009.5
+297366,natione,Raetus,Raetia,10.935485583770856,48.16799813760815,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,708.2
+297367,natione,Noricus,Noricum,13.985070695778745,47.35144794545573,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,618.4
+297372,natione,Dacus,Dacia,23.85055989643945,45.82351771704003,region,natio table,12.48293,41.89332,Roma,Rome,Roma,193.0,300.0,False,1009.5
+297379,natione,Noricus,Noricum,13.985070695778745,47.35144794545573,region,natio table,12.48293,41.89332,Roma,Rome,Roma,151.0,300.0,False,618.4
+297386,natione,Helvetius,Helvetii (Avenches),7.040668,46.880282,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,702.8
+297387,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,1079.5
+297388,natione,Noricus,Noricum,13.985070695778745,47.35144794545573,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,618.4
+297391,natione,Pannonio,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,597.9
+297395,natione,Claudia,Claudia Ara Agrippinensium,6.958162,50.941335,place,DARE 299,12.48293,41.89332,Roma,Rome,Roma,101.0,150.0,False,1090.8
+297401,natione,Raetus,Raetia,10.935485583770856,48.16799813760815,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,708.2
+297422,domo,Savaria,Savaria,16.61674,47.23191,place,DARE 5560,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,677.7
+297464,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,300.0,False,597.9
+297483,natione,Raetus,Raetia,10.935485583770856,48.16799813760815,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,708.2
+297491,tribe,Bononia,Bononia,11.3418224,44.4946274,place,override DARE 1449,12.48293,41.89332,Roma,Rome,Roma,1.0,100.0,False,303.7
+297501,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,1079.5
+297534,tribe,Brixia,Brixia,10.2229,45.5398,place,DARE 1463,12.48293,41.89332,Roma,Rome,Roma,1.0,100.0,False,444.2
+297540,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,250.0,False,597.9
+297551,tribe,Nicomedia,Nicomedia,29.923486,40.76445,place,DARE 21204,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,1459.1
+297576,tribe,Firmo,Firmum Picenum,13.71682,43.1611,place,DARE 15297,12.48293,41.89332,Roma,Rome,Roma,51.0,150.0,False,173.5
+297587,tribe,Claudiae,Claudia Ara Agrippinensium,6.958162,50.941335,place,DARE 299,12.48293,41.89332,Roma,Rome,Roma,67.0,100.0,False,1090.8
+297590,tribe,Venafro,Venafrum,14.0461111,41.4845555,place,DARE 16767,12.48293,41.89332,Roma,Rome,Roma,1.0,50.0,False,137.5
+297652,tribe,Vienna,Vienna,4.873247,45.524204,place,DARE 106,12.48293,41.89332,Roma,Rome,Roma,101.0,150.0,False,732.4
+297674,tribe,Mediolano,Mediolanium,9.1881,45.4637,place,override DARE 1445,12.48293,41.89332,Roma,Rome,Roma,1.0,100.0,False,477.2
+297888,domo,Verona,Verona,10.997007,45.447243,place,DARE 1439,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,412.8
+297892,tribe,Mediolani,Mediolanium,9.1881,45.4637,place,override DARE 1445,12.48293,41.89332,Roma,Rome,Roma,101.0,180.0,False,477.2
+297901,tribe,Brixia,Brixia,10.2229,45.5398,place,DARE 1463,12.48293,41.89332,Roma,Rome,Roma,151.0,250.0,False,444.2
+297916,natione,Syrus,Syria,36.995647566197476,35.2936657843166,region,natio table,12.48293,41.89332,Roma,Rome,Roma,138.0,200.0,False,2243.9
+302785,natione,Batavus,Batavians (Nijmegen),5.8698,51.84812,region,natio table,12.48293,41.89332,Roma,Rome,Roma,54.0,68.0,False,1214.5
+302786,natione,Batavus,Batavians (Nijmegen),5.8698,51.84812,region,natio table,12.48293,41.89332,Roma,Rome,Roma,54.0,68.0,False,1214.5
+302787,natione,Batavus,Batavians (Nijmegen),5.8698,51.84812,region,natio table,12.48293,41.89332,Roma,Rome,Roma,41.0,54.0,False,1214.5
+302789,natione,Batavus,Batavians (Nijmegen),5.8698,51.84812,region,natio table,12.48293,41.89332,Roma,Rome,Roma,66.0,68.0,False,1214.5
+302790,natione,Batavus,Batavians (Nijmegen),5.8698,51.84812,region,natio table,12.48293,41.89332,Roma,Rome,Roma,41.0,54.0,False,1214.5
+302792,natione,Ubius,Ubii (Cologne),6.958162,50.941335,region,natio table,12.48293,41.89332,Roma,Rome,Roma,41.0,54.0,False,1090.8
+325823,tribe,Salona,Salona,16.48365,43.53814,place,DARE 10939,12.48293,41.89332,Roma,Rome,Roma,118.0,118.0,False,374.5
+326053,natione,Moesus,Moesia,26.47018122274818,43.63208316082199,region,natio table,12.48293,41.89332,Roma,Rome,Roma,151.0,300.0,False,1156.7
+326892,tribe,Oesco,Oescus,24.465476,43.710514,place,DARE 21378,12.48293,41.89332,Roma,Rome,Roma,101.0,300.0,False,997.3
+326899,tribe,Scupi,Scupi,21.391437,42.016885,place,DARE 21410,12.48293,41.89332,Roma,Rome,Roma,209.0,210.0,False,736.5
+326918,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,250.0,False,597.9
+326937,tribe,Bononia,Bononia,11.3418224,44.4946274,place,override DARE 1449,12.48293,41.89332,Roma,Rome,Roma,1.0,100.0,False,303.7
+326954,tribe,Curibus,Cures,12.680562,42.18449,place,DARE 16784,12.48293,41.89332,Roma,Rome,Roma,1.0,100.0,False,36.3
+326962,tribe,Stobis,Stobi,21.974974,41.552591,place,DARE 21411,12.48293,41.89332,Roma,Rome,Roma,51.0,150.0,False,788.3
+326986,natione,Syrus,Syria,36.995647566197476,35.2936657843166,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,2243.9
+326988,natione,Syrus,Syria,36.995647566197476,35.2936657843166,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,2243.9
+326999,natione,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,597.9
+327001,natione,Syrus,Syria,36.995647566197476,35.2936657843166,region,natio table,12.48293,41.89332,Roma,Rome,Roma,151.0,250.0,False,2243.9
+327002,natione,Raeto,Raetia,10.935485583770856,48.16799813760815,region,natio table,12.48293,41.89332,Roma,Rome,Roma,138.0,230.0,False,708.2
+327003,natione,Pannonia,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,597.9
+327006,natione,Afer,Africa (Carthage),10.323056,36.853056,region,natio table,12.48293,41.89332,Roma,Rome,Roma,131.0,200.0,False,590.3
+327008,natione,Raetus,Raetia,10.935485583770856,48.16799813760815,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,708.2
+327017,natione,Noricus,Noricum,13.985070695778745,47.35144794545573,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,618.4
+327089,natione,Ulpia,Ulpia Traiana,6.45,51.666667,place,DARE 558,12.48293,41.89332,Roma,Rome,Roma,101.0,270.0,False,1178.9
+327174,natione,Maurus,Mauretania,2.129999185743486,35.182760883970275,region,natio table,12.48293,41.89332,Roma,Rome,Roma,351.0,400.0,False,1167.9
+327201,civis,Pannonius,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.48293,41.89332,Roma,Rome,Roma,326.0,375.0,False,597.9
+327236,natione,Raetus,Raetia,10.935485583770856,48.16799813760815,region,natio table,12.48293,41.89332,Roma,Rome,Roma,151.0,300.0,False,708.2
+327246,natione,Norico,Noricum,13.985070695778745,47.35144794545573,region,natio table,12.48293,41.89332,Roma,Rome,Roma,138.0,200.0,False,618.4
+330855,domo,Nicomedia,Nicomedia,29.923486,40.76445,place,DARE 21204,12.48293,41.89332,Roma,Rome,Roma,222.0,224.0,False,1459.1
+331073,tribe,Aquileia,Aquileia,13.370946,45.769631,place,override DARE 1468,12.48293,41.89332,Roma,Rome,Roma,101.0,180.0,False,436.9
+333818,natione,Graecus,Greece,20.523363372937524,39.737389293973365,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,160.0,False,717.5
+333819,natione,Cilix,Cilicia,34.12222940393019,36.87969187915871,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,1935.4
+354519,natione,Syrus,Syria,36.995647566197476,35.2936657843166,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,193.0,False,2243.9
+354675,natione,Thrax,Thrace,25.55067590636753,42.03336915237253,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,1079.5
+354676,natione,Macedo,Macedonia,21.772535911491048,40.98923239107256,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,780.4
+354684,natione,Noricus,Noricum,13.985070695778745,47.35144794545573,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,618.4
+354696,natione,Pannonio,Pannonia,16.859063686612558,46.257601431825606,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,597.9
+396680,natione,Dacus,Dacia,23.85055989643945,45.82351771704003,region,natio table,12.48293,41.89332,Roma,Rome,Roma,201.0,300.0,False,1009.5
+400995,tribe,Asturica,Asturica Augusta,-6.0635263,42.4589013,place,DARE 13698,12.48293,41.89332,Roma,Rome,Roma,51.0,150.0,False,1526.6
+402193,tribe,Como,Comum,9.0855,45.812,place,DARE 2718,12.48293,41.89332,Roma,Rome,Roma,71.0,130.0,False,513.8
+402197,tribe,Vienna,Vienna,4.873247,45.524204,place,DARE 106,12.48293,41.89332,Roma,Rome,Roma,71.0,130.0,False,732.4
+404400,tribe,Eborae,Ebora,-7.907358,38.572611,place,DARE 16838,12.48293,41.89332,Roma,Rome,Roma,51.0,150.0,False,1765.4
+404402,natione,Besso,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,12.48293,41.89332,Roma,Rome,Roma,101.0,200.0,False,1079.5
+404565,tribe,Caudio,Caudium,14.64167,41.0673,place,DARE 22188,12.48293,41.89332,Roma,Rome,Roma,71.0,130.0,False,201.9
+404884,tribe,Scupi,Scupi,21.391437,42.016885,place,DARE 21410,12.48293,41.89332,Roma,Rome,Roma,216.0,225.0,False,736.5
+404991,tribe,Vienna,Vienna,4.873247,45.524204,place,DARE 106,12.48165,41.93783,Roma,Rome,Tor di Quinto / Roma,1.0,200.0,False,729.4
+405668,tribe,Firmo,Firmum Picenum,13.71682,43.1611,place,DARE 15297,13.59179,42.32517,Samnium / Regio IV,Italy,Barisciano / Furfo,151.0,200.0,False,93.5
+408896,tribe,Viennae,Vienna,4.873247,45.524204,place,DARE 106,12.863,42.40169,Samnium / Regio IV,Italy,Rieti / Reate,79.0,100.0,False,727.2
+411422,natione,Bessus,Thrace (Bessi),25.55067590636753,42.03336915237253,region,natio table,9.11285,39.21695,Sardinia,Islands,Casteddu / Cagliari / Carales,101.0,200.0,False,1419.8
+411831,natione,Dalmata,Dalmatia,18.005702968934713,43.737165067127705,region,natio table,9.11285,39.21695,Sardinia,Islands,Casteddu / Cagliari / Carales,101.0,130.0,False,894.5
+417387,natione,Raetus,Raetia,10.935485583770856,48.16799813760815,region,natio table,13.35162,38.11155,Sicilia,Islands,Palermo / Panhormus,101.0,200.0,False,1135.1
+425719,tribe,Asisio,Asisium,12.614722,43.071389,place,DARE 12840,12.61467,43.0712,Umbria / Regio VI,Italy,Assisi / Asisium,1.0,100.0,False,0.0
+426759,tribe,Arretio,Arretium,11.88344,43.46707,place,DARE 5064,12.24031,43.45742,Umbria / Regio VI,Italy,Citta di Castello / Tifernum Tiberinum,1.0,100.0,False,28.8
+426946,tribe,Tuder,Tuder,12.40849,42.78025,place,DARE 16578,12.41959,42.98229,Umbria / Regio VI,Italy,Deruta / Perusia,51.0,100.0,False,22.5
+428014,tribe,Verona,Verona,10.997007,45.447243,place,DARE 1439,12.91312,43.90981,Umbria / Regio VI,Italy,Pesaro / Pisaurum,131.0,170.0,False,228.4
+428016,tribe,Veronae,Verona,10.997007,45.447243,place,DARE 1439,12.91312,43.90981,Umbria / Regio VI,Italy,Pesaro / Pisaurum,201.0,230.0,False,228.4
+429953,tribe,Mevaniae,Mevania,12.609389,42.93487,place,DARE 16699,12.40626,42.78244,Umbria / Regio VI,Italy,Todi / Tuder,-43.0,-27.0,False,23.7
+430757,natione,Sardo,Sardinia,9.037586855195457,40.0837418398213,region,natio table,12.39726,45.54471,Venetia et Histria / Regio X,Italy,Altino / Altinum,101.0,200.0,False,666.0
+431053,tribe,Aquileia,Aquileia,13.370946,45.769631,place,override DARE 1468,13.3698,45.76961,Venetia et Histria / Regio X,Italy,Aquileia,101.0,200.0,False,0.1
+431188,tribe,Bononia,Bononia,11.3418224,44.4946274,place,override DARE 1449,13.3698,45.76961,Venetia et Histria / Regio X,Italy,Aquileia,1.0,50.0,False,213.1
+431189,tribe,Parma,Parma,10.327967,44.801507,place,DARE 1448,13.3698,45.76961,Venetia et Histria / Regio X,Italy,Aquileia,1.0,50.0,False,261.2
+431191,natione,Sequanus,Sequani (Besancon),6.03039,47.23369,region,natio table,13.3698,45.76961,Venetia et Histria / Regio X,Italy,Aquileia,41.0,70.0,False,584.6
+431194,tribe,Verona,Verona,10.997007,45.447243,place,DARE 1439,13.3698,45.76961,Venetia et Histria / Regio X,Italy,Aquileia,10.0,43.0,False,188.0
+431195,tribe,Suessa,Suessa Aurunca,13.930692,41.234601,place,DARE 16715,13.3698,45.76961,Venetia et Histria / Regio X,Italy,Aquileia,1.0,100.0,False,506.3
+431201,tribe,Perusia,Perusia,12.390594,43.111692,place,DARE 16580,13.3698,45.76961,Venetia et Histria / Regio X,Italy,Aquileia,1.0,100.0,False,305.6
+431212,tribe,Fano,Fanum Fortunae,13.0180936,43.8443206,place,override DARE 10565,13.3698,45.76961,Venetia et Histria / Regio X,Italy,Aquileia,1.0,25.0,False,215.9
+431213,tribe,Italica,Italica,-6.04344,37.441411,place,DARE 16834,13.3698,45.76961,Venetia et Histria / Regio X,Italy,Aquileia,63.0,65.0,False,1853.8
+434590,domo,Bononia,Bononia,11.3418224,44.4946274,place,override DARE 1449,13.3698,45.76961,Venetia et Histria / Regio X,Italy,Aquileia,101.0,200.0,False,213.1
+434593,tribe,Bononia,Bononia,11.3418224,44.4946274,place,override DARE 1449,13.3698,45.76961,Venetia et Histria / Regio X,Italy,Aquileia,1.0,50.0,False,213.1
+434997,tribe,Beryto,Berytus,35.501176,33.897902,place,DARE 21113,13.3698,45.76961,Venetia et Histria / Regio X,Italy,Aquileia,201.0,300.0,False,2292.6
+435001,tribe,Mutina,Mutina,10.9252,44.6471,place,DARE 2720,13.3698,45.76961,Venetia et Histria / Regio X,Italy,Aquileia,1.0,30.0,False,228.6
+435828,tribe,Bergomo,Bergomum,9.6687,45.6947,place,DARE 1465,13.3698,45.76961,Venetia et Histria / Regio X,Italy,Aquileia,14.0,70.0,False,287.4
+438571,tribe,Ateste,Ateste,11.656616,45.227738,place,DARE 17828,11.6598,45.22401,Venetia et Histria / Regio X,Italy,Este / Ateste,-30.0,50.0,False,0.5
+439563,tribe,Vienna,Vienna,4.873247,45.524204,place,DARE 106,13.73049,45.54796,Venetia et Histria / Regio X,Italy,Koper / Capodistria / Aegida,-15.0,15.0,False,689.5
+439787,tribe,Mantua,Mantua,10.797544,45.160846,place,override DARE 1447,10.79172,45.15667,Venetia et Histria / Regio X,Italy,Mantova / Mantua,248.0,248.0,True,0.7

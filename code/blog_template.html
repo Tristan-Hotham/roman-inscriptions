@@ -1,0 +1,129 @@
+<!-- wp:paragraph -->
+<p><em>The Romans carved words into stone across a whole empire: names of the dead, thanks to the gods, praise for emperors, distances on milestones. I put {{n.all|int}} Latin inscriptions on one map and one timeline to ask three old questions. When did they write most? How old were the dead? And how far from home were the soldiers?</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://maps.tristanhotham.com/roman-inscriptions/">Explore the interactive version</a></div>
+<!-- /wp:button -->
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.5281/zenodo.24114976">Read the paper</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph -->
+<p>The data is LIRE, a dataset built by Vojtěch Kaše, Petra Heřmánková and Adéla Sobotková that merges the two big online collections of Latin inscriptions, the Epigraphik-Datenbank Clauss/Slaby and the Epigraphic Database Heidelberg. Every inscription in it has a findspot and a date range, such as "AD 101 to 200", set by the editors. That range is the catch: very few inscriptions carry an exact year. So when I count inscriptions in a period, I share each one evenly across the years of its range, and I check the answers by drawing a random year for every inscription a thousand times over.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Italy, the frontiers and the cities</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The first thing the map shows is how lopsided the record is. The city of Rome alone has {{n.rome|int}} inscriptions, {{n.rome_pc|pc}} of the whole collection, and with the rest of Italy it has {{n.rome_italy_pc|pc}}. Beyond Italy the writing follows the army and the towns: the Rhine around Mainz, the Danube, the Dalmatian coast around Salona, the cities of what is now Tunisia and Algeria, and southern Spain. Britain has about {{density.britannia.per1000km2|f0}} inscriptions per 1,000 km², the area around Rome and Naples about {{density.top.0.per1000km2|int}}. Greek inscriptions are not in this dataset, so the eastern half of the empire looks far emptier than it was.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_map.png|Map of the Roman Empire covered in small orange hexagons, darkest in central Italy, along the Rhine, on the Dalmatian coast and in Tunisia, pale across most of Spain, Gaul and the Balkans and sparse in the East|Latin inscriptions by findspot, in hexagons about 30 km across. Grey lines: the provinces of about AD 117.}}
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">The habit, and its end</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>In 1982 the historian Ramsay MacMullen named the "epigraphic habit": Romans inscribed more and more through the first and second centuries, peaked under the Severan emperors (AD 193 to 235), and then fell away quite suddenly. The collapse is real and big. Taking the {{habit.main.n|int}} inscriptions with a date range of a century or less, the empire produced {{habit.main.ratio|f1}} times as many inscriptions a year under the Severans as in AD 250 to 300.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>But the peak is not where I expected it. Across the whole collection it comes in AD {{habit.main.peak_year|raw}}, in the first century, because Rome and Italy, with most of the inscriptions, wrote most then. I had written down in advance that a peak outside AD 175 to 250 would count against MacMullen's timing, so by my own test it fails. Two spikes in the chart are quirks of exact dates: the eruption of Vesuvius in AD 79, after which {{spikes.n_pompeii_79|int}} texts from Pompeii carry an end date of AD 79, and {{spikes.n_123|int}} items dated to AD 123, mostly stamped bricks and objects from Rome.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_time.png|Line chart of inscriptions per year from 50 BC to AD 400: a rise to a plateau through the first and second centuries, a fall after about AD 230 to a low in the later third century, with sharp spikes at AD 79 and AD 123|Dated inscriptions per year across the empire. The shaded band is the Severan emperors.}}
+
+<!-- wp:paragraph -->
+<p>Split the empire into regions and MacMullen's peak comes back. Africa, the Danube provinces and Dacia rise through the second century to a sharp Severan high point and then fall away. Of the {{n.prov_peaks|int}} provinces with at least 1,000 dated inscriptions, {{n.prov_peaks_severan|int}} peak between AD 175 and 250. Italy peaked two centuries earlier. The kinds of inscription differ too: altars and dedications to the gods peak in AD {{types.votive.peak_year|raw}}, honours for emperors and patrons in {{types.honorific.peak_year|raw}}, milestones in {{types.milestone.peak_year|raw}}. The Severan peak, in other words, belongs to the provinces and to public writing, while the epitaphs of Italy set the shape of the whole.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_groups.png|Eight small area charts, one per region, of inscriptions per year: Rome and Italy peak in the first century, Africa and the Danube and Balkan provinces peak sharply around AD 200, Rome rises again in the fourth century|Each region's own curve. The late rise in Rome is Christian epitaphs from the catacombs.}}
+
+<!-- wp:pullquote -->
+<figure class="wp-block-pullquote"><blockquote><p>Thirty, forty and fifty: the dead were rounded to fives.</p></blockquote></figure>
+<!-- /wp:pullquote -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">How old were the dead?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Many tombstones say how long the dead person lived: <em>vixit annis XXX</em>, "lived 30 years". I read {{ages.n|int}} ages from {{ages.n_stones|int}} epitaphs, with a rule that skips years of army service and years of marriage, and checked 200 of them by hand ({{ages.validation.n_right|int}} were right). The ages are heavily rounded. Between 23 and 62, {{ages.digits_23_62.0|int}} end in 0 and {{ages.digits_23_62.5|int}} in 5, where about {{ages.digit_expected|int}} each would be expected if people knew their exact age. Demographers measure this with the Whipple index, which runs from 100 (no rounding) to 500 (every age a multiple of five). On Roman tombstones it is {{ages.whipple.all.W|f0}}.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_ages.png|Bar chart of stated ages at death from 0 to 100 with tall red bars at every multiple of five, beside a bar chart of last digits in which 0 and 5 tower over the rest|Ages at death on Latin epitaphs. Red bars are multiples of five.}}
+
+<!-- wp:paragraph -->
+<p>Rounding is lightest in Rome ({{ages.whipple.Rome.W|f0}}) and heaviest in the Danube and Balkan provinces ({{ages.whipple.Danube and Balkans.W|f0}}). It is heavier in the countryside than in big cities, and heavier for older people. The historian Richard Duncan-Jones read rounding as a sign of how few people knew their exact age, and expected it to be worst in Africa. Africa's index is higher than Rome's ({{ages.whipple.Africa.W|f0}}), but African stones are mostly rural and give older ages. Compare like with like and the African difference is no longer clear (odds ratio {{ages.model.africa_vs_rome.or|f2}}, 95% interval {{ages.model.africa_vs_rome.lo|f2}} to {{ages.model.africa_vs_rome.hi|f2}}). The countryside effect holds in my main model but not in every check, so I treat it as likely rather than certain.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_whipple.png|Two bar charts of the Whipple index: by region, lowest in Rome and highest in the Danube and Balkan provinces; by setting, rising from large cities to the countryside|How much ages were rounded, by region and by setting, with 95% intervals.}}
+
+<!-- wp:paragraph -->
+<p>Can tombstones tell us how long Romans lived? No, as Keith Hopkins showed in 1966, and the full collection makes the point well. The average age on the stones is {{ages.hopkins.by_group.Rome.mean|f0}} in Rome and {{ages.hopkins.by_group.Africa.mean|f0}} in Africa. Only {{ages.hopkins.by_group.Africa.under10_pc|f0}}% of African ages are under 10, against {{ages.hopkins.by_group.Rome.under10_pc|f0}}% in Rome, at a time when young children made up a large share of all deaths. And {{ages.hopkins.by_group.Africa.n_100plus|int}} ages on African stones are 100 or more. The stones tell us who was remembered, and how, not who died.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_hopkins.png|Two bar charts by region: the average age at death on tombstones, from about 23 in Rome to about 48 in Africa, and the share of ages under 10, highest in Rome and lowest in Africa and Spain|Why tombstones are not a record of life expectancy.}}
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Soldiers far from home</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Soldiers often said where they came from: <em>domo Verona</em>, "home: Verona"; a voting tribe and a town; or a people, like <em>natione Bessus</em>, a Thracian. Of {{soldiers.n_stones|int}} military inscriptions, {{soldiers.n_mapped|int}} name an origin I could place on the map. The median journey from home to stone is {{soldiers.median_km|int}} km, and {{soldiers.pc_over_500|pc}} are more than 500 km. Many lines run to Rome and the Bay of Naples, where the emperor's guard and the fleet at Misenum drew men from Egypt, Thrace, Syria and Pannonia.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_soldiers.png|Map of curved lines from soldiers' stated homes to their tombstones; blue early lines run from northern Italy to the Rhine, red later lines converge on Rome and the Bay of Naples from Egypt, Syria, Thrace and the Danube|Military stones that name the soldier's home. Blue: dated before AD 101. Red: AD 101 or later.}}
+
+<!-- wp:paragraph -->
+<p>Historians have long shown that the army recruited more locally as time went on. I expected the stones to show homes getting closer. They do not: later stones name homes further away ({{soldiers.h3.med_late|int}} km against {{soldiers.h3.med_early|int}} km), and among homes given as towns there is no change at all. My reading is that this is about who bothered to say. A soldier buried near where he was born had little reason to carve his home town; a Thracian sailor in Italy did. So the stones that name a home are a sample of the far-travelled, and they cannot answer the question on their own.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">How I did this</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>I wrote down the questions, the tests and what would count against each idea before computing any result, and I report the planned tests even where they failed (three of the six did). Counts through time share each inscription across its date range, with a thousand random redraws of the dates for the intervals. Ages come from a fixed reading rule checked against 200 hand-read examples and 100 tombstones where it found nothing. Soldiers' homes are matched to the Digital Atlas of the Roman Empire, and every home named twice or more was checked by eye. The rounding comparisons use a model that holds region, setting, age and Christian epitaphs fixed and allows for many stones from one place.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The limits matter. These are the inscriptions that survived, were found, were published and were typed into a database, so Rome and Italy dominate and the Greek East is almost missing. Dates are editors' ranges, some of them conventions. Ages are what families and stonecutters wrote. And only a small minority of soldiers' stones name a home.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://maps.tristanhotham.com/roman-inscriptions/">Explore the interactive version</a></div>
+<!-- /wp:button -->
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.5281/zenodo.24114976">Read the paper</a></div>
+<!-- /wp:button -->
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://github.com/Tristan-Hotham/roman-inscriptions">Data and code</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Notes and sources</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Inscriptions: LIRE v2.1, Latin Inscriptions of the Roman Empire, by V. Kaše, P. Heřmánková and A. Sobotková (Aarhus University), Zenodo, CC BY 4.0; built from the Epigraphik-Datenbank Clauss/Slaby and the Epigraphic Database Heidelberg.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Provinces and ancient places: Digital Atlas of the Roman Empire, Johan Åhlfeldt, Lund University (CC BY 4.0). Base map of the interactive page: OpenFreeMap Positron (OpenStreetMap).</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Further reading: R. MacMullen, "The epigraphic habit in the Roman Empire", American Journal of Philology (1982); E. A. Meyer, "Explaining the epigraphic habit in the Roman Empire", Journal of Roman Studies (1990); R. P. Duncan-Jones, "Age-rounding, illiteracy and social differentiation in the Roman Empire", Chiron (1977); K. Hopkins, "On the probable age structure of the Roman population", Population Studies (1966); J. C. Mann, Legionary Recruitment and Veteran Settlement during the Principate (1983).</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->

@@ -1,0 +1,9 @@
+[{"out": "qa/desktop.png", "w": 1280, "h": 800},
+ {"out": "qa/desktop_popup.png", "w": 1280, "h": 800, "eval": "(async()=>{await new Promise(r=>setTimeout(r,2500));document.querySelector('#q').value='Mainz';document.querySelector('#q').dispatchEvent(new Event('input'));document.querySelector('#sug li').click()})()"},
+ {"out": "qa/desktop_layers.png", "w": 1280, "h": 800, "eval": "document.getElementById('lyrBtn').click();document.getElementById('lyF').click();document.getElementById('yr').value=10;document.getElementById('yr').dispatchEvent(new Event('input'));document.querySelector('.chip[data-t=\"1\"]').click()"},
+ {"out": "qa/desktop_click.png", "w": 1280, "h": 800, "eval": "window.__map.jumpTo({center:[16.4,43.6],zoom:7});setTimeout(()=>{const p=window.__map.project([16.48,43.54]);window.__map.fire('click',{lngLat:{lng:16.48,lat:43.54},point:p})},1500)"},
+ {"out": "qa/phone.png", "w": 390, "h": 800, "dpr": 2},
+ {"out": "qa/phone_popup.png", "w": 390, "h": 800, "dpr": 2, "eval": "(async()=>{await new Promise(r=>setTimeout(r,2500));document.querySelector('#q').value='Vindolanda';document.querySelector('#q').dispatchEvent(new Event('input'));document.querySelector('#sug li').click()})()"},
+ {"out": "qa/phone_full.png", "w": 390, "h": 800, "dpr": 1, "full": true},
+ {"out": "qa/desktop_full.png", "w": 1280, "h": 800, "full": true},
+ {"out": "qa/phone_zoom.png", "w": 390, "h": 800, "dpr": 2, "eval": "window.__map.jumpTo({center:[12.49,41.89],zoom:11})"}]
